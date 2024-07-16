@@ -55,3 +55,19 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: ask_weather
+  examples: |
+    - what is the weather like in [Amsterdam](place)?
+    - what is the weather like?
+    - is it hot in [London](place)?
+    - is it cold in [Berlin](place)
+    - what is the current weather in [Lisbon](place)?
+
+- lookup: place
+  examples: |
+    - brussels
+    - zagreb
+    - lisbon
+    - amsterdam
+    - seattle
