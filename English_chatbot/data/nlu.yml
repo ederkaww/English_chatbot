@@ -71,3 +71,10 @@ nlu:
     - lisbon
     - amsterdam
     - seattle
+
+
+- intent: ask_news
+  examples: |
+    - can you provide me with news about [London](keyword)?
+    - do you have some articles about [English](keyword)?
+    - did something happen lately in [USA](keyword)?

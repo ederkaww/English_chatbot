@@ -7,9 +7,11 @@ intents:
   - deny
   - bot_challenge
   - ask_weather
+  - ask_news
 
 entities:
   - place
+  - keyword
 
 responses:
   utter_greet:
@@ -25,6 +27,6 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
-
 actions:
 - action_tell_weather
+- action_tell_news
