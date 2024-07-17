@@ -78,3 +78,10 @@ nlu:
     - can you provide me with news about [London](keyword)?
     - do you have some articles about [English](keyword)?
     - did something happen lately in [USA](keyword)?
+
+
+- intent: ask_country_info
+  examples: |
+    - can you provide me with basic information about [Poland](country)?
+    - do you have some information about [Germany](country)?
+    - what do you know about [Lisbon](country)

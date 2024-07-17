@@ -10,3 +10,8 @@ stories:
     steps:
     - intent: ask_news
     - action: action_tell_news
+
+  - story: tell country basic info
+    steps:
+    - intent: ask_country_info
+    - action: action_tell_country_info

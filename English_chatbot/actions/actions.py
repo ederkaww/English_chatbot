@@ -72,3 +72,56 @@ class ActionTellNews(Action):
 
         return []
 
+
+class ActionTellCountryInfo(Action):
+
+    def name(self) -> Text:
+        return "action_tell_country_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        country = next(tracker.get_latest_entity_values("country"), None)
+        response = requests.get(f"https://restcountries.com/v3.1/name/{country}")
+
+        if response:
+            data = response.json()
+            currency = data[0]['currencies']['PLN']['name']
+            cur_symbol = data[0]['currencies']['PLN']['symbol']
+            capital = data[0]['capital'][0]
+            subregion = data[0]["subregion"]
+            languages = data[0]["languages"]
+            borders = data[0]["borders"]
+            population = data[0]['population']
+            timezones = data[0]['timezones']
+            flag = data[0]['flags']['png']
+            map_url = data[0]['maps']['googleMaps']
+
+            msg = f"""
+            BASIC INFO ABOUT: {country}:
+            CAPITAL: {capital}
+            CURRENCY: {currency} [{cur_symbol}]
+            REGION: {subregion}
+            BORDERS: {borders}
+            LANGUAGES: {languages}
+            POPULATION: {population}
+            TIMEZONES: {timezones}
+            FLAG: {flag}
+            MAP: {map_url}
+            """
+
+        else:
+            msg = "I don't have any information about this. Try something different."
+
+        dispatcher.utter_message(text=msg)
+
+        return []
+
+
+
+
+
+
+
+
