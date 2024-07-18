@@ -15,6 +15,22 @@ weather_api_key = os.getenv('WEATHER_API_KEY')
 news_api_key = os.getenv('NEWS_API_KEY')
 
 
+def ask_question(data):
+    current_data = data.pop()
+    question = current_data['question']
+    correct_answer = current_data['correct_answer']
+    options = current_data['incorrect_answers']
+    options.append(correct_answer)
+    random.shuffle(options)
+    index = options.index(correct_answer)
+    letter_options = ['A', 'B', 'C', 'D']
+    correct_letter = letter_options[index]
+
+    current_data = [question, options, correct_letter]
+
+    return current_data
+
+
 class ActionTellWeather(Action):
 
     def name(self) -> Text:
@@ -120,35 +136,46 @@ class ActionTellCountryInfo(Action):
         return []
 
 
+class ActionStartTrivia(Action):
+    def name(self) -> Text:
+        return "action_start_trivia"
+
+    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        response = requests.get('https://opentdb.com/api.php?amount=10&difficulty=medium&type=multiple')
+        data = response.json()
+
+        trivia_data = data['results']
+
+        return [SlotSet("trivia_data", trivia_data)]
+
+
+####
 class ActionAskQuestion(Action):
     def name(self) -> Text:
         return "action_ask_question"
 
-    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[
+        Dict[Text, Any]]:
 
-        response = requests.get('https://opentdb.com/api.php?amount=1&difficulty=medium&type=multiple')
-        data = response.json()
+        trivia_data = tracker.get_slot('trivia_data')
 
-        question = data['results'][0]['question']
-        correct_answer = data['results'][0]['correct_answer']
-        options = data['results'][0]['incorrect_answers']
-        options.append(correct_answer)
-        random.shuffle(options)
-        index = options.index(correct_answer)
-        letter_options = ['A', 'B', 'C', 'D']
-        correct_letter = letter_options[index]
+        if trivia_data:
+            question, options, correct_letter = ask_question(trivia_data)
 
-        msg = f"""
-        Question: {question}
-        A: {options[0]}
-        B: {options[1]}
-        C: {options[2]}
-        D: {options[3]}
-        """
+            msg = f"""
+            Question: {question}
+            A: {options[0]}
+            B: {options[1]}
+            C: {options[2]}
+            D: {options[3]}
+            """
 
-        dispatcher.utter_message(text=msg)
+            dispatcher.utter_message(text=msg)
 
-        return [SlotSet("question", question), SlotSet("correct_answer", correct_letter)]
+            return [SlotSet("question", question), SlotSet("correct_answer", correct_letter)]
+        else:
+            dispatcher.utter_message(text="That's the end of the game!")
 
 
 class ActionCheckAnswer(Action):
@@ -159,7 +186,12 @@ class ActionCheckAnswer(Action):
 
         user_answer = tracker.get_slot('answer')
         correct_answer = tracker.get_slot("correct_answer")
-        score = tracker.get_slot('score')
+
+        score = tracker.get_slot('score') or 0  # Ensure score is initialized to 0 if None
+
+        if user_answer is None or correct_answer is None:
+            dispatcher.utter_message(template="utter_missing_information")
+            return []
 
         if user_answer.lower() == correct_answer.lower():
             score = score + 1

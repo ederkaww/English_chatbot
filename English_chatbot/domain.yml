@@ -78,6 +78,13 @@ slots:
         action: action_check_answer
         intent: answer_trivia_question
 
+  trivia_data:
+    type: list
+    influence_conversation: false
+    mappings:
+      - type: custom
+        action: action_start_trivia
+
 
 actions:
 - action_tell_weather
@@ -85,3 +92,4 @@ actions:
 - action_tell_country_info
 - action_ask_question
 - action_check_answer
+- action_start_trivia
