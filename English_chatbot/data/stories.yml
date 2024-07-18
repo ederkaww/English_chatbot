@@ -15,3 +15,10 @@ stories:
     steps:
     - intent: ask_country_info
     - action: action_tell_country_info
+
+  - story: play game
+    steps:
+    - intent: play_trivia
+    - action: action_ask_question
+    - intent: answer_trivia_question
+    - action: action_check_answer

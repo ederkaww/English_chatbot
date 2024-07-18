@@ -9,11 +9,14 @@ intents:
   - ask_weather
   - ask_news
   - ask_country_info
+  - play_trivia
+  - answer_trivia_question
 
 entities:
   - place
   - keyword
   - country
+  - answer
 
 responses:
   utter_greet:
@@ -25,11 +28,60 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_agree_to_idea:
+  - text: "Sure!"
+
+  utter_ask_question:
+  - text: "{question}"
+
+  utter_correct_answer:
+  - text: "Correct! Your current score is {score}."
+
+  utter_wrong_answer:
+  - text: "Sorry, that's wrong. The correct answer was {correct_answer}. Your current score is {score}."
+
+  utter_final_score:
+  - text: "You've completed the quiz! Your final score is {score}."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+slots:
+  answer:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: answer
+
+  question:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+        action: action_ask_question
+
+  correct_answer:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+        action: action_ask_question
+
+  score:
+    type: float
+    influence_conversation: false
+    initial_value: 0
+    mappings:
+      - type: custom
+        action: action_check_answer
+        intent: answer_trivia_question
+
 
 actions:
 - action_tell_weather
 - action_tell_news
 - action_tell_country_info
+- action_ask_question
+- action_check_answer

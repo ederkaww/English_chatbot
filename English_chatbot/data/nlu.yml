@@ -85,3 +85,21 @@ nlu:
     - can you provide me with basic information about [Poland](country)?
     - do you have some information about [Germany](country)?
     - what do you know about [Lisbon](country)
+
+- intent: play_trivia
+  examples: |
+    - can we play trivia?
+    - maybe we can play trivia now?
+    - what do you think about playing trivia?
+    - i want to do some quizes
+    - i d love to play TRIVIA right now
+    - i would like to play trivia a little
+
+- intent: answer_trivia_question
+  examples: |
+    - The answer is [A](answer)
+    - I think it's [B](answer)
+    - [C](answer)
+    - [D](answer)
+    - I choose [A](answer)
+    - My answer is [C](answer)

@@ -1,7 +1,8 @@
 import requests
+import random
 from newsapi import NewsApiClient
 from typing import Any, Text, Dict, List
-
+from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
@@ -56,12 +57,12 @@ class ActionTellNews(Action):
         newsapi = NewsApiClient(api_key=news_api_key)
 
         news = newsapi.get_everything(q=keyword,
-                                              sources='bbc-news,the-verge',
-                                              domains='bbc.co.uk,techcrunch.com',
-                                              from_param='2024-07-13',
-                                              language='en',
-                                              sort_by='relevancy',
-                                              page=2)
+                                      sources='bbc-news,the-verge',
+                                      domains='bbc.co.uk,techcrunch.com',
+                                      from_param='2024-07-13',
+                                      language='en',
+                                      sort_by='relevancy',
+                                      page=2)
 
         if news:
             msg = f"You can read the article '{news['articles'][0]['title']}' here: \n{news['articles'][0]['url']}"
@@ -119,9 +120,53 @@ class ActionTellCountryInfo(Action):
         return []
 
 
+class ActionAskQuestion(Action):
+    def name(self) -> Text:
+        return "action_ask_question"
+
+    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        response = requests.get('https://opentdb.com/api.php?amount=1&difficulty=medium&type=multiple')
+        data = response.json()
+
+        question = data['results'][0]['question']
+        correct_answer = data['results'][0]['correct_answer']
+        options = data['results'][0]['incorrect_answers']
+        options.append(correct_answer)
+        random.shuffle(options)
+        index = options.index(correct_answer)
+        letter_options = ['A', 'B', 'C', 'D']
+        correct_letter = letter_options[index]
+
+        msg = f"""
+        Question: {question}
+        A: {options[0]}
+        B: {options[1]}
+        C: {options[2]}
+        D: {options[3]}
+        """
+
+        dispatcher.utter_message(text=msg)
+
+        return [SlotSet("question", question), SlotSet("correct_answer", correct_letter)]
 
 
+class ActionCheckAnswer(Action):
+    def name(self) -> Text:
+        return "action_check_answer"
 
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        user_answer = tracker.get_slot('answer')
+        correct_answer = tracker.get_slot("correct_answer")
+        score = tracker.get_slot('score')
 
+        if user_answer.lower() == correct_answer.lower():
+            score = score + 1
+            dispatcher.utter_message(template="utter_correct_answer", score=score)
+            return [SlotSet("score", score)]
+        else:
+            dispatcher.utter_message(template="utter_wrong_answer", correct_answer=correct_answer, score=score)
+
+        return []
 
