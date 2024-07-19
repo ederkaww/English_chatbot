@@ -5,6 +5,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+import language_tool_python
 
 import os
 from dotenv import load_dotenv
@@ -199,6 +200,23 @@ class ActionCheckAnswer(Action):
             return [SlotSet("score", score)]
         else:
             dispatcher.utter_message(template="utter_wrong_answer", correct_answer=correct_answer, score=score)
+
+        return []
+
+
+class ActionRetrieveLastUserMessage(Action):
+
+    def name(self) -> Text:
+        return "action_retrieve_last_user_message"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        tool = language_tool_python.LanguageTool('en-US')
+        last_user_message = tracker.latest_message.get('text')
+        matches = tool.check(last_user_message)
+
+        for match in matches:
+            dispatcher.utter_message(text=match.message)
 
         return []
 

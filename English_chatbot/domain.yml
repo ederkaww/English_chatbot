@@ -11,6 +11,9 @@ intents:
   - ask_country_info
   - play_trivia
   - answer_trivia_question
+  - check_sentence
+  - ask_about_checking_sentence
+  - sentence_to_check
 
 entities:
   - place
@@ -42,6 +45,9 @@ responses:
 
   utter_final_score:
   - text: "You've completed the quiz! Your final score is {score}."
+
+  utter_agree_for_sentence_checking:
+    - text: "Yes, sure! What sentence do you want me to check?"
 
 session_config:
   session_expiration_time: 60
@@ -93,3 +99,4 @@ actions:
 - action_ask_question
 - action_check_answer
 - action_start_trivia
+- action_retrieve_last_user_message

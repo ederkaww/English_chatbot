@@ -22,3 +22,11 @@ stories:
     - action: action_ask_question
     - intent: answer_trivia_question
     - action: action_check_answer
+
+  - story: check grammar and spelling in a sentence
+    steps:
+    - intent: ask_about_checking_sentence
+    - action: utter_agree_for_sentence_checking
+    - intent: sentence_to_check
+    - action: action_retrieve_last_user_message
+

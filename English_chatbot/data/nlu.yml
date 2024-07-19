@@ -103,3 +103,21 @@ nlu:
     - [D](answer)
     - I choose [A](answer)
     - My answer is [C](answer)
+
+- intent: ask_about_checking_sentence
+  examples: |
+    - Can you check my next sentence?
+    - will you be able to check my spelling?
+    - can you check grammar in my sentence?
+    - can i ask you to look at my next sentence?
+    - i d love to ve a checked sentence
+    - can you check my grammar and spelling?
+    - what do you think about my next sentence
+
+- intent: sentence_to_check
+  examples: |
+    - This are my bad sentence for checking
+    - I would love to have this sentence checked
+    - Just write some random words
+    - i dont know if this will work chonestly
+    - Maybe it will figure out the mistakes
