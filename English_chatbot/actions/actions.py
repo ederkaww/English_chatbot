@@ -14,6 +14,7 @@ load_dotenv()
 
 weather_api_key = os.getenv('WEATHER_API_KEY')
 news_api_key = os.getenv('NEWS_API_KEY')
+words_api_key = os.getenv('WORDS_API_KEY')
 
 
 def ask_question(data):
@@ -151,7 +152,6 @@ class ActionStartTrivia(Action):
         return [SlotSet("trivia_data", trivia_data)]
 
 
-####
 class ActionAskQuestion(Action):
     def name(self) -> Text:
         return "action_ask_question"
@@ -220,3 +220,43 @@ class ActionRetrieveLastUserMessage(Action):
 
         return []
 
+
+###
+class ActionExplainWord(Action):
+
+    def name(self) -> Text:
+        return "action_explain_word"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        word_to_explain = next(tracker.get_latest_entity_values("word_to_explain"), None)
+
+        url = f"https://wordsapiv1.p.rapidapi.com/words/{word_to_explain}"
+        headers = {
+            'x-rapidapi-key': words_api_key,
+            'x-rapidapi-host': 'wordsapiv1.p.rapidapi.com'
+        }
+
+        response = requests.get(url, headers=headers)
+
+        if response.status_code == 200:
+            word = response.json()['word']
+            definition = response.json()['results'][0]['definition']
+            part_of_speech = response.json()['results'][0]['partOfSpeech']
+            synonyms = response.json()['results'][0]['synonyms']
+            synonyms_str = ', '.join(synonyms)
+
+            text = f"""
+                    The definition of a word '{word}': {definition} 
+                    Part of speech: {part_of_speech}
+                    Synonyms: {synonyms_str}
+                    """
+        else:
+            text = "I don't have any information about this word. Please give me some other one."
+
+        dispatcher.utter_message(text=word_to_explain)
+        dispatcher.utter_message(text=text)
+
+        return []
