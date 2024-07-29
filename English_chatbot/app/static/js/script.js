@@ -32,7 +32,12 @@ function sendMessage() {
 function appendMessage(message, sender) {
     const messageElement = document.createElement('div');
     messageElement.classList.add('message', sender);
-    messageElement.textContent = message;
+
+    const messageContent = document.createElement('div');
+    messageContent.classList.add('message-content');
+    messageContent.textContent = message;
+
+    messageElement.appendChild(messageContent);
 
     const chatBox = document.getElementById('chat-box');
     chatBox.appendChild(messageElement);

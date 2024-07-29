@@ -8,11 +8,19 @@
 </head>
 <body>
     <div class="chat-container">
+        <div class="chat-header">
+            <div class="chat-header-title">
+                <img src="{{ url_for('static', filename='images/bot_avatar.png') }}" alt="Bot Avatar">
+                <h3>ChatBot</h3>
+            </div>
+        </div>
         <div class="chat-box" id="chat-box">
             <!-- Chat messages will be appended here -->
         </div>
-        <input type="text" id="user-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
-        <button onclick="sendMessage()">Send</button>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message here..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
