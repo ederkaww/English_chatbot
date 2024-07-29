@@ -1,15 +1,17 @@
-from flask import Flask, request, jsonify
+from flask import Flask, render_template, request, jsonify
 import requests
 
 app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
     user_message = request.json.get("message")
     rasa_response = send_message_to_rasa(user_message)
     return jsonify({"response": rasa_response})
-
 
 def send_message_to_rasa(message):
     rasa_url = "http://localhost:5005/webhooks/rest/webhook"
@@ -24,6 +26,5 @@ def send_message_to_rasa(message):
             return responses[0].get("text")
     return "Sorry, I didn't get that. Can you rephrase?"
 
-
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=5000, debug=True)
