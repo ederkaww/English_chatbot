@@ -121,3 +121,15 @@ nlu:
     - Just write some random words
     - i dont know if this will work chonestly
     - Maybe it will figure out the mistakes
+
+- intent: explain_word
+  examples: |
+    - Can you explain me this word: [robot](word_to_explain)
+    - Can you provide me with the meaning of [fancy](word_to_explain)
+    - Can you give me information about word '[strange]'(word_to_explain)
+    - I dont know what does the word [thing](word_to_explain) mean. Can you explain?
+    - Can you give me some information about [cat](word_to_explain) word?
+    - What is the definition of [something](word_to_explain) word?
+    - What is the meaning of a word [AI](word_to_explain)?
+    - Can you say some thing about word [technology](word_to_explain)?
+

@@ -14,12 +14,14 @@ intents:
   - check_sentence
   - ask_about_checking_sentence
   - sentence_to_check
+  - explain_word
 
 entities:
   - place
   - keyword
   - country
   - answer
+  - word_to_explain
 
 responses:
   utter_greet:
@@ -100,3 +102,5 @@ actions:
 - action_check_answer
 - action_start_trivia
 - action_retrieve_last_user_message
+- action_explain_word
+
