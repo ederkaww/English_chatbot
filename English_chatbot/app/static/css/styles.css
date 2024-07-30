@@ -20,7 +20,7 @@ body {
 }
 
 .chat-header {
-    background-color: #B692C2; /* Fioletowy */
+    background-color: #B692C2; /* Nowy fioletowy */
     color: #fff;
     padding: 10px;
     display: flex;
@@ -41,10 +41,11 @@ body {
 }
 
 .chat-box {
-    height: 50vh; /* Ustawia wysokość na 75% wysokości widoku (viewport height) */
+    height: 75vh; /* Ustawia wysokość na 75% wysokości widoku (viewport height) */
     padding: 20px;
     overflow-y: auto; /* Dodaje pionowy pasek przewijania, jeśli zawartość przekracza wysokość elementu */
-    background-color: #f9f9f9; /* Ustawia kolor tła elementu na jasnoszary (#f9f9f9) */
+    background-color: #f4f4f9; /* Ustawia kolor tła elementu na jasnoszary (#f4f4f9) */
+    color: #000; /* Ustawia kolor tekstu na czarny */
 }
 
 .chat-box .message {
@@ -64,12 +65,12 @@ body {
     max-width: 70%;
     padding: 10px;
     border-radius: 15px;
-    background-color: #B692C2; /* Fioletowy */
+    background-color: #B692C2; /* Nowy fioletowy */
     color: #fff;
 }
 
 .chat-box .message.user .message-content {
-    background-color: #B692C2; /* Fioletowy */
+    background-color: #B692C2; /* Nowy fioletowy */
     color: #fff;
 }
 
@@ -82,6 +83,7 @@ body {
     display: flex;
     padding: 10px;
     border-top: 1px solid #ddd;
+    background-color: #fff;
 }
 
 .chat-input input {
@@ -90,11 +92,12 @@ body {
     border: none;
     border-radius: 5px;
     margin-right: 10px;
+    background-color: #f4f4f9;
 }
 
 .chat-input button {
     padding: 10px 20px;
-    background-color: #B692C2; /* Fioletowy */
+    background-color: #694F8E; /* Nowy ciemny fioletowy */
     color: white;
     border: none;
     border-radius: 5px;
@@ -102,5 +105,5 @@ body {
 }
 
 .chat-input button:hover {
-    background-color: #694F8E; /* Ciemniejszy fioletowy */
+    background-color: #503766; /* Ciemniejszy odcień ciemnego fioletu */
 }

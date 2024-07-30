@@ -71,23 +71,19 @@ class ActionTellNews(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        keyword = next(tracker.get_latest_entity_values("keyword"), None)
         newsapi = NewsApiClient(api_key=news_api_key)
 
-        news = newsapi.get_everything(q=keyword,
-                                      sources='bbc-news,the-verge',
-                                      domains='bbc.co.uk,techcrunch.com',
-                                      from_param='2024-07-13',
-                                      language='en',
-                                      sort_by='relevancy',
-                                      page=2)
-
+        news = newsapi.get_top_headlines(country='us',
+                                         language='en',
+                                      )
         if news:
-            msg = f"You can read the article '{news['articles'][0]['title']}' here: \n{news['articles'][0]['url']}"
+            msg = f""" <a href = "{news['articles'][0]['url']}"> {news['articles'][0]['title']} </a > """
+              #  f"You can read the article '{news['articles'][0]['title']}' here: \n{news['articles'][0]['url']}"
         else:
             msg = "I don't have any information about this. Try something different."
 
         dispatcher.utter_message(text=msg)
+
 
         return []
 
@@ -98,8 +94,8 @@ class ActionTellCountryInfo(Action):
         return "action_tell_country_info"
 
     def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         country = next(tracker.get_latest_entity_values("country"), None)
         response = requests.get(f"https://restcountries.com/v3.1/name/{country}")
@@ -110,30 +106,31 @@ class ActionTellCountryInfo(Action):
             cur_symbol = data[0]['currencies']['PLN']['symbol']
             capital = data[0]['capital'][0]
             subregion = data[0]["subregion"]
-            languages = data[0]["languages"]
-            borders = data[0]["borders"]
+            languages = ', '.join(data[0]["languages"].values())
+            borders = ', '.join(data[0]["borders"])
             population = data[0]['population']
-            timezones = data[0]['timezones']
+            timezones = ', '.join(data[0]['timezones'])
             flag = data[0]['flags']['png']
             map_url = data[0]['maps']['googleMaps']
 
             msg = f"""
-            BASIC INFO ABOUT: {country}:
-            CAPITAL: {capital}
-            CURRENCY: {currency} [{cur_symbol}]
-            REGION: {subregion}
-            BORDERS: {borders}
-            LANGUAGES: {languages}
-            POPULATION: {population}
-            TIMEZONES: {timezones}
-            FLAG: {flag}
-            MAP: {map_url}
-            """
+                                            <b>BASIC INFO ABOUT:</b> {country}<br>
+                                            <b>CAPITAL:</b> {capital}<br>
+                                            <b>CURRENCY:</b> {currency} [{cur_symbol}]<br>
+                                            <b>REGION:</b> {subregion}<br>
+                                            <b>BORDERS:</b> {borders}<br>
+                                            <b>LANGUAGES:</b> {languages}<br>
+                                            <b>POPULATION:</b> {population}<br>
+                                            <b>TIMEZONES:</b> {timezones}<br>
+                                            <b>FLAG:</b> <a href="{flag}">Link to flag</a><br>
+                                            <b>MAP:</b> <a href="{map_url}">Link to map</a>
+                                            """
+
+            dispatcher.utter_message(text=msg)
 
         else:
             msg = "I don't have any information about this. Try something different."
-
-        dispatcher.utter_message(text=msg)
+            dispatcher.utter_message(text=msg)
 
         return []
 

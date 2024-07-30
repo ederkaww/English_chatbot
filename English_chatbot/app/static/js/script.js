@@ -21,7 +21,7 @@ function sendMessage() {
     .then(response => response.json())
     .then(data => {
         if (data.response) {
-            appendMessage(data.response, 'bot');
+            appendMessage(data.response, 'bot', true);
         }
     })
     .catch(error => {
@@ -29,13 +29,17 @@ function sendMessage() {
     });
 }
 
-function appendMessage(message, sender) {
+function appendMessage(message, sender, isHtml = false) {
     const messageElement = document.createElement('div');
     messageElement.classList.add('message', sender);
 
     const messageContent = document.createElement('div');
     messageContent.classList.add('message-content');
-    messageContent.textContent = message;
+    if (isHtml) {
+        messageContent.innerHTML = message;  // Interpret HTML
+    } else {
+        messageContent.textContent = message;  // Render as text
+    }
 
     messageElement.appendChild(messageContent);
 

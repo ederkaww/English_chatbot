@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-answer",
+      "2": "I-answer",
+      "3": "L-answer",
+      "4": "U-answer",
+      "5": "B-country",
+      "6": "I-country",
+      "7": "L-country",
+      "8": "U-country",
+      "9": "B-keyword",
+      "10": "I-keyword",
+      "11": "L-keyword",
+      "12": "U-keyword",
+      "13": "B-place",
+      "14": "I-place",
+      "15": "L-place",
+      "16": "U-place",
+      "17": "B-word_to_explain",
+      "18": "I-word_to_explain",
+      "19": "L-word_to_explain",
+      "20": "U-word_to_explain",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-answer": 1,
+      "I-answer": 2,
+      "L-answer": 3,
+      "U-answer": 4,
+      "B-country": 5,
+      "I-country": 6,
+      "L-country": 7,
+      "U-country": 8,
+      "B-keyword": 9,
+      "I-keyword": 10,
+      "L-keyword": 11,
+      "U-keyword": 12,
+      "B-place": 13,
+      "I-place": 14,
+      "L-place": 15,
+      "U-place": 16,
+      "B-word_to_explain": 17,
+      "I-word_to_explain": 18,
+      "L-word_to_explain": 19,
+      "U-word_to_explain": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

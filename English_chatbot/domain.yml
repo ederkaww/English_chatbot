@@ -18,7 +18,6 @@ intents:
 
 entities:
   - place
-  - keyword
   - country
   - answer
   - word_to_explain

@@ -16,6 +16,19 @@ def webhook():
     rasa_response = send_message_to_rasa(user_message)
     return jsonify({"response": rasa_response})
 
+# def send_message_to_rasa(message):
+#     rasa_url = "http://localhost:5005/webhooks/rest/webhook"
+#     payload = {
+#         "sender": "user",
+#         "message": message
+#     }
+#     response = requests.post(rasa_url, json=payload)
+#     if response.status_code == 200:
+#         responses = response.json()
+#         if responses:
+#             return responses[0].get("text")
+#     return "Sorry, I didn't get that. Can you rephrase?"
+
 def send_message_to_rasa(message):
     rasa_url = "http://localhost:5005/webhooks/rest/webhook"
     payload = {
@@ -26,8 +39,13 @@ def send_message_to_rasa(message):
     if response.status_code == 200:
         responses = response.json()
         if responses:
-            return responses[0].get("text")
+            for res in responses:
+                if "text" in res:
+                    return res.get("text")
+                elif "custom" in res and "html" in res["custom"]:
+                    return res["custom"].get("html")
     return "Sorry, I didn't get that. Can you rephrase?"
+
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))

@@ -75,16 +75,26 @@ nlu:
 
 - intent: ask_news
   examples: |
-    - can you provide me with news about [London](keyword)?
-    - do you have some articles about [English](keyword)?
-    - did something happen lately in [USA](keyword)?
-
+    - can you provide me with some news?
+    - do you have some articles?
+    - did something happen lately?
+    - can you give me some article to read?
+    - i d like to read an article
+    - can i read some magazine?
 
 - intent: ask_country_info
   examples: |
     - can you provide me with basic information about [Poland](country)?
     - do you have some information about [Germany](country)?
-    - what do you know about [Lisbon](country)
+    - what do you know about [Portugal](country)
+
+- lookup: country
+  examples: |
+    - USA
+    - Croatia
+    - italy
+    - uk
+    - russia
 
 - intent: play_trivia
   examples: |
