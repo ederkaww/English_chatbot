@@ -72,18 +72,24 @@ class ActionTellNews(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         newsapi = NewsApiClient(api_key=news_api_key)
+        category = tracker.get_slot('category')
 
-        news = newsapi.get_top_headlines(country='us',
-                                         language='en',
-                                      )
+        if not category:
+            news = newsapi.get_top_headlines(country='us',
+                                             language='en',
+                                          )
+        else:
+            news = newsapi.get_top_headlines(country='us',
+                                             language='en',
+                                             category=category
+                                             )
+
         if news:
             msg = f""" <a href = "{news['articles'][0]['url']}"> {news['articles'][0]['title']} </a > """
-              #  f"You can read the article '{news['articles'][0]['title']}' here: \n{news['articles'][0]['url']}"
         else:
             msg = "I don't have any information about this. Try something different."
 
         dispatcher.utter_message(text=msg)
-
 
         return []
 

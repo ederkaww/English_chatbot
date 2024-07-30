@@ -82,6 +82,23 @@ nlu:
     - i d like to read an article
     - can i read some magazine?
 
+- intent: choose_category
+  examples: |
+    - I want to read business articles
+    - Show me entertainment news
+    - Give me general news
+    - I am interested in health articles
+    - Show me science articles
+    - I want to read sports news
+    - Give me technology news
+    - business
+    - entertainment
+    - general
+    - health
+    - science
+    - sports
+    - technology
+
 - intent: ask_country_info
   examples: |
     - can you provide me with basic information about [Poland](country)?

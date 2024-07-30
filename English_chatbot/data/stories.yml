@@ -9,6 +9,8 @@ stories:
   - story: tell news
     steps:
     - intent: ask_news
+    - action: utter_what_article_category
+    - intent: choose_category
     - action: action_tell_news
 
   - story: tell country basic info

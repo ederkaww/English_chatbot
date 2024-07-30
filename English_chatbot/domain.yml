@@ -15,12 +15,14 @@ intents:
   - ask_about_checking_sentence
   - sentence_to_check
   - explain_word
+  - choose_category
 
 entities:
   - place
   - country
   - answer
   - word_to_explain
+  - category
 
 responses:
   utter_greet:
@@ -49,6 +51,24 @@ responses:
 
   utter_agree_for_sentence_checking:
     - text: "Yes, sure! What sentence do you want me to check?"
+
+  utter_what_article_category:
+    - text: "Article of which category do you wanna read?"
+      buttons:
+        - title: "business"
+          payload: '/choose_category{"category": "business"}'
+        - title: "entertainment"
+          payload: '/choose_category{"category": "entertainment"}'
+        - title: "general"
+          payload: '/choose_category{"category": "general"}'
+        - title: "health"
+          payload: '/choose_category{"category": "health"}'
+        - title: "science"
+          payload: '/choose_category{"category": "science"}'
+        - title: "sports"
+          payload: '/choose_category{"category": "sports"}'
+        - title: "technology"
+          payload: '/choose_category{"category": "technology"}'
 
 session_config:
   session_expiration_time: 60
@@ -92,6 +112,12 @@ slots:
       - type: custom
         action: action_start_trivia
 
+  category:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: category
 
 actions:
 - action_tell_weather
