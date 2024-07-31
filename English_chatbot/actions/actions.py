@@ -85,7 +85,8 @@ class ActionTellNews(Action):
                                              )
 
         if news:
-            msg = f""" <a href = "{news['articles'][0]['url']}"> {news['articles'][0]['title']} </a > """
+            i = random.randint(1, 10)
+            msg = f""" <a href = "{news['articles'][i]['url']}"> {news['articles'][i]['title']} </a > """
         else:
             msg = "I don't have any information about this. Try something different."
 
