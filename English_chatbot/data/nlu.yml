@@ -84,20 +84,20 @@ nlu:
 
 - intent: choose_category
   examples: |
-    - I want to read business articles
-    - Show me entertainment news
-    - Give me general news
-    - I am interested in health articles
-    - Show me science articles
-    - I want to read sports news
-    - Give me technology news
-    - business
-    - entertainment
-    - general
-    - health
-    - science
-    - sports
-    - technology
+    - I want to read [business](category) articles
+    - Show me [entertainment](category) news
+    - Give me [general](category) news
+    - I am interested in [health](category) articles
+    - Show me [science](category) articles
+    - I want to read [sports](category) news
+    - Give me [technology](category) news
+    - [business](category)
+    - [entertainment](category)
+    - [general](category)
+    - [health](category)
+    - [science](category)
+    - [sports](category)
+    - [technology](category)
 
 - intent: ask_country_info
   examples: |
