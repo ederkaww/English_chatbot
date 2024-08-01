@@ -20,18 +20,22 @@ body {
 
 .chat_header {
   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   background: #FFC55A;
   border-radius: 10px 10px 0px 0px;
   padding: 5px;
   font-size: 20px;
 }
 
+
 .chat_header_title {
   color: white;
-  float: left;
-  margin-top: 3%;
-  margin-left: 35%;
+  margin: 0;/* Reset margin */
 }
+
 
 .chats {
   /* display: none; */
@@ -68,7 +72,7 @@ div.chats::-webkit-scrollbar {
 .botMsg {
   float: left;
   margin-top: 5px;
-  background: #e3e7ee;
+  background: #e8ebf1;
   color: black;
   /* box-shadow: 2px 3px 9px 0px #9a82842e; */
   margin-left: 0.5em;
@@ -171,7 +175,7 @@ blockquote {
   width: 100%;
   padding: 5px;
   border-radius: 0px 0px 10px 10px;
-  border-top: 1px solid #e3e7ee;
+  border-top: 1px solid #e8ebf1;
 }
 
 #sendButton {
@@ -215,14 +219,15 @@ blockquote {
 .dropdown-trigger {
   cursor: pointer;
   color: white;
-  margin-right: 5px;
-  float: right;
-  margin-top: 3%;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .dropdown-content li > a,
 .dropdown-content li > span {
-  color: #FFC55A;
+  color: #000;
 }
 
 @keyframes animateElement {
@@ -746,7 +751,7 @@ ul.collapsible > li:last-child .collapsible-body {
 .botTyping {
   float: left;
   margin-top: 5px;
-  background: #e3e7ee;
+  background: #e8ebf1;
   color: #000000;
   /* box-shadow: 2px 3px 9px 0px #9a82847a; */
   margin-left: 0.5em;
