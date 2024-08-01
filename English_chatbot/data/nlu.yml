@@ -16,6 +16,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - whats up
 
 - intent: goodbye
   examples: |
@@ -29,6 +30,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - take care
 
 - intent: affirm
   examples: |
@@ -38,6 +40,9 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - true
+    - yes, sure
+    - sure
 
 - intent: deny
   examples: |
@@ -48,6 +53,9 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nope
+    - no, thanks
+    - maybe next time
 
 - intent: bot_challenge
   examples: |
@@ -55,6 +63,9 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - is this a bot?
+    - it s not a person, right?
+    - you sound artificial
 
 - intent: ask_weather
   examples: |
@@ -63,6 +74,8 @@ nlu:
     - is it hot in [London](place)?
     - is it cold in [Berlin](place)
     - what is the current weather in [Lisbon](place)?
+    - it is quite warm in [Vienna](place) right?
+    - the weather is okay in [Istanbul](place) isnt it?
 
 - lookup: place
   examples: |
@@ -70,7 +83,18 @@ nlu:
     - zagreb
     - lisbon
     - amsterdam
+    - porto
+    - new york
     - seattle
+    - nairobi
+    - barcelona
+    - Melbourne
+    - Munich
+    - Naples
+    - Hamburg
+    - Milan
+    - Osaka
+
 
 
 - intent: ask_news
@@ -81,6 +105,10 @@ nlu:
     - can you give me some article to read?
     - i d like to read an article
     - can i read some magazine?
+    - i want to read sth online
+    - can I get some article to read?
+    - do you have an article to read?
+    - I would like to practice my English by reading
 
 - intent: choose_category
   examples: |
@@ -101,17 +129,28 @@ nlu:
 
 - intent: ask_country_info
   examples: |
-    - can you provide me with basic information about [Poland](country)?
+    - can you provide me with some basic information about [Poland](country)?
     - do you have some information about [Germany](country)?
     - what do you know about [Portugal](country)
+    - can you give me info about [Greece](country)
+    - I would like to read about [Austria](country)
+    - i want to know more about [italy](country)
+    - give me some info about [france](country)
+    - can i ask you about [belgium](country)
 
 - lookup: country
   examples: |
     - USA
     - Croatia
-    - italy
+    - japan
     - uk
     - russia
+    - canada
+    - Sweden
+    - Australia
+    - china
+    - spain
+    - brazil
 
 - intent: play_trivia
   examples: |
@@ -121,6 +160,12 @@ nlu:
     - i want to do some quizes
     - i d love to play TRIVIA right now
     - i would like to play trivia a little
+    - lets try some quizes
+    - trivia sounds like a good idea
+    - i love quizes
+    - trivia d be awesome
+    - i want to test my knowledge with quizes
+
 
 - intent: answer_trivia_question
   examples: |
@@ -130,6 +175,8 @@ nlu:
     - [D](answer)
     - I choose [A](answer)
     - My answer is [C](answer)
+    - [B](answer) i ll say
+    - it s [D](answer)
 
 - intent: ask_about_checking_sentence
   examples: |
@@ -140,23 +187,40 @@ nlu:
     - i d love to ve a checked sentence
     - can you check my grammar and spelling?
     - what do you think about my next sentence
+    - I'm not sure about the correctness of my next sentence
+    - is my next sentence correct?
 
 - intent: sentence_to_check
   examples: |
-    - This are my bad sentence for checking
-    - I would love to have this sentence checked
-    - Just write some random words
+    - By the time she arrived at the conference, the keynote speaker had already finished his presentation.
+    - They have consistently exceeded their quarterly targets, which has impressed the board of directors.
+    - She will launch her new startup next month, anticipating significant market disruption.
+    - The team is currently working on a groundbreaking project that could revolutionize the industry.
     - i dont know if this will work chonestly
     - Maybe it will figure out the mistakes
+    - The cat slept peacefully on the windowsill, basking in the afternoon sun.
+    - She opened the old, creaky door and found herself in a room filled with memories.
+    - He glanced at his watch and realized he was late for the meeting.
+    - What is the most memorable place you have ever visited?
+    - While he was presenting his innovative idea, the audience listened intently, absorbing every detail.
+    - By the end of the decade, the company will have established itself as a global leader in renewable energy.
+    - He has been researching climate change impacts for over a decade, contributing valuable insights to the field.
+
+
 
 - intent: explain_word
   examples: |
     - Can you explain me this word: [robot](word_to_explain)
-    - Can you provide me with the meaning of [fancy](word_to_explain)
+    - Can you provide me with the meaning of [frequently](word_to_explain)
     - Can you give me information about word '[strange]'(word_to_explain)
-    - I dont know what does the word [thing](word_to_explain) mean. Can you explain?
-    - Can you give me some information about [cat](word_to_explain) word?
-    - What is the definition of [something](word_to_explain) word?
-    - What is the meaning of a word [AI](word_to_explain)?
-    - Can you say some thing about word [technology](word_to_explain)?
+    - I dont know what does the word [umbrella](word_to_explain) mean. Can you explain?
+    - Can you give me some information about [twilight](word_to_explain) word?
+    - What is the definition of [meadow](word_to_explain) word?
+    - What is the meaning of a word [fossil](word_to_explain)?
+    - Can you say something about word [technology](word_to_explain)?
+    - How is the word "[algorithm](word_to_explain)" commonly used?
+    - what does the word [eagerly](word_to_explain) mean?
+    - I dont know the [carefully](word_to_explain) word. Can you explain it?
+    - I didnt get the [gracefully](word_to_explain) word. Explain it please
+    - I didn't understand '[explore](word_to_explain)' word. Explain it
 

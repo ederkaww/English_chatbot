@@ -53,7 +53,7 @@ class ActionTellWeather(Action):
         response = requests.get(base_url, params=params)
         if response.status_code == 200:
             weather_data = response.json()
-            msg = f"Temperature now in {city}: {weather_data['main']['temp']}°C"
+            msg = f"Temperature in {city}: {weather_data['main']['temp']}°C"
         else:
             msg = "I don't have any information about the weather there. Please give me some other city."
 
@@ -121,7 +121,7 @@ class ActionTellCountryInfo(Action):
             map_url = data[0]['maps']['googleMaps']
 
             msg = f"""
-                                            <b>BASIC INFO ABOUT:</b> {country}<br>
+                                            <b>COUNTRY:</b> {country}<br>
                                             <b>CAPITAL:</b> {capital}<br>
                                             <b>CURRENCY:</b> {currency} [{cur_symbol}]<br>
                                             <b>REGION:</b> {subregion}<br>
