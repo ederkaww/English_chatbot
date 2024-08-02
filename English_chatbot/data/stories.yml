@@ -22,6 +22,7 @@ stories:
     steps:
     - intent: play_trivia
     - action: action_start_trivia
+    - action: action_ask_question
 
   - story: check grammar and spelling in a sentence
     steps:

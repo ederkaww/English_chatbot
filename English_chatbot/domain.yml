@@ -80,6 +80,12 @@ slots:
       - type: from_entity
         entity: category
 
+  trivia_data:
+    type: any
+    influence_conversation: false
+    mappings:
+      - type: custom
+
 actions:
 - action_tell_weather
 - action_tell_news
@@ -87,4 +93,5 @@ actions:
 - action_retrieve_last_user_message
 - action_explain_word
 - action_start_trivia
+- action_ask_question
 
