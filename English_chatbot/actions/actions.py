@@ -154,34 +154,27 @@ class ActionStartTrivia(Action):
             return []
 
         response = requests.get('https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple')
-        data = response.json()
-        trivia_data = data.get('results', [])
-        questions = []
-        all_answers = []
+        if response:
+            data = response.json()
+            trivia_data = data.get('results', [])
+            questions = []
+            all_answers = []
 
-        for i in range(5):
-            question = trivia_data[i]['question']
-            questions.append(question)
-            correct_answer = trivia_data[i]['correct_answer']
-            answers = trivia_data[i]['incorrect_answers']
-            answers.append(correct_answer)
-            all_answers.append(answers)
+            for i in range(5):
+                question = trivia_data[i]['question']
+                questions.append(question)
+                correct_answer = trivia_data[i]['correct_answer']
+                answers = trivia_data[i]['incorrect_answers']
+                answers.append(correct_answer)
+                all_answers.append(answers)
 
-        # trivia_data = {i + 1: {'question': questions[i], 'answers': all_answers[i]} for i in range(5)}
-        trivia_data = [[questions[i], all_answers[i]] for i in range(5)]
+            trivia_data = [[questions[i], all_answers[i]] for i in range(5)]
 
-        # print(trivia_data)
-        #
-        # dispatcher.utter_message(text=str(trivia_data))
+            return [SlotSet("trivia_data", trivia_data)]
 
-        return [SlotSet("trivia_data", trivia_data)]
-
-        # if trivia_data:
-        #     # Set the slot with trivia data
-        #     return [SlotSet("trivia_data", trivia_data)]
-        # else:
-        #     dispatcher.utter_message(text="Failed to retrieve trivia questions.")
-        #     return []
+        else:
+            dispatcher.utter_message(text="Failed to retrieve trivia questions.")
+            return []
 
 
 class ActionAskQuestion(Action):
@@ -216,8 +209,9 @@ class ActionAskQuestion(Action):
                 SlotSet("correct_letter", correct_letter)
             ]
         else:
-            dispatcher.utter_message(text="That's the end of the game!")
-            return [SlotSet("trivia_data", None)]
+            score = tracker.get_slot('score')
+            dispatcher.utter_message(text=f"That's the end of the game! Your score is {score}")
+            return [SlotSet("trivia_data", None), SlotSet("score", 0)]
 
 
 class ActionCheckAnswer(Action):
@@ -226,30 +220,24 @@ class ActionCheckAnswer(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        print('XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD')
         user_answer = tracker.get_slot('answer')
         correct_letter = tracker.get_slot("correct_letter")
-        print(user_answer)
-        print(correct_letter)
 
-        # score = tracker.get_slot('score') or 0  # Ensure score is initialized to 0 if None
-        #
+        score = tracker.get_slot('score') or 0  # Ensure score is initialized to 0 if None
+
         if user_answer is None or correct_letter is None:
             dispatcher.utter_message(template="utter_missing_information")
             return []
-        #
+
         if user_answer.lower() == correct_letter.lower():
-            #score = score + 1
-            dispatcher.utter_message(msg="dobrze!")  # to nie dziala
-            print('dobrze') # to dziala
-            # dispatcher.utter_message(template="utter_correct_answer", score=score)
-            # return [SlotSet("score", score)]
+            score = score + 1
+            dispatcher.utter_message(text=f"Good! {correct_letter} is correct!")
+            return [SlotSet("score", score)]
         else:
-            dispatcher.utter_message(msg="Zleee") # to nie dziala
-            print('zle') # to tez
+            dispatcher.utter_message(text=f"No, {correct_letter} is correct")
             # dispatcher.utter_message(template="utter_wrong_answer", correct_answer=correct_answer, score=score)
 
-        return []
+            return []
 
 
 class ActionRetrieveLastUserMessage(Action):

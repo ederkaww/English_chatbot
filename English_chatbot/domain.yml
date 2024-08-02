@@ -100,6 +100,13 @@ slots:
       - type: from_entity
         entity: answer
 
+  score:
+    type: float
+    influence_conversation: false
+    initial_value: 0
+    mappings:
+      - type: custom
+
 
 actions:
 - action_tell_weather
