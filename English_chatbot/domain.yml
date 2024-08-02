@@ -21,6 +21,7 @@ entities:
   - country
   - word_to_explain
   - category
+  - answer
 
 responses:
   utter_greet:
@@ -81,10 +82,24 @@ slots:
         entity: category
 
   trivia_data:
-    type: any
+    type: list
     influence_conversation: false
     mappings:
       - type: custom
+
+  correct_letter:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  answer:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: answer
+
 
 actions:
 - action_tell_weather
@@ -94,4 +109,5 @@ actions:
 - action_explain_word
 - action_start_trivia
 - action_ask_question
+- action_check_answer
 

@@ -171,6 +171,8 @@ nlu:
   examples: |
     - The answer is [A](answer)
     - I think it's [B](answer)
+    - [A](answer)
+    - [B](answer)
     - [C](answer)
     - [D](answer)
     - I choose [A](answer)
