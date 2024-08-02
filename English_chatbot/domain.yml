@@ -11,7 +11,6 @@ intents:
   - ask_country_info
   - play_trivia
   - answer_trivia_question
-  - check_sentence
   - ask_about_checking_sentence
   - sentence_to_check
   - explain_word
@@ -20,7 +19,6 @@ intents:
 entities:
   - place
   - country
-  - answer
   - word_to_explain
   - category
 
@@ -75,43 +73,6 @@ session_config:
   carry_over_slots_to_new_session: true
 
 slots:
-  answer:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: from_entity
-        entity: answer
-
-  question:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: custom
-        action: action_ask_question
-
-  correct_answer:
-    type: text
-    influence_conversation: false
-    mappings:
-      - type: custom
-        action: action_ask_question
-
-  score:
-    type: float
-    influence_conversation: false
-    initial_value: 0
-    mappings:
-      - type: custom
-        action: action_check_answer
-        intent: answer_trivia_question
-
-  trivia_data:
-    type: list
-    influence_conversation: false
-    mappings:
-      - type: custom
-        action: action_start_trivia
-
   category:
     type: text
     influence_conversation: false
@@ -123,9 +84,7 @@ actions:
 - action_tell_weather
 - action_tell_news
 - action_tell_country_info
-- action_ask_question
-- action_check_answer
-- action_start_trivia
 - action_retrieve_last_user_message
 - action_explain_word
+- action_start_trivia
 

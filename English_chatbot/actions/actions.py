@@ -149,85 +149,81 @@ class ActionStartTrivia(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[
         Dict[Text, Any]]:
 
-        if tracker.get_slot('trivia_data'):
-            # Trivia data already set, no need to fetch again
-            return []
+        # if tracker.get_slot('trivia_data'):
+        #     # Trivia data already set, no need to fetch again
+        #     return []
 
         response = requests.get('https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple')
         data = response.json()
         trivia_data = data.get('results', [])
         print('Trivia Data:', trivia_data)
 
-        if trivia_data:
-            # Set the slot with trivia data
-            return [SlotSet("trivia_data", trivia_data)]
-        else:
-            dispatcher.utter_message(text="Failed to retrieve trivia questions.")
-            return []
-
-
-class ActionAskQuestion(Action):
-    def name(self) -> Text:
-        return "action_ask_question"
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        trivia_data = tracker.get_slot('trivia_data')
-
-        if trivia_data:
-            # question_data = trivia_data.pop(0)  # Get the first question
-            # question = question_data['question']
-            # options = question_data['incorrect_answers']
-            # correct_answer = question_data['correct_answer']
-            # options.append(correct_answer)
-            # random.shuffle(options)  # Shuffle the options
-            [question, options, correct_letter] = ask_question(trivia_data)
-
-            print('xddddddddddddddd')
-
-            msg = f"""
-            Question: {question}
-            A: {options[0]}
-            B: {options[1]}
-            C: {options[2]}
-            D: {options[3]}
-            """
-
-            dispatcher.utter_message(text=msg)
-
-            return [
-                SlotSet("trivia_data", trivia_data),  # Update the trivia data
-                SlotSet("question", question),
-                SlotSet("correct_answer", correct_letter)
-            ]
-        else:
-            dispatcher.utter_message(text="That's the end of the game!")
-            return [SlotSet("trivia_data", None)]
-
-
-class ActionCheckAnswer(Action):
-    def name(self) -> Text:
-        return "action_check_answer"
-
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        user_answer = tracker.get_slot('answer')
-        correct_answer = tracker.get_slot("correct_answer")
-
-        score = tracker.get_slot('score') or 0  # Ensure score is initialized to 0 if None
-
-        if user_answer is None or correct_answer is None:
-            dispatcher.utter_message(template="utter_missing_information")
-            return []
-
-        if user_answer.lower() == correct_answer.lower():
-            score = score + 1
-            dispatcher.utter_message(template="utter_correct_answer", score=score)
-            return [SlotSet("score", score)]
-        else:
-            dispatcher.utter_message(template="utter_wrong_answer", correct_answer=correct_answer, score=score)
+        dispatcher.utter_message(text=str(trivia_data))
 
         return []
+
+        # if trivia_data:
+        #     # Set the slot with trivia data
+        #     return [SlotSet("trivia_data", trivia_data)]
+        # else:
+        #     dispatcher.utter_message(text="Failed to retrieve trivia questions.")
+        #     return []
+
+
+# class ActionAskQuestion(Action):
+#     def name(self) -> Text:
+#         return "action_ask_question"
+#
+#     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#
+#         trivia_data = tracker.get_slot('trivia_data')
+#
+#         if trivia_data:
+#             [question, options, correct_letter] = ask_question(trivia_data)
+#
+#             msg = f"""
+#             Question: {question}
+#             A: {options[0]}
+#             B: {options[1]}
+#             C: {options[2]}
+#             D: {options[3]}
+#             """
+#
+#             dispatcher.utter_message(text=msg)
+#
+#             return [
+#                 SlotSet("trivia_data", trivia_data),  # Update the trivia data
+#                 SlotSet("question", question),
+#                 SlotSet("correct_answer", correct_letter)
+#             ]
+#         else:
+#             dispatcher.utter_message(text="That's the end of the game!")
+#             return [SlotSet("trivia_data", None)]
+
+
+# class ActionCheckAnswer(Action):
+#     def name(self) -> Text:
+#         return "action_check_answer"
+#
+#     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#
+#         user_answer = tracker.get_slot('answer')
+#         correct_answer = tracker.get_slot("correct_answer")
+#
+#         score = tracker.get_slot('score') or 0  # Ensure score is initialized to 0 if None
+#
+#         if user_answer is None or correct_answer is None:
+#             dispatcher.utter_message(template="utter_missing_information")
+#             return []
+#
+#         if user_answer.lower() == correct_answer.lower():
+#             score = score + 1
+#             dispatcher.utter_message(template="utter_correct_answer", score=score)
+#             return [SlotSet("score", score)]
+#         else:
+#             dispatcher.utter_message(template="utter_wrong_answer", correct_answer=correct_answer, score=score)
+#
+#         return []
 
 
 class ActionRetrieveLastUserMessage(Action):
@@ -247,7 +243,6 @@ class ActionRetrieveLastUserMessage(Action):
         return []
 
 
-###
 class ActionExplainWord(Action):
 
     def name(self) -> Text:
