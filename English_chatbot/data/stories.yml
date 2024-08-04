@@ -15,8 +15,16 @@ stories:
 
   - story: tell country basic info
     steps:
-    - intent: ask_country_info
+    - intent: ask_particular_country_info
     - action: action_tell_country_info
+
+  - story: ask about country and tell its basic info
+    steps:
+    - intent: ask_country_info
+    - action: utter_ask_which_country
+    - intent: ask_particular_country_info
+    - action: action_tell_country_info
+
 
   - story: play game
     steps:

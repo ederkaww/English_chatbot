@@ -129,6 +129,16 @@ nlu:
 
 - intent: ask_country_info
   examples: |
+    - can you provide me with some basic information about a country?
+    - do you have some information about a coutry?
+    - can you give me info about some country?
+    - I would like to read about some country
+    - i want to know more about countries
+    - give me some info about countries
+    - can i ask you about a country?
+
+- intent: ask_particular_country_info
+  examples: |
     - can you provide me with some basic information about [Poland](country)?
     - do you have some information about [Germany](country)?
     - what do you know about [Portugal](country)
@@ -137,6 +147,10 @@ nlu:
     - i want to know more about [italy](country)
     - give me some info about [france](country)
     - can i ask you about [belgium](country)
+    - [Finland](country)
+    - [Spain](country)
+    - [USA](country)
+    - [Brasil](country)
 
 - lookup: country
   examples: |
@@ -241,18 +255,14 @@ nlu:
     - [Johanna](user_name)
     - [Achilleas](user_name)
 
-- intent: what_to_do
+- intent: chit_chat
   examples: |
-    - I d like to play trivia game
-    - I want to read some article
-    - I would like to provide a sentence for checking
-    - find out some basic info about a country sounds interesting
-    - i want to check the weather for a particular country
     - i m in a mood for a chit-chat
-    - play trivia game
-    - read some article
-    - provide a sentence for checking
-    - find out some basic info about a country
-    - check the weather for a particular country
     - just chit-chat
+    - I d love to just talk
+    - Can we talk?
+    - can we have some basic conversation?
+    - i want to just talk a little bit
+    - A basic conversation sounds cool
+    - Chit-chating would be perfect!
 

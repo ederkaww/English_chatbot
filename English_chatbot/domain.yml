@@ -17,6 +17,7 @@ intents:
   - choose_category
   - tell_name
   - what_to_do
+  - ask_particular_country_info
 
 entities:
   - place
@@ -42,6 +43,9 @@ responses:
   utter_agree_for_sentence_checking:
     - text: "Yes, sure! What sentence do you want me to check?"
 
+  utter_ask_which_country:
+    - text: "Which country do you wanna get to know?"
+
   utter_what_article_category:
     - text: "Article of which category do you wanna read?"
       buttons:
@@ -65,17 +69,15 @@ responses:
     - text: "Nice to meet you {name}. What do you wanna do?"
       buttons:
         - title: "play trivia game"
-          payload: '/what_to_do'
+          payload: '/play_trivia'
         - title: "read an article"
-          payload: '/what_to_do'
+          payload: '/ask_news'
         - title: "provide a sentence for checking"
-          payload: '/what_to_do'
+          payload: '/ask_about_checking_sentence'
         - title: "find out some basic info about a country"
-          payload: '/what_to_do'
-        - title: "check the weather for a particular country"
-          payload: '/what_to_do'
+          payload: '/ask_country_info'
         - title: "chit-chat"
-          payload: '/what_to_do'
+          payload: '/chit_chat'
 
 session_config:
   session_expiration_time: 60
