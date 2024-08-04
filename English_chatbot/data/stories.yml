@@ -34,8 +34,14 @@ stories:
     - intent: sentence_to_check
     - action: action_retrieve_last_user_message
 
-
   - story: explain a word
     steps:
     - intent: explain_word
     - action: action_explain_word
+
+  - story: introduce yourself and get an user name
+    steps:
+      - intent: tell_name
+      - action: action_save_name
+
+

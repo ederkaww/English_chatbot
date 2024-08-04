@@ -2,10 +2,10 @@ version: "3.1"
 
 rules:
 
-- rule: Say hi anytime the user says hi
+- rule: Welcome user
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: action_greet_user
 
 - rule: Say goodbye anytime the user says goodbye
   steps:

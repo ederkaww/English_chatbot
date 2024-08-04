@@ -17,22 +17,6 @@ news_api_key = os.getenv('NEWS_API_KEY')
 words_api_key = os.getenv('WORDS_API_KEY')
 
 
-# def ask_question(data):
-#     current_data = data.pop()
-#     question = current_data['question']
-#     correct_answer = current_data['correct_answer']
-#     options = current_data['incorrect_answers']
-#     options.append(correct_answer)
-#     random.shuffle(options)
-#     index = options.index(correct_answer)
-#     letter_options = ['A', 'B', 'C', 'D']
-#     correct_letter = letter_options[index]
-#
-#     current_data = [question, options, correct_letter]
-#
-#     return current_data
-
-
 class ActionTellWeather(Action):
 
     def name(self) -> Text:
@@ -210,7 +194,7 @@ class ActionAskQuestion(Action):
             ]
         else:
             score = tracker.get_slot('score')
-            dispatcher.utter_message(text=f"That's the end of the game! Your score is {score}")
+            dispatcher.utter_message(text=f"That's the end of the game! Your final score is {score}")
             return [SlotSet("trivia_data", None), SlotSet("score", 0)]
 
 
@@ -235,10 +219,8 @@ class ActionCheckAnswer(Action):
             return [SlotSet("score", score)]
         else:
             dispatcher.utter_message(text=f"No, {correct_letter} is correct")
-            # dispatcher.utter_message(template="utter_wrong_answer", correct_answer=correct_answer, score=score)
 
             return []
-
 
 class ActionRetrieveLastUserMessage(Action):
 
@@ -294,3 +276,31 @@ class ActionExplainWord(Action):
         dispatcher.utter_message(text=text)
 
         return []
+
+
+class ActionGreetUser(Action):
+
+    def name(self) -> str:
+        return "action_greet_user"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker, domain: dict) -> list:
+
+        dispatcher.utter_message(text="Hi! I'm Enbot. I'd love to help you improving your English. What's your name?")
+        return []
+
+
+class ActionSaveName(Action):
+
+    def name(self) -> str:
+        return "action_save_name"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker, domain: dict) -> list:
+
+        name = tracker.get_slot("user_name")
+
+        dispatcher.utter_message(response="utter_what_to_do", name=name)
+        return []
+
+

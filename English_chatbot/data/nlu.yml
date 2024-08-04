@@ -226,3 +226,33 @@ nlu:
     - I didnt get the [gracefully](word_to_explain) word. Explain it please
     - I didn't understand '[explore](word_to_explain)' word. Explain it
 
+- intent: tell_name
+  examples: |
+    - My name is [Dominika](user_name)
+    - I'm [Mirko](user_name)
+    - Nice to meet you, I'm [Tia](user_name)
+    - Oh, i see. My name s [Luca](user_name)
+    - That's great! I m [Kamil](user_name)
+    - Hey there, I'm [Asia](user_name). Nice to meet you :)
+    - Hi, i m [Sara](user_name), it's a pleasure to meet you.
+    - [Szymon](user_name)
+    - [Asia](user_name)
+    - [Alessandra](user_name)
+    - [Johanna](user_name)
+    - [Achilleas](user_name)
+
+- intent: what_to_do
+  examples: |
+    - I d like to play trivia game
+    - I want to read some article
+    - I would like to provide a sentence for checking
+    - find out some basic info about a country sounds interesting
+    - i want to check the weather for a particular country
+    - i m in a mood for a chit-chat
+    - play trivia game
+    - read some article
+    - provide a sentence for checking
+    - find out some basic info about a country
+    - check the weather for a particular country
+    - just chit-chat
+

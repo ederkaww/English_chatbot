@@ -15,6 +15,8 @@ intents:
   - sentence_to_check
   - explain_word
   - choose_category
+  - tell_name
+  - what_to_do
 
 entities:
   - place
@@ -22,6 +24,7 @@ entities:
   - word_to_explain
   - category
   - answer
+  - user_name
 
 responses:
   utter_greet:
@@ -35,18 +38,6 @@ responses:
 
   utter_agree_to_idea:
   - text: "Sure!"
-
-  utter_ask_question:
-  - text: "{question}"
-
-  utter_correct_answer:
-  - text: "Correct! Your current score is {score}."
-
-  utter_wrong_answer:
-  - text: "Sorry, that's wrong. The correct answer was {correct_answer}. Your current score is {score}."
-
-  utter_final_score:
-  - text: "You've completed the quiz! Your final score is {score}."
 
   utter_agree_for_sentence_checking:
     - text: "Yes, sure! What sentence do you want me to check?"
@@ -68,6 +59,23 @@ responses:
           payload: '/choose_category{"category": "sports"}'
         - title: "technology"
           payload: '/choose_category{"category": "technology"}'
+
+
+  utter_what_to_do:
+    - text: "Nice to meet you {name}. What do you wanna do?"
+      buttons:
+        - title: "play trivia game"
+          payload: '/what_to_do'
+        - title: "read an article"
+          payload: '/what_to_do'
+        - title: "provide a sentence for checking"
+          payload: '/what_to_do'
+        - title: "find out some basic info about a country"
+          payload: '/what_to_do'
+        - title: "check the weather for a particular country"
+          payload: '/what_to_do'
+        - title: "chit-chat"
+          payload: '/what_to_do'
 
 session_config:
   session_expiration_time: 60
@@ -107,6 +115,12 @@ slots:
     mappings:
       - type: custom
 
+  user_name:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: user_name
 
 actions:
 - action_tell_weather
@@ -117,4 +131,6 @@ actions:
 - action_start_trivia
 - action_ask_question
 - action_check_answer
+- action_greet_user
+- action_save_name
 
