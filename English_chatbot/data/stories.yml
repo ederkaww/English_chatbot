@@ -49,7 +49,11 @@ stories:
 
   - story: introduce yourself and get an user name
     steps:
-      - intent: tell_name
-      - action: action_save_name
+    - intent: tell_name
+    - action: action_save_name
 
 
+  - story: chit-chat about some topic
+    steps:
+    - intent: chit_chat
+    - action: utter_chit_chat

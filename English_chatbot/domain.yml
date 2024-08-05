@@ -18,6 +18,14 @@ intents:
   - tell_name
   - what_to_do
   - ask_particular_country_info
+  - chit_chat
+  - talk_about_people
+  - talk_about_nature
+  - talk_about_health
+  - talk_about_traveling
+  - talk_about_shopping
+  - talk_about_food
+  - talk_about_work
 
 entities:
   - place
@@ -78,6 +86,25 @@ responses:
           payload: '/ask_country_info'
         - title: "chit-chat"
           payload: '/chit_chat'
+
+  utter_chit_chat:
+    - text: "Great! About which topic do u wanna chit-chat?"
+      buttons:
+        - title: "people"
+          payload: '/talk_about_people'
+        - title: "nature"
+          payload: '/talk_about_nature'
+        - title: "health"
+          payload: '/talk_about_health'
+        - title: "traveling"
+          payload: '/talk_about_traveling'
+        - title: "shopping"
+          payload: '/talk_about_shopping'
+        - title: "food"
+          payload: '/talk_about_food'
+        - title: "work"
+          payload: '/talk_about_work'
+
 
 session_config:
   session_expiration_time: 60

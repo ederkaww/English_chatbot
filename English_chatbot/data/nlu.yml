@@ -266,3 +266,84 @@ nlu:
     - A basic conversation sounds cool
     - Chit-chating would be perfect!
 
+- intent: talk_about_people
+  examples: |
+    - i m in a mood for a chit-chat about people
+    - i m in a mood for a chit-chat about myself
+    - chit-chat about a free-time
+    - i want to just chit-chat about me and my family
+    - I d love to just talk about daily stuff
+    - Can we talk about some basic things?
+    - can we have some basic conversation about daily things?
+    - i want to just talk a little bit abouts hobbies and so on
+
+- intent: talk_about_nature
+  examples: |
+    - i want to talk about nature
+    - chit-chat about plants
+    - I d love to just talk about trees and stuff
+    - Can we talk about pets, animals and so on?
+    - can we have some basic conversation about animals, weather and so on?
+    - i just want to talk a little bit about landscapes and nature in general
+    - A basic conversation about flora and fauna sounds cool
+
+- intent: talk_about_health
+  examples: |
+    - i m in a mood for a chit-chat about health
+    - chit-chat about healthy stuff
+    - I d love to just talk abouth health in overall
+    - Can we talk how to stay healthy?
+    - can we have some basic conversation about diets and exercises?
+    - i want to just talk a little bit about a healthy lifestyle
+    - A basic conversation about self-care and some daily routines sounds cool
+    - Maybe a chit-chat about being sick?
+
+- intent: talk_about_traveling
+  examples: |
+    - i m in a mood for a chit-chat about traveling
+    - chit-chat about holidays
+    - I d love to just talk about some travels
+    - Can we talk about my trip memories?
+    - Can we talk about my holiday experiences?
+    - can we have some basic conversation about travel destinations?
+    - i just want to talk a little bit about my dream holidays
+    - A basic conversation about travel plans sounds cool
+    - Chit-chating about abroad travels would be perfect!
+    - i want to talk about my traveling bucket list
+    - Maybe about travels planning?
+
+- intent: talk_about_shopping
+  examples: |
+    - i m in a mood for a chit-chat about shopping
+    - just chit-chat about buying some stuff
+    - I d love to just talk about clothes
+    - Can we talk about doing the shopping?
+    - can we have some basic conversation about stores, brands etc.?
+    - i want to just talk a little bit about visiting stores
+    - A basic conversation about daily shopping sounds cool
+    - Chit-chating about saving money and stuff would be perfect!
+
+- intent: talk_about_food
+  examples: |
+    - i m in a mood for a chit-chat about food
+    - chit-chat about different dishes
+    - chit-chat about different diets
+    - I d love to just talk about desserts
+    - Can we talk about cuisine?
+    - can we have some basic conversation about food?
+    - can we have some basic conversation about cooking, baking and so on?
+    - i want to just talk a little bit about cuisine from different countries
+    - A basic conversation about food sounds cool
+    - Chit-chating about food and drinks would be perfect!
+
+- intent: talk_about_work
+  examples: |
+    - i m in a mood for a chit-chat about work
+    - chit-chat about different jobs
+    - chit-chat about soft-skills
+    - I d love to just talk about my dream job
+    - Can we talk about different professions?
+    - can we have some basic conversation about working?
+    - i want to just talk a little bit about remote jobs
+    - A basic conversation about my career path sounds cool
+    - Chit-chating about a motivation, stress and job approach would be perfect!
