@@ -514,64 +514,163 @@ responses:
   utter_ask_question_food1:
     - text: "What’s your favorite dish and why?"
 
+  utter_answer_question_food1:
+    - text: "My favorite dish is lasagna. I love the layers of pasta, rich meat sauce, and gooey cheese. It’s comforting and satisfying, and it reminds me of family gatherings."
+    - text: "I’m a big fan of sushi. The combination of fresh fish, seasoned rice, and vibrant flavors makes it a delightful and refreshing meal. It’s also fun to try different types and rolls."
+    - text: "My favorite dish is a hearty chicken curry. The blend of spices and tender chicken makes it flavorful and comforting. I enjoy it with rice or naan bread to soak up all the delicious sauce."
+
   utter_ask_question_food2:
     - text: "Do you have a favorite dessert? What makes it special to you?"
+
+  utter_answer_question_food2:
+    - text: "My favorite dessert is chocolate lava cake. The rich, molten center and warm chocolate flavor make it indulgent and decadent. It’s a special treat that I often enjoy on special occasions or as a dessert after a nice meal."
+    - text: "I love cheesecake, especially with a graham cracker crust and fresh fruit topping. It’s creamy and tangy, and I have fond memories of making it with my family during holidays."
+    - text: "My favorite dessert is tiramisu. The layers of coffee-soaked ladyfingers and mascarpone cheese create a deliciously creamy and slightly sweet treat. It’s special to me because it reminds me of trips to Italian restaurants with friends."
 
   utter_ask_question_food3:
     - text: "Do you like eating fruits and vegetables? Do you have any favorites?"
 
+  utter_answer_question_food3:
+    - text: "Yes, I enjoy eating fruits and vegetables. My favorites are juicy strawberries and crisp bell peppers. They’re both refreshing and versatile, fitting well into a variety of meals and snacks."
+    - text: "I love fruits and vegetables, and I particularly enjoy apples and carrots. Apples are great for a quick snack, and carrots are perfect for adding crunch and sweetness to dishes."
+    - text: "Yes, I do like fruits and vegetables. I especially love mangoes for their sweet, tropical flavor and spinach for its versatility in salads and smoothies."
+
   utter_ask_question_food4:
     - text: "Are you interested in vegetarian or vegan cuisine? What do you like or dislike about it?"
+
+  utter_answer_question_food4:
+    - text: "Yes, I’m interested in vegetarian cuisine. I enjoy trying different plant-based dishes because they’re often flavorful and offer a healthy alternative. I like how creative and diverse vegetarian meals can be, though I sometimes find it challenging to get enough protein."
+    - text: "I’m curious about vegan cuisine and appreciate the variety of dishes it offers. I like that it focuses on whole, plant-based ingredients and can be very nutritious. However, I sometimes miss the flavors and textures of dairy and meat products."
+    - text: "I’m not fully committed to vegetarian or vegan cuisine, but I enjoy incorporating plant-based meals into my diet. I appreciate the emphasis on fresh vegetables and grains, though I occasionally find it difficult to find satisfying replacements for certain meat dishes."
 
   utter_ask_question_food5:
     - text: "How often do you cook at home versus eating out?"
 
+  utter_answer_question_food5:
+    - text: "I cook at home most of the time, about five or six days a week. I enjoy preparing meals and find it more economical and healthier. I eat out occasionally, usually on weekends or special occasions."
+    - text: "I eat out more frequently, around three times a week. It’s convenient and allows me to try new foods. I cook at home a few times a week, especially for family dinners or when I want to prepare something specific."
+    - text: "I cook at home almost every day. It’s a way for me to experiment with recipes and ensure I’m eating well. I dine out only once or twice a month, mostly for social reasons or to enjoy a special meal."
+
   utter_ask_question_food6:
     - text: "What’s your favorite type of cuisine and why?"
+
+  utter_answer_question_food6:
+    - text: "My favorite type of cuisine is Italian. I love the variety of dishes, from pasta to pizza, and the emphasis on fresh ingredients and bold flavors. Italian food feels comforting and indulgent, and it’s perfect for sharing with friends and family."
+    - text: "I’m a big fan of Mexican cuisine. The vibrant flavors, use of spices, and diverse dishes like tacos and enchiladas make it exciting and delicious. I enjoy the combination of fresh ingredients and bold tastes."
+    - text: "I really enjoy Thai cuisine. The balance of sweet, sour, salty, and spicy flavors in dishes like green curry and pad Thai is incredibly satisfying. Thai food is also great for its variety and ability to cater to different dietary preferences."
 
   utter_ask_question_food7:
     - text: "Do you enjoy cooking? What’s your signature dish?"
 
+  utter_answer_question_food7:
+    - text: "Yes, I enjoy cooking. My signature dish is homemade chili. I love the blend of spices and the hearty, comforting nature of the dish. It’s always a crowd-pleaser at gatherings."
+    - text: "Cooking is a favorite hobby of mine. My signature dish is a lemon herb roasted chicken. The combination of fresh herbs and lemon gives it a delicious flavor, and it’s a simple but impressive meal to prepare."
+    - text: "I do enjoy cooking, and my go-to signature dish is a classic lasagna. I take pride in layering rich meat sauce, creamy béchamel, and tender pasta, which makes for a satisfying and well-loved meal."
+
   utter_ask_question_food8:
     - text: "Are there any foods you absolutely dislike?"
+
+  utter_answer_question_food8:
+    - text: "I absolutely dislike olives. I find their strong, briny taste and texture unappealing, and they often overpower other flavors in a dish."
+    - text: "I’m not a fan of anchovies. Their intense saltiness and fishy flavor don’t agree with my taste buds, and I prefer to avoid them in recipes."
+    - text: "I really dislike coconut. The texture and flavor are off-putting to me, so I usually steer clear of dishes that include it."
 
   utter_ask_question_food9:
     - text: "Do you enjoy baking? What’s your favorite thing to bake?"
 
+  utter_answer_question_food9:
+    - text: "Yes, I enjoy baking a lot. My favorite thing to bake is chocolate chip cookies. They’re classic, and the smell of them baking is always comforting. Plus, they’re a hit with family and friends."
+    - text: "I love baking, and my favorite thing to make is sourdough bread. The process of making and fermenting the dough is rewarding, and the homemade bread has a wonderful texture and flavor."
+    - text: "Baking is one of my favorite hobbies. I particularly enjoy making pies, especially apple pie. The combination of a flaky crust and spiced apple filling makes it a delicious and satisfying dessert."
+
   utter_ask_question_food10:
     - text: "How do you approach meal planning and grocery shopping?"
+
+  utter_answer_question_food10:
+    - text: "I approach meal planning by creating a weekly menu based on recipes I want to try and the ingredients I already have. For grocery shopping, I make a detailed list based on the menu and stick to it to avoid impulse buys."
+    - text: "I plan meals by choosing simple, versatile recipes that can be adapted throughout the week. I shop for groceries once a week, focusing on fresh produce and staples, and try to buy in bulk for items I use frequently."
+    - text: "My meal planning involves choosing a few main dishes and prepping some ingredients in advance. For grocery shopping, I prefer using a shopping app to track what I need and avoid buying unnecessary items, making the process more efficient."
 
 ### WORK
   utter_ask_question_work1:
     - text: "What was your dream job from childhood, and what did appeal to you about it?"
 
+  utter_answer_question_work1:
+    - text: "As a child, my dream job was to be a veterinarian. I was always passionate about animals and wanted to help them stay healthy. The idea of working with different species and making a positive impact on their lives really appealed to me."
+    - text: "My dream job growing up was to be an astronaut. I was fascinated by space and the idea of exploring other planets. The adventure and discovery that came with being an astronaut sparked my imagination and made me dream big."
+    - text: "I wanted to be a teacher as a child because I loved sharing knowledge and helping others learn. The thought of inspiring young minds and making a difference in their lives was very appealing to me. Plus, I enjoyed organizing fun activities and lessons."
+
   utter_ask_question_work2:
     - text: "What do you think about being a doctor? What aspects of it do you find interesting or challenging?"
+
+  utter_answer_question_work2:
+    - text: "I find being a doctor fascinating because it combines science, problem-solving, and patient care. The opportunity to make a positive impact on people’s lives is incredibly rewarding. However, I also recognize the challenges, such as the long hours, emotional toll, and the need for continuous education in a rapidly changing field."
+    - text: "I think being a doctor is a noble profession. The ability to diagnose and treat illnesses while helping patients through difficult times is admirable. The challenges, such as dealing with high-stress situations and the pressure to make quick decisions, can be tough but also part of what makes the job engaging."
+    - text: "I have great respect for doctors. I find the aspect of lifelong learning and staying updated on medical advancements very interesting. However, the demanding schedule and the emotional challenges of working with sick patients can be daunting. Balancing the demands of the profession with personal life is another significant challenge."
 
   utter_ask_question_work3:
     - text: "Do you like working remotely, in an office, or in a different setting?"
 
+  utter_answer_question_work3:
+    - text: "I enjoy working remotely because it offers flexibility and saves commuting time. I can create a comfortable and personalized workspace at home, which boosts my productivity."
+    - text: "I prefer working in an office because I value face-to-face interactions with colleagues. The collaborative environment and clear separation between work and home life help me stay focused and motivated."
+    - text: "I like a hybrid approach, combining remote work with office days. This balance allows me to enjoy the flexibility of remote work while still benefiting from the social interaction and structure of an office setting."
+
   utter_ask_question_work4:
     - text: "What do you do / want to do for a living?"
+
+  utter_answer_question_work4:
+    - text: "I work as a software developer. I design and build applications, troubleshoot issues, and collaborate with a team to create functional and user-friendly software solutions."
+    - text: "I’m a marketing manager. I develop and implement marketing strategies, oversee campaigns, and analyze market trends to help promote products and grow the brand."
+    - text: "I work as a teacher. I plan and deliver lessons, support students in their learning, and work with parents and colleagues to create a positive educational environment."
 
   utter_ask_question_work5:
     - text: "What skills do you think are most important for your job?"
 
+  utter_answer_question_work5:
+    - text: "As a software developer, the most important skills are proficiency in coding languages, problem-solving abilities, and attention to detail. Strong analytical skills and the ability to work collaboratively with a team are also crucial for successful project completion."
+    - text: "In marketing, key skills include creativity, strategic thinking, and data analysis. Effective communication and project management abilities are essential for developing and executing successful campaigns and understanding market trends."
+    - text: "As a teacher, essential skills include strong communication, patience, and the ability to engage and motivate students. Organizational skills and adaptability are also important for creating effective lesson plans and addressing diverse student needs."
+
   utter_ask_question_work6:
     - text: "What was your first job, and what did you learn from it?"
+
+  utter_answer_question_work6:
+    - text: "My first job was as a retail associate at a local store. I learned valuable skills in customer service, time management, and teamwork. It taught me the importance of communication and handling responsibilities in a fast-paced environment."
+    - text: "I started my career as an intern at a marketing firm. I gained hands-on experience in creating content, managing social media accounts, and analyzing campaign performance. This job helped me understand the practical aspects of marketing and the importance of attention to detail."
+    - text: "My first job was as a barista in a coffee shop. I learned how to manage multiple tasks at once, interact with customers professionally, and handle cash transactions. It also improved my ability to work under pressure and stay organized."
 
   utter_ask_question_work7:
     - text: "How do you stay motivated and productive?"
 
+  utter_answer_question_work7:
+    - text: "I stay motivated by setting clear, achievable goals and breaking down tasks into smaller steps. I also use a to-do list to track my progress and celebrate small victories. Regular breaks and a well-organized workspace help me stay productive."
+    - text: "To remain motivated, I focus on the bigger picture and remind myself of the impact my work has. I keep a list of ongoing projects and prioritize tasks to stay organized. Additionally, I find that staying connected with colleagues and seeking feedback keeps me engaged and productive."
+    - text: "I stay motivated by keeping a routine and setting daily or weekly targets. I also try to vary my tasks to keep things interesting and ensure I stay challenged. Maintaining a healthy work-life balance and practicing mindfulness techniques help me stay productive and focused."
+
   utter_ask_question_work8:
     - text: "How do you handle stress and pressure?"
+
+  utter_answer_question_work8:
+    - text: "I handle stress by staying organized and prioritizing tasks. Breaking down projects into manageable steps and setting realistic deadlines helps me stay on track. I also practice deep breathing exercises and take short breaks to recharge."
+    - text: "When dealing with pressure at work, I focus on time management and maintaining a clear plan. I make sure to communicate with my team and delegate tasks when necessary. Regular exercise and maintaining a healthy work-life balance also help me manage stress effectively."
+    - text: "I manage stress by keeping a positive mindset and focusing on solutions rather than problems. I use techniques like mindfulness and exercise to stay calm. Additionally, I ensure open communication with my colleagues to share workloads and seek support when needed."
 
   utter_ask_question_work9:
     - text: "How important do you think soft skills (such as communication, teamwork, and problem-solving) are in the workplace?"
 
+  utter_answer_question_work9:
+    - text: "Soft skills are extremely important in the workplace. Effective communication, teamwork, and problem-solving abilities can significantly enhance productivity and create a positive work environment. These skills help in building strong relationships and navigating challenges efficiently."
+    - text: "Soft skills are crucial because they complement technical expertise and help in achieving overall success. Good communication ensures clear understanding, teamwork fosters collaboration, and problem-solving skills address issues proactively. These abilities are essential for personal growth and career advancement."
+    - text: "I believe soft skills are vital in any job setting. They facilitate smoother interactions with colleagues and clients, and they play a key role in overcoming obstacles and adapting to changes. Skills like communication and teamwork are often as important as technical skills for achieving organizational goals."
+
   utter_ask_question_work10:
     - text: "What are some effective methods for improving soft skills?"
 
+  utter_answer_question_work10:
+    - text: "One effective method for improving soft skills is participating in workshops or training programs focused on communication, leadership, or teamwork. Engaging in role-playing exercises and real-life scenarios can help practice and refine these skills."
+    - text: "Another method is seeking regular feedback from colleagues, mentors, or supervisors. Actively listening to their advice and working on their suggestions can help you improve your interpersonal skills and address any areas of weakness."
+    - text: "Volunteering for leadership roles or team projects can also enhance soft skills. These experiences provide practical opportunities to develop skills like problem-solving, conflict resolution, and effective communication while working with diverse groups of people."
 
 session_config:
   session_expiration_time: 60
