@@ -190,63 +190,163 @@ responses:
   utter_ask_question_nature1:
     - text: "What’s your favorite season and why? What activities do you enjoy doing during this season?"
 
+  utter_answer_question_nature1:
+    - text: "My favorite season is autumn. I love the crisp air and the vibrant fall colors. I enjoy going for walks in the park, visiting pumpkin patches, and drinking hot apple cider."
+    - text: "I really like summer because of the warm weather and long days. I enjoy going to the beach, hiking, and having barbecues with friends and family."
+    - text: "Winter is my favorite season. I appreciate the cozy atmosphere and snow-covered landscapes. I enjoy skiing, building snowmen, and curling up with a good book by the fire."
+
   utter_ask_question_nature2:
     - text: "Do you have any pets? If not, would you like to get one?"
+
+  utter_answer_question_nature2:
+    - text: "Yes, I have a dog named Max. He’s a friendly golden retriever who loves to play fetch and go on long walks."
+    - text: "No, I don't have any pets right now, but I'd love to get a cat. I think a playful white cat would be a great companion."
+    - text: "Yes, I have two pets: a parrot named Kiwi and a hamster named Nibbles. Kiwi loves to mimic sounds and Nibbles enjoys running on his wheel."
 
   utter_ask_question_nature3:
     - text: "What’s the typical weather like in your country throughout the year?"
 
+  utter_answer_question_nature3:
+    - text: "In my country, we experience four distinct seasons. Winters are cold and snowy, with temperatures often dropping below freezing. Summers are warm and sunny, with temperatures reaching up to 30°C. Spring and autumn are mild, with pleasant temperatures and occasional rain."
+    - text: "My country has a temperate climate with mild winters and warm summers. Winters are generally cool and rainy, while summers can be quite hot and dry. Spring and autumn are pleasant with moderate temperatures and some rain."
+    - text: "In my country, the weather is generally tropical. We have a hot and humid climate year-round, with a wet season from May to October and a dry season from November to April. Temperatures remain consistently high throughout the year, often exceeding 30°C."
+
   utter_ask_question_nature4:
     - text: "What’s your favorite natural landscape (mountains, forests, oceans, etc.) and why?"
+
+  utter_answer_question_nature4:
+    - text: "My favorite natural landscape is the ocean. I love the vastness of the sea and the soothing sound of the waves. The beach is perfect for relaxing, swimming, and enjoying stunning sunsets."
+    - text: "I’m fond of forests. I appreciate the serenity and the beauty of the dense trees and wildlife. Walking through a forest feels peaceful and refreshing, and I enjoy the fresh air and natural surroundings."
+    - text: "Mountains are my favorite natural landscape. I find their towering presence and breathtaking views inspiring. I enjoy hiking and exploring the rugged terrain, and the sense of accomplishment when reaching a summit is incredible."
 
   utter_ask_question_nature5:
     - text: "Do you enjoy spending time in nature? What activities do you like to do (hiking, camping, bird-watching, etc.)?"
 
+  utter_answer_question_nature5:
+    - text: "Yes, I love spending time in nature. I enjoy hiking and exploring new trails. Being surrounded by natural beauty is both relaxing and invigorating."
+    - text: "I really appreciate spending time outdoors. Camping is one of my favorite activities; I enjoy the simplicity of being in nature and the chance to disconnect from daily life."
+    - text: "I do enjoy nature, especially for bird-watching. I find it fascinating to observe different bird species and their behaviors, and it’s a peaceful way to connect with the environment."
+
   utter_ask_question_nature6:
     - text: "What do you do to take care of the environment?"
+
+  utter_answer_question_nature6:
+    - text: "I recycle regularly and try to minimize my use of single-use plastics. Additionally, I use energy-efficient appliances and make an effort to conserve water at home."
+    - text: "I support local conservation projects and participate in community clean-up events. I also use public transportation or bike instead of driving whenever possible to reduce my carbon footprint."
+    - text: "I grow my own vegetables and compost organic waste to reduce landfill use. Moreover, I avoid products with excessive packaging and choose sustainable brands."
 
   utter_ask_question_nature7:
     - text: "How do you think spending time in nature affects your mental health?"
 
+  utter_answer_question_nature7:
+    - text: "Spending time in nature greatly benefits my mental health by reducing stress and promoting relaxation. The tranquility and fresh air help me clear my mind and improve my overall mood."
+    - text: "I believe that being in nature positively impacts my mental health by providing a sense of calm and escape from daily pressures. The natural surroundings help me feel more grounded and focused."
+    - text: "For me, time spent in nature is crucial for mental well-being. It boosts my mood, increases my energy levels, and helps me gain perspective, making it easier to manage anxiety and stress."
+
   utter_ask_question_nature8:
     - text: "Do you have any plants at home? Do you have any special routines or tips?"
+
+  utter_answer_question_nature8:
+    - text: "Yes, I have several plants at home, including succulents, a spider plant, and a peace lily. I water them once a week and make sure they get plenty of sunlight. I also use a plant misting spray to keep the humidity up."
+    - text: "I have a small indoor garden with herbs like basil and mint, along with a few houseplants like pothos and ZZ plants. I use a self-watering system and occasionally rotate them to ensure they get even light."
+    - text: "I keep a few plants, such as a fiddle leaf fig and some aloe vera. I follow a simple routine of checking the soil moisture before watering and occasionally fertilize them to keep them healthy. I also make sure they’re placed in spots with the right amount of natural light."
 
   utter_ask_question_nature9:
     - text: "What animals are commonly found in your country? Are there any unique or endangered species in your country?"
 
+  utter_answer_question_nature9:
+    - text: "In my country, you can commonly find animals like deer, foxes, and various bird species such as robins and owls. We also have some unique species like the American bison, which is a symbol of the country but is considered endangered."
+    - text: "Common animals in my country include squirrels, raccoons, and a variety of birds like eagles and hawks. A unique species is the Kakapo, a flightless parrot that is critically endangered and native to our country."
+    - text: "My country is home to animals like kangaroos, koalas, and wombats. We also have unique species like the platypus and the leadbeater's possum, the latter being critically endangered and found only in specific regions."
+
   utter_ask_question_nature10:
     - text: "What’s your favorite animal and why do you like it?"
+
+  utter_answer_question_nature10:
+    - text: "My favorite animal is the dolphin. I admire their intelligence and playful nature, and their ability to communicate and form complex social bonds fascinates me."
+    - text: "I love the tiger for its strength and beauty. Its majestic stripes and powerful presence make it an awe-inspiring creature, and I’m drawn to its role as a symbol of wildness and resilience."
+    - text: "My favorite animal is the owl. I appreciate its quiet, mysterious demeanor and the way it seems to embody wisdom and tranquility. Plus, their ability to see in the dark adds to their unique charm."
 
 ### HEALTH
   utter_ask_question_health1:
     - text: "What are some of the things you do to stay healthy?"
 
+  utter_answer_question_health1:
+    - text: "To stay healthy, I make sure to exercise regularly, like going for jogs or attending yoga classes. I also eat a balanced diet with plenty of fruits and vegetables and drink lots of water."
+    - text: "I prioritize my health by practicing mindfulness and managing stress through meditation. I also try to get enough sleep and incorporate strength training into my weekly routine."
+    - text: "Staying healthy for me means maintaining an active lifestyle by hiking on weekends and doing home workouts. I focus on eating whole foods and limit processed snacks to keep my energy levels up."
+
   utter_ask_question_health2:
     - text: "Do you have a regular exercise routine? What activities do you enjoy?"
+
+  utter_answer_question_health2:
+    - text: "Yes, I have a regular exercise routine that includes running three times a week and attending a spinning class. I enjoy these activities because they help me stay fit and energized."
+    - text: "I follow a regular exercise routine that combines strength training and yoga. I enjoy lifting weights for building muscle and practicing yoga for flexibility and relaxation."
+    - text: "My routine involves hiking on weekends and doing bodyweight exercises at home during the week. I love hiking for the fresh air and scenic views, and bodyweight exercises keep me fit without needing a gym."
 
   utter_ask_question_health3:
     - text: "How important is diet to your overall health, and what kind of diet do you follow?"
 
+  utter_answer_question_health3:
+    - text: "Diet is very important to my overall health. I follow a balanced diet that includes plenty of fruits, vegetables, whole grains, and lean proteins. I try to limit processed foods and sugary snacks to maintain my energy levels and overall well-being."
+    - text: "I believe diet plays a crucial role in maintaining good health. I follow a mostly plant-based diet, focusing on vegetables, legumes, and nuts. This approach helps me feel better and supports my fitness goals."
+    - text: "My diet is key to staying healthy. I eat a variety of foods, with a focus on moderate portions and nutritional balance. I include lots of fresh produce, whole grains, and protein sources like fish and chicken, while minimizing fast food and sugary drinks."
+
   utter_ask_question_health4:
     - text: "How do you manage stress in your daily life?"
+
+  utter_answer_question_health4:
+    - text: "I manage stress by practicing mindfulness and meditation daily. I also make time for regular exercise, which helps clear my mind and boost my mood."
+    - text: "To handle stress, I use a combination of deep-breathing exercises and organizing my tasks with to-do lists. Taking breaks and spending time with friends and family also helps me unwind."
+    - text: "I find that journaling and setting aside time for hobbies like reading or cooking helps me manage stress. I also try to maintain a balanced schedule and avoid overcommitting myself."
 
   utter_ask_question_health5:
     - text: "What are your thoughts on mental health and how do you take care of your mental well-being?"
 
+  utter_answer_question_health5:
+    - text: "I believe mental health is just as important as physical health. To take care of my mental well-being, I practice mindfulness and make time for activities that I enjoy, like reading and spending time with friends."
+    - text: "Mental health is crucial, and I focus on maintaining it through regular therapy sessions and self-care routines. I also prioritize work-life balance and make sure to engage in activities that reduce stress."
+    - text: "I think mental health is fundamental to overall well-being. I manage mine by staying connected with loved ones, setting aside time for relaxation, and practicing positive thinking techniques to handle challenges."
+
   utter_ask_question_health6:
     - text: "How much sleep do you usually get, and do you have a bedtime routine?"
+
+  utter_answer_question_health6:
+    - text: "I usually get about 7 to 8 hours of sleep each night. My bedtime routine includes winding down with a book, turning off screens an hour before bed, and doing some light stretching to relax."
+    - text: "I aim for around 8 hours of sleep each night. I follow a routine that involves a warm bath, listening to calming music, and setting a consistent bedtime to help improve my sleep quality."
+    - text: "I generally get 6 to 7 hours of sleep. My bedtime routine involves shutting down work a bit earlier, having a cup of herbal tea, and practicing deep-breathing exercises to help me wind down."
 
   utter_ask_question_health7:
     - text: "How do you stay motivated to maintain a healthy lifestyle?"
 
+  utter_answer_question_health7:
+    - text: "I stay motivated by setting small, achievable goals and tracking my progress. Celebrating these milestones helps keep me focused and encouraged to maintain my healthy habits."
+    - text: "Having a workout buddy and sharing my fitness journey with friends helps me stay motivated. The support and accountability from others make it easier to stick to my healthy lifestyle."
+    - text: "I stay motivated by reminding myself of the long-term benefits of a healthy lifestyle, such as feeling more energetic and reducing stress. I also mix up my routine with new activities to keep things interesting and enjoyable."
+
   utter_ask_question_health8:
     - text: "Are there any health-related books, podcasts, or websites you recommend?"
+
+  utter_answer_question_health8:
+    - text: "I recommend the book 'How Not to Die' by Dr. Michael Greger for its practical advice on nutrition and lifestyle changes. For podcasts, 'The Model Health Show' offers great tips on health and fitness. The website WebMD is also a reliable resource for health information."
+    - text: "'The Body: A Guide for Occupants' by Bill Bryson is a fantastic book that explores the human body in an engaging way. 'The Rich Roll Podcast' is great for discussions on health, wellness, and plant-based diets. I also like Healthline for its comprehensive health and wellness articles."
+    - text: "'Atomic Habits' by James Clear is a great book for building healthy habits and improving lifestyle. I enjoy the 'FoundMyFitness' podcast hosted by Dr. Rhonda Patrick for insights into fitness and aging. Mindbodygreen is a helpful website for holistic health and wellness advice."
 
   utter_ask_question_health9:
     - text: "Have you ever had a broken bone or twisted an ankle? What happened?"
 
+  utter_answer_question_health9:
+    - text: "Yes, I once broke my wrist while playing soccer. I took a hard fall, and it turned out to be a fracture. I had to wear a cast for about six weeks and do some physical therapy afterward."
+    - text: "I twisted my ankle during a hiking trip. I stepped on an uneven rock and ended up with a sprained ankle. It was quite painful, and I needed to rest and use crutches for a few weeks to recover."
+    - text: "I haven’t had a broken bone, but I did once twist my knee playing basketball. It was a minor injury, and I took it easy for a while, using ice and compression to help with the swelling."
+
   utter_ask_question_health10:
     - text: "Do you get sick often? How do you usually handle being under the weather?"
+
+  utter_answer_question_health10:
+    - text: "I don’t get sick very often, but when I do, I usually handle it by resting, staying hydrated, and taking over-the-counter medication if needed. I also make sure to eat nutritious foods to help my body recover."
+    - text: "I tend to get colds occasionally, but I manage by getting plenty of sleep and drinking herbal teas. I also try to avoid spreading germs by washing my hands frequently and staying home if I’m contagious."
+    - text: "I don’t get sick frequently, but when I do catch something, I focus on resting and keeping my symptoms under control. I find that staying cozy, drinking lots of fluids, and using a humidifier can help me feel better faster."
 
 ### TRAVELING
   utter_ask_question_traveling1:
