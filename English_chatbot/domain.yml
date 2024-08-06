@@ -109,32 +109,82 @@ responses:
   utter_ask_question_people1:
     - text: "Can you describe your best friend or family member’s appearance and personality?"
 
+  utter_answer_question_people1:
+    - text: "My best friend is tall with short, curly black hair and piercing green eyes. He has a warm, inviting smile and a small scar on his left cheek from a childhood accident. He is incredibly kind and always willing to help others. He has a great sense of humor and can make anyone laugh."
+    - text: "My sister has long, wavy brown hair and hazel eyes. She always dresses in vibrant, colorful outfits that match her lively personality. She is very outgoing and loves meeting new people. She’s also very determined and never gives up on her goals, no matter how challenging they are."
+    - text: "My cousin is of medium height with a stocky build and sandy blonde hair that he keeps neatly trimmed. He has bright blue eyes and a strong, square jawline. He is very thoughtful and always considers others' feelings. He’s also very creative, often coming up with new ideas and solutions to problems."
+
   utter_ask_question_people2:
     - text: "Can you describe your house? What’s your favorite room and why?"
+
+  utter_answer_question_people2:
+    - text: "My house is a cozy two-story home with a small garden in the front. My favorite room is the living room because it's where my family gathers to watch movies and spend time together."
+    - text: "I live in a spacious apartment with large windows that let in lots of light. My favorite room is the kitchen because I love cooking and it's where we all come together to eat and chat."
+    - text: "My house is a modern bungalow with an open floor plan and a big backyard. My favorite room is my bedroom because it's my personal space where I can read and relax."
 
   utter_ask_question_people3:
     - text: "What’s your favorite sport to watch or play? How did you get interested in this sport?"
 
+  utter_answer_question_people3:
+    - text: "My favorite sport to watch is soccer. I got interested in it because my dad used to take me to games when I was a kid, and I loved the excitement and energy of the matches."
+    - text: "I love playing basketball. I got into it in high school when my friends and I would play after school every day. It’s a great way to stay active and have fun with friends."
+    - text: "Tennis is my favorite sport to both watch and play. I started playing when I was young because my mom is a huge tennis fan and she encouraged me to take lessons. Now, we watch all the major tournaments together."
+
   utter_ask_question_people4:
     - text: "Do you like listening to music? What is your favorite singer or band?"
+
+  utter_answer_question_people4:
+    - text: "Yes, I love listening to music! My favorite band is Coldplay because their songs are so uplifting and their concerts are always an amazing experience."
+    - text: "I enjoy listening to music a lot. My favorite singer is Adele; her powerful voice and emotional lyrics really resonate with me."
+    - text: "Music is a big part of my life. My favorite band is The Beatles. Their timeless music and diverse range of songs always put me in a good mood."
 
   utter_ask_question_people5:
     - text: "What do you think about football?"
 
+  utter_answer_question_people5:
+    - text: "I think football is an exciting sport with a lot of strategy and skill. I enjoy watching games because of the intense atmosphere and the amazing plays."
+    - text: "Football is a great team sport that brings people together. I appreciate the teamwork and dedication it takes to succeed, even though I prefer playing other sports myself."
+    - text: "I have mixed feelings about football. While I respect the athletes and the game’s global popularity, I find it a bit too physical and boring."
+
   utter_ask_question_people6:
     - text: "Have you ever played or watched ice hokey?"
+
+  utter_answer_question_people6:
+    - text: "Yes, I’ve watched ice hockey several times and find it thrilling. The speed of the game and the physicality make it really exciting to follow."
+    - text: "I’ve played ice hockey a few times with friends and had a great time. It’s a challenging sport that requires a lot of skill and coordination on skates."
+    - text: "I’ve never played ice hockey, because I  prefer sports with less contact. I enjoy watching it though."
 
   utter_ask_question_people7:
     - text: "Do you prefer going to the cinema or the theater? Why?"
 
+  utter_answer_question_people7:
+    - text: "I prefer going to the cinema because I enjoy watching the latest films on a big screen with surround sound. It’s a great way to experience movies as they were intended to be seen."
+    - text: "I prefer the theater because I love the live performances and the unique experience of seeing actors perform right in front of you. The energy of a live show adds a special touch that movies can’t match."
+    - text: "I enjoy both, but I lean towards the cinema for the variety of films and the relaxed atmosphere. However, I appreciate the theater for its cultural value and the chance to see classic plays performed live."
+
   utter_ask_question_people8:
     - text: "What was the last movie or play you saw, and how did you like it?"
+
+  utter_answer_question_people8:
+    - text: "The last movie I saw was Dune. I really enjoyed it for its stunning visuals and epic storytelling. The special effects and the immersive world-building were incredible."
+    - text: "I recently watched a play called Hamlet at the local theater. I loved the powerful performances and the classic Shakespearean dialogue. It was a captivating experience that made me appreciate the play even more."
+    - text: "The last film I saw was The Grand Budapest Hotel. I liked it a lot due to its quirky characters and unique style. The film's humor and visual aesthetics were delightful."
 
   utter_ask_question_people9:
     - text: "Do you enjoy reading? What genres do you prefer?"
 
+  utter_answer_question_people9:
+    - text: "Yes, I enjoy reading a lot. I prefer science fiction and fantasy genres because I love exploring imaginative worlds and futuristic concepts."
+    - text: "I’m an avid reader, and I particularly enjoy mystery and thriller novels. I like the suspense and the challenge of solving puzzles along with the characters."
+    - text: "I do enjoy reading, especially historical fiction. I find it fascinating to learn about different time periods through engaging and well-crafted stories."
+
   utter_ask_question_people10:
     - text: "Do you play any instruments? If so, which ones? If not would you like to play sth particular?"
+
+  utter_answer_question_people10:
+    - text: "Yes, I play the guitar. I enjoy strumming and learning new songs; it’s a great way to relax and express myself musically."
+    - text: "I don’t play any instruments at the moment, but I’d love to learn the piano. I think it would be amazing to play classical pieces and accompany myself while singing."
+    - text: "I play the drums in a local band. It’s a lot of fun and helps me stay active. I’d also like to learn the violin someday because I love its beautiful sound."
 
 ### NATURE
   utter_ask_question_nature1:
