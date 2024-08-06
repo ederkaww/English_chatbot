@@ -168,14 +168,97 @@ responses:
     - text: "What’s your favorite animal and why do you like it?"
 
 ### HEALTH
+  utter_ask_question_health1:
+    - text: "What are some of the things you do to stay healthy?"
 
+  utter_ask_question_health2:
+    - text: "Do you have a regular exercise routine? What activities do you enjoy?"
 
+  utter_ask_question_health3:
+    - text: "How important is diet to your overall health, and what kind of diet do you follow?"
+
+  utter_ask_question_health4:
+    - text: "How do you manage stress in your daily life?"
+
+  utter_ask_question_health5:
+    - text: "What are your thoughts on mental health and how do you take care of your mental well-being?"
+
+  utter_ask_question_health6:
+    - text: "How much sleep do you usually get, and do you have a bedtime routine?"
+
+  utter_ask_question_health7:
+    - text: "How do you stay motivated to maintain a healthy lifestyle?"
+
+  utter_ask_question_health8:
+    - text: "Are there any health-related books, podcasts, or websites you recommend?"
+
+  utter_ask_question_health9:
+    - text: "Have you ever had a broken bone or twisted an ankle? What happened?"
+
+  utter_ask_question_health10:
+    - text: "Do you get sick often? How do you usually handle being under the weather?"
 
 ### TRAVELING
+  utter_ask_question_traveling1:
+    - text: "What’s the most beautiful place that you’ve ever been to?"
 
+  utter_ask_question_traveling2:
+    - text: "What are some must-visit places in your city or country?"
+
+  utter_ask_question_traveling3:
+    - text: "How do you usually spend your holidays?"
+
+  utter_ask_question_traveling4:
+    - text: "What’s one of your most memorable holiday experiences?"
+
+  utter_ask_question_traveling5:
+    - text: "If you could plan your dream holiday, where would you go?"
+
+  utter_ask_question_traveling6:
+    - text: "Do you prefer traveling to cities, beaches, mountains, or countryside? Why?"
+
+  utter_ask_question_traveling7:
+    - text: "Do you like to plan your trips in detail, or do you prefer to be spontaneous?"
+
+  utter_ask_question_traveling8:
+    - text: "Do you prefer traveling alone, with a partner, or in a group? Why?"
+
+  utter_ask_question_traveling9:
+    - text: "What’s your favorite mode of transportation when traveling (car, plane, train, etc.)?"
+
+  utter_ask_question_traveling10:
+    - text: "How do you like to document your travels (journaling, photography, blogging, etc.)?"
 
 ### SHOPPING
+  utter_ask_question_shopping1:
+    - text: "Do you enjoy shopping? Why or why not?"
 
+  utter_ask_question_shopping2:
+    - text: "Do you prefer shopping in-store or online? What are the pros and cons of each for you?"
+
+  utter_ask_question_shopping3:
+    - text: "Are there any stores or brands you’re particularly loyal to? Why?"
+
+  utter_ask_question_shopping4:
+    - text: "Do you often shop for yourself, or do you also enjoy buying gifts for others?"
+
+  utter_ask_question_shopping5:
+    - text: "How do you budget for shopping? Do you have any tips for saving money?"
+
+  utter_ask_question_shopping6:
+    - text: "Do you prefer to shop alone or with friends/family? Why?"
+
+  utter_ask_question_shopping7:
+    - text: "What are the benefits of buying second-hand clothes compared to new ones?"
+
+  utter_ask_question_shopping8:
+    - text: "Have you ever sold or donated your own clothes to second-hand stores?"
+
+  utter_ask_question_shopping9:
+    - text: "What are the main advantages of doing your daily shopping at big supermarkets compared to small shops?"
+
+  utter_ask_question_shopping10:
+    - text: "Do you prefer buying clothes in large chain stores or small local shops?"
 
 ### FOOD
 
