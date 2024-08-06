@@ -261,11 +261,66 @@ responses:
     - text: "Do you prefer buying clothes in large chain stores or small local shops?"
 
 ### FOOD
+  utter_ask_question_food1:
+    - text: "What’s your favorite dish and why?"
 
+  utter_ask_question_food2:
+    - text: "Do you have a favorite dessert? What makes it special to you?"
+
+  utter_ask_question_food3:
+    - text: "Do you like eating fruits and vegetables? Do you have any favorites?"
+
+  utter_ask_question_food4:
+    - text: "Are you interested in vegetarian or vegan cuisine? What do you like or dislike about it?"
+
+  utter_ask_question_food5:
+    - text: "How often do you cook at home versus eating out?"
+
+  utter_ask_question_food6:
+    - text: "What’s your favorite type of cuisine and why?"
+
+  utter_ask_question_food7:
+    - text: "Do you enjoy cooking? What’s your signature dish?"
+
+  utter_ask_question_food8:
+    - text: "Are there any foods you absolutely dislike?"
+
+  utter_ask_question_food9:
+    - text: "Do you enjoy baking? What’s your favorite thing to bake?"
+
+  utter_ask_question_food10:
+    - text: "How do you approach meal planning and grocery shopping?"
 
 ### WORK
+  utter_ask_question_work1:
+    - text: "What was your dream job from childhood, and what did appeal to you about it?"
 
+  utter_ask_question_work2:
+    - text: "What do you think about being a doctor? What aspects of it do you find interesting or challenging?"
 
+  utter_ask_question_work3:
+    - text: "Do you like working remotely, in an office, or in a different setting?"
+
+  utter_ask_question_work4:
+    - text: "What do you do / want to do for a living?"
+
+  utter_ask_question_work5:
+    - text: "What skills do you think are most important for your job?"
+
+  utter_ask_question_work6:
+    - text: "What was your first job, and what did you learn from it?"
+
+  utter_ask_question_work7:
+    - text: "How do you stay motivated and productive?"
+
+  utter_ask_question_work8:
+    - text: "How do you handle stress and pressure?"
+
+  utter_ask_question_work9:
+    - text: "How important do you think soft skills (such as communication, teamwork, and problem-solving) are in the workplace?"
+
+  utter_ask_question_work10:
+    - text: "What are some effective methods for improving soft skills?"
 
 
 session_config:
