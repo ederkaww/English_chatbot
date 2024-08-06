@@ -352,63 +352,163 @@ responses:
   utter_ask_question_traveling1:
     - text: "What’s the most beautiful place that you’ve ever been to?"
 
+  utter_answer_question_traveling1:
+    - text: "The most beautiful place I've ever been to is Santorini, Greece. The stunning white-washed buildings with blue domes overlooking the crystal-clear waters and breathtaking sunsets made it truly unforgettable."
+    - text: "One of the most beautiful places I’ve visited is Banff National Park in Canada. The turquoise lakes, snow-capped mountains, and pristine forests created an awe-inspiring and picturesque landscape."
+    - text: "I found the scenery in Kyoto, Japan, to be incredibly beautiful. The ancient temples, traditional gardens, and vibrant cherry blossoms created a serene and enchanting atmosphere."
+
   utter_ask_question_traveling2:
     - text: "What are some must-visit places in your city or country?"
+
+  utter_answer_question_traveling2:
+    - text: "In my city, you must visit the central park and the historic old town. The park is great for relaxation and outdoor activities, while the old town offers charming streets and cultural landmarks."
+    - text: "If you're visiting my country, you should see the national museum and the famous landmark in the capital. The museum provides a deep dive into our history and culture, and the landmark offers stunning views and is a symbol of the country."
+    - text: "One of the must-visit places in my city is the waterfront area, where you can enjoy scenic views and local eateries. Another great spot is the botanical garden, which is perfect for a peaceful stroll and enjoying diverse plant species."
 
   utter_ask_question_traveling3:
     - text: "How do you usually spend your holidays?"
 
+  utter_answer_question_traveling3:
+    - text: "I usually spend my holidays relaxing at home with family. We enjoy cooking meals together, watching movies, and catching up on each other’s lives."
+    - text: "I like to travel during my holidays, exploring new cities or countries. It’s a great way to experience different cultures and take a break from routine."
+    - text: "I often use my holidays to engage in hobbies like hiking or reading. It’s a perfect time to pursue interests that I don’t have time for during the busy workweek."
+
   utter_ask_question_traveling4:
     - text: "What’s one of your most memorable holiday experiences?"
+
+  utter_answer_question_traveling4:
+    - text: "One of my most memorable holiday experiences was a trip to Japan. We explored Tokyo, visited historic temples, and enjoyed delicious sushi, which made it a truly unforgettable adventure."
+    - text: "A memorable holiday experience for me was spending Christmas in a cozy cabin in the mountains with my family. We had snowball fights, made gingerbread cookies, and enjoyed the peaceful winter scenery."
+    - text: "I’ll never forget the time I volunteered at a local shelter during the holidays. It was a meaningful experience that allowed me to give back to the community and spread some cheer."
 
   utter_ask_question_traveling5:
     - text: "If you could plan your dream holiday, where would you go?"
 
+  utter_answer_question_traveling5:
+    - text: "My dream holiday would be a month-long trip to Italy. I’d explore Rome’s ancient ruins, enjoy the art in Florence, and relax on the beautiful beaches of the Amalfi Coast."
+    - text: "I’d love to plan a dream holiday to New Zealand. I’d hike through its stunning national parks, experience Maori culture, and enjoy the breathtaking landscapes from movies like The Lord of the Rings."
+    - text: "My ideal holiday would be a relaxing stay in a tropical island resort in the Maldives. I’d spend my days lounging on white sandy beaches, snorkeling in clear blue waters, and enjoying luxurious spa treatments."
+
   utter_ask_question_traveling6:
     - text: "Do you prefer traveling to cities, beaches, mountains, or countryside? Why?"
+
+  utter_answer_question_traveling6:
+    - text: "I prefer traveling to cities because I enjoy exploring urban culture, visiting museums, and trying new restaurants. The vibrant atmosphere and endless activities make cities exciting and dynamic."
+    - text: "I lean towards beach destinations for travel. I love relaxing on sandy shores, swimming in clear waters, and enjoying the laid-back vibe that comes with coastal locations."
+    - text: "Mountains are my favorite travel destination. I find the natural beauty and tranquility of the high altitudes refreshing. Hiking and exploring rugged terrain offer a sense of adventure and peace away from the hustle and bustle."
 
   utter_ask_question_traveling7:
     - text: "Do you like to plan your trips in detail, or do you prefer to be spontaneous?"
 
+  utter_answer_question_traveling7:
+    - text: "I prefer to plan my trips in detail. I like having a clear itinerary, knowing what attractions to visit, and organizing accommodation and transportation in advance to ensure a smooth experience."
+    - text: "I enjoy being spontaneous when traveling. I like to have a general idea of where I’m going but leave room for discovering new places and experiences as I go along."
+    - text: "I strike a balance between planning and spontaneity. I plan the main aspects of the trip, like flights and accommodation, but keep some flexibility to explore unexpected opportunities and local recommendations."
+
   utter_ask_question_traveling8:
     - text: "Do you prefer traveling alone, with a partner, or in a group? Why?"
+
+  utter_answer_question_traveling8:
+    - text: "I prefer traveling with a partner. It’s great to share experiences and create memories together, and it’s nice to have someone to explore new places with and discuss the day’s adventures."
+    - text: "I enjoy traveling alone because it allows me the freedom to set my own pace and make spontaneous decisions. It’s a great way to focus on personal interests and self-discovery."
+    - text: "Traveling in a group is my preference. It’s fun to share experiences with friends or family, and having multiple perspectives adds to the enjoyment. Plus, group trips often involve more activities and varied experiences."
 
   utter_ask_question_traveling9:
     - text: "What’s your favorite mode of transportation when traveling (car, plane, train, etc.)?"
 
+  utter_answer_question_traveling9:
+    - text: "My favorite mode of transportation is the train. I enjoy the scenic views and the relaxed pace, which allows me to unwind and enjoy the journey as part of the travel experience."
+    - text: "I prefer traveling by plane for longer distances. It’s the fastest way to reach my destination, and I like the convenience of quickly getting to new places."
+    - text: "I enjoy road trips by car. They offer flexibility and the chance to explore off-the-beaten-path destinations, and I appreciate the freedom to stop and see interesting sights along the way."
+
   utter_ask_question_traveling10:
     - text: "How do you like to document your travels (journaling, photography, blogging, etc.)?"
+
+  utter_answer_question_traveling10:
+    - text: "I like to document my travels through photography. Capturing photos of landscapes, landmarks, and local moments helps me remember and share my experiences visually."
+    - text: "I prefer journaling about my travels. Writing down my thoughts, experiences, and observations allows me to reflect on the trip and preserve the memories in a personal way."
+    - text: "I enjoy blogging about my travels. It’s a great way to share detailed accounts of my experiences, tips, and recommendations with others while creating a lasting record of my adventures."
 
 ### SHOPPING
   utter_ask_question_shopping1:
     - text: "Do you enjoy shopping? Why or why not?"
 
+  utter_answer_question_shopping1:
+    - text: "Yes, I enjoy shopping because it’s a fun way to explore new styles and find unique items. It’s also a great way to unwind and treat myself to something special."
+    - text: "I don’t particularly enjoy shopping. I find it can be overwhelming and time-consuming. I prefer to make a list and shop efficiently to get what I need without spending too much time in stores."
+    - text: "I have mixed feelings about shopping. While I appreciate finding good deals and new things, I often prefer online shopping for its convenience and ability to compare options quickly."
+
   utter_ask_question_shopping2:
     - text: "Do you prefer shopping in-store or online? What are the pros and cons of each for you?"
+
+  utter_answer_question_shopping2:
+    - text: "I prefer shopping online because it’s convenient and allows me to compare prices easily. I can shop from home and avoid crowded stores. However, I miss out on trying items before buying and sometimes have to deal with shipping delays."
+    - text: "I enjoy shopping in-store for the experience of seeing and touching items before purchasing. It’s also easier to get immediate help from staff. On the downside, it can be time-consuming and I may have to deal with long lines and busy crowds."
+    - text: "I like a mix of both. Online shopping is great for convenience and finding unique items, while in-store shopping allows me to enjoy the tactile experience and instant gratification of taking items home immediately. Each method has its own advantages depending on what I’m looking for."
 
   utter_ask_question_shopping3:
     - text: "Are there any stores or brands you’re particularly loyal to? Why?"
 
+  utter_answer_question_shopping3:
+    - text: "I’m particularly loyal to Apple for electronics. Their products are well-designed, reliable, and integrate seamlessly with each other. I value the consistency and quality of their technology."
+    - text: "I’m a fan of Patagonia for outdoor gear. Their commitment to sustainability and high-quality products that perform well in various conditions make me trust and stick with their brand."
+    - text: "I’m loyal to my local bookstore. They offer a great selection of books and have knowledgeable staff. I appreciate supporting a local business and the personal touch they provide."
+
   utter_ask_question_shopping4:
     - text: "Do you often shop for yourself, or do you also enjoy buying gifts for others?"
+
+  utter_answer_question_shopping4:
+    - text: "I enjoy shopping for others as much as for myself. I find it rewarding to choose thoughtful gifts and see the happiness it brings to friends and family."
+    - text: "I mostly shop for myself, focusing on finding items I need or want. However, I do enjoy buying gifts for special occasions and making sure they’re something meaningful for the recipient."
+    - text: "I often shop for both myself and others. I like finding good deals and unique items for myself, but I also take pleasure in selecting personalized gifts for birthdays and holidays."
 
   utter_ask_question_shopping5:
     - text: "How do you budget for shopping? Do you have any tips for saving money?"
 
+  utter_answer_question_shopping5:
+    - text: "I budget for shopping by setting a monthly limit for discretionary spending and sticking to it. I use a budgeting app to track my expenses and look for sales and discounts to save money."
+    - text: "I plan my shopping budget by making a list of needed items and setting a spending cap. To save money, I take advantage of coupons, shop during sales, and compare prices online before making a purchase."
+    - text: "I allocate a specific amount of money each month for shopping and stick to it. I also save money by buying in bulk, choosing generic brands, and keeping an eye out for seasonal promotions."
+
   utter_ask_question_shopping6:
     - text: "Do you prefer to shop alone or with friends/family? Why?"
+
+  utter_answer_question_shopping6:
+    - text: "I prefer to shop alone because it allows me to focus on my own needs and make decisions at my own pace without distractions or pressure."
+    - text: "I enjoy shopping with friends or family because it’s more fun and social. They often offer helpful opinions and make the experience more enjoyable."
+    - text: "It depends on the occasion. I like shopping alone for routine purchases where I need to concentrate, but I appreciate going with others for special occasions or when looking for advice on gifts or fashion."
 
   utter_ask_question_shopping7:
     - text: "What are the benefits of buying second-hand clothes compared to new ones?"
 
+  utter_answer_question_shopping7:
+    - text: "Buying second-hand clothes is more affordable, allowing you to save money on high-quality items. It also provides access to a wider variety of styles and brands that might be out of reach when buying new. This can be especially beneficial for those who love unique or vintage fashion."
+    - text: "Purchasing second-hand clothes is environmentally friendly, as it reduces textile waste and promotes the reuse of resources. By buying pre-owned garments, you help decrease the demand for new clothing production, which can have a significant environmental impact. This makes it a more sustainable choice for fashion enthusiasts."
+    - text: "Second-hand shopping often leads to discovering unique and vintage pieces that aren’t available in regular stores. It allows you to express your personal style in a more distinct way. Additionally, supporting thrift stores and charity shops can benefit local communities and charitable causes."
+
   utter_ask_question_shopping8:
     - text: "Have you ever sold or donated your own clothes to second-hand stores?"
+
+  utter_answer_question_shopping8:
+    - text: "Yes, I regularly donate my clothes to second-hand stores. It feels good to know that someone else can use items I no longer need. Plus, it helps reduce waste and supports the community."
+    - text: "I have both sold and donated clothes to second-hand stores. Selling them helped me make a little extra money, while donating felt rewarding as it helps those in need. It’s a great way to declutter and give clothes a new life."
+    - text: "Yes, I’ve donated clothes to second-hand shops several times. I like knowing that my unused clothes can benefit others rather than just taking up space. It’s an easy way to contribute to sustainability and support local charities."
 
   utter_ask_question_shopping9:
     - text: "What are the main advantages of doing your daily shopping at big supermarkets compared to small shops?"
 
+  utter_answer_question_shopping9:
+    - text: "Big supermarkets offer a wider variety of products, making it convenient to find everything you need in one place. They also tend to have lower prices due to their larger scale and frequent promotions, which can save you money."
+    - text: "Shopping at big supermarkets often means better accessibility and longer opening hours, accommodating different schedules. Additionally, they usually have more parking space and modern amenities, making the shopping experience more comfortable and efficient."
+    - text: "Big supermarkets typically provide a consistent shopping experience with standardized product quality and customer service. They also offer additional services such as loyalty programs, online shopping, and home delivery, adding to the overall convenience for customers."
+
   utter_ask_question_shopping10:
     - text: "Do you prefer buying clothes in large chain stores or small local shops?"
+
+  utter_answer_question_shopping10:
+    - text: "I prefer buying clothes in large chain stores because they offer a wide variety of styles and sizes. The convenience of finding everything I need in one place and taking advantage of frequent sales and promotions is a big plus."
+    - text: "I prefer small local shops because they often have unique, one-of-a-kind pieces that you won't find in big chain stores. The personalized customer service and the satisfaction of supporting local businesses make the shopping experience more enjoyable for me."
+    - text: "I like to mix both. Large chain stores are great for basics and trendy items at affordable prices, while small local shops offer distinctive pieces and a more personalized shopping experience. This way, I get the best of both worlds."
 
 ### FOOD
   utter_ask_question_food1:
