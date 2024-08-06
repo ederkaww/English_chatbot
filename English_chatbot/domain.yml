@@ -105,6 +105,85 @@ responses:
         - title: "work"
           payload: '/talk_about_work'
 
+### PEOPLE
+  utter_ask_question_people1:
+    - text: "Can you describe your best friend or family member’s appearance and personality?"
+
+  utter_ask_question_people2:
+    - text: "Can you describe your house? What’s your favorite room and why?"
+
+  utter_ask_question_people3:
+    - text: "What’s your favorite sport to watch or play? How did you get interested in this sport?"
+
+  utter_ask_question_people4:
+    - text: "Do you like listening to music? What is your favorite singer or band?"
+
+  utter_ask_question_people5:
+    - text: "What do you think about football?"
+
+  utter_ask_question_people6:
+    - text: "Have you ever played or watched ice hokey?"
+
+  utter_ask_question_people7:
+    - text: "Do you prefer going to the cinema or the theater? Why?"
+
+  utter_ask_question_people8:
+    - text: "What was the last movie or play you saw, and how did you like it?"
+
+  utter_ask_question_people9:
+    - text: "Do you enjoy reading? What genres do you prefer?"
+
+  utter_ask_question_people10:
+    - text: "Do you play any instruments? If so, which ones? If not would you like to play sth particular?"
+
+### NATURE
+  utter_ask_question_nature1:
+    - text: "What’s your favorite season and why? What activities do you enjoy doing during this season?"
+
+  utter_ask_question_nature2:
+    - text: "Do you have any pets? If not, would you like to get one?"
+
+  utter_ask_question_nature3:
+    - text: "What’s the typical weather like in your country throughout the year?"
+
+  utter_ask_question_nature4:
+    - text: "What’s your favorite natural landscape (mountains, forests, oceans, etc.) and why?"
+
+  utter_ask_question_nature5:
+    - text: "Do you enjoy spending time in nature? What activities do you like to do (hiking, camping, bird-watching, etc.)?"
+
+  utter_ask_question_nature6:
+    - text: "What do you do to take care of the environment?"
+
+  utter_ask_question_nature7:
+    - text: "How do you think spending time in nature affects your mental health?"
+
+  utter_ask_question_nature8:
+    - text: "Do you have any plants at home? Do you have any special routines or tips?"
+
+  utter_ask_question_nature9:
+    - text: "What animals are commonly found in your country? Are there any unique or endangered species in your country?"
+
+  utter_ask_question_nature10:
+    - text: "What’s your favorite animal and why do you like it?"
+
+### HEALTH
+
+
+
+### TRAVELING
+
+
+### SHOPPING
+
+
+### FOOD
+
+
+### WORK
+
+
+
 
 session_config:
   session_expiration_time: 60
