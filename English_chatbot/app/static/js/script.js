@@ -65,3 +65,25 @@ window.addEventListener('load', () => {
     scrollToBottomOfResults();
   });
 });
+
+$(document).ready(() => {
+  send("Hello");
+});
+
+function send(message) {
+  const rasa_server_url = 'http://localhost:5005/webhooks/rest/webhook';
+  const sender_id = 'user';
+
+  $.ajax({
+    url: rasa_server_url,
+    type: "POST",
+    contentType: "application/json",
+    data: JSON.stringify({ message, sender: sender_id }),
+    success(botResponse, status) {
+      setBotResponse(botResponse);
+    },
+    error(xhr, textStatus) {
+      setBotResponse('Error');
+    },
+  });
+}
