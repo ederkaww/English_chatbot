@@ -347,3 +347,642 @@ nlu:
     - i want to just talk a little bit about remote jobs
     - A basic conversation about my career path sounds cool
     - Chit-chating about a motivation, stress and job approach would be perfect!
+
+- intent: answer_question_people1
+  examples: |
+    - My best friend has curly red hair and green eyes. She is outgoing and always makes everyone laugh with her great sense of humor.
+    - My brother is tall with short black hair and wears glasses. He’s very kind and always willing to help others, with a calm and thoughtful personality.
+    - My mother has warm, brown eyes and a gentle smile. She’s incredibly caring and patient, always putting others before herself.
+    - My best friend has a muscular build and a friendly face with bright blue eyes. He’s very energetic and loves to try new things, always keeping our group excited and active.
+    - My sister has long, wavy blonde hair and a cheerful expression. She’s very creative and artistic, often spending hours painting or crafting with a passion.
+
+- intent: answer_question_people2
+  examples: |
+    - My house is a cozy two-story home with a small garden in the front. My favorite room is the living room because it has a big, comfy sofa and a fireplace where we gather as a family.
+    - I live in a modern apartment with an open floor plan and large windows. I love the kitchen the most because I enjoy cooking and it’s where we often have our best conversations.
+    - My house is a quaint cottage with wooden beams and a beautiful backyard. My favorite room is the study, filled with books and a large desk where I can focus and be productive.
+    - I live in a spacious bungalow with a large, bright living room. My favorite room is my bedroom because it’s my personal sanctuary, decorated to my taste and very peaceful.
+    - Our home is a three-bedroom suburban house with a big yard. The kitchen is my favorite room because it’s where I experiment with new recipes and bake delicious treats.
+
+- intent: answer_question_people3
+  examples: |
+    - My favorite sport to watch is basketball. I got interested in it because my family used to watch NBA games together, and I loved the fast-paced action and skill.
+    - I love playing soccer. I got into it when I joined a local team as a kid and enjoyed the teamwork and excitement of the game.
+    - Tennis is my favorite sport to play. I started playing because my dad was a big fan and taught me how to play when I was young.
+    - My favorite sport to watch is football. I got interested in it during college when my friends and I would attend games and enjoy the electric atmosphere.
+    - I enjoy playing volleyball the most. I became interested after joining my school's team and loved the camaraderie and strategy involved in the game.
+
+- intent: answer_question_people4
+  examples: |
+    - Yes, I love listening to music! My favorite singer is Taylor Swift because her lyrics are relatable and her music is diverse.
+    - Absolutely, I enjoy music a lot. My favorite band is Coldplay because their songs are uplifting and they put on amazing live performances.
+    - I do enjoy listening to music. My favorite singer is Adele; her powerful voice and emotional songs really resonate with me.
+    - Yes, I listen to music every day. My favorite band is Imagine Dragons because their music is energetic and motivating.
+    - I love listening to music, especially when I’m relaxing. My favorite singer is Ed Sheeran; his melodies and heartfelt lyrics are incredible.
+
+- intent: answer_question_people5
+  examples: |
+    - I think football is an exciting and dynamic sport. It's thrilling to watch the skill and strategy involved in each game.
+    - Football is a great way to bring people together. I enjoy the camaraderie and community it fosters among fans and players alike.
+    - I appreciate the athleticism and teamwork required in football. Each player has a unique role that contributes to the overall success of the team.
+    - While I'm not a huge fan of playing football, I enjoy watching major tournaments like the World Cup. The global aspect of the sport is fascinating.
+    - Football is not my favorite sport, but I can see why it’s so popular. The passion and dedication of the fans are truly impressive.
+    - I love playing football with friends; it’s a fun way to stay active and improve my coordination. The competitive aspect is really enjoyable.
+    - Football can be very intense and sometimes too aggressive for my taste, but I admire the skill and strategy involved in the game.
+    - I think football is a fantastic sport that offers something for everyone, whether you're playing, watching, or just enjoying the social aspect of game day.
+
+- intent: answer_question_people6
+  examples: |
+    - Yes, I've watched ice hockey several times. The speed and physicality of the game make it incredibly exciting to watch.
+    - I've never played ice hockey, but I enjoy watching it on TV. The skill and coordination of the players are amazing.
+    - I used to play ice hockey as a kid. It was a lot of fun, and I loved the fast pace and teamwork involved.
+    - I haven't played ice hockey, but I've attended a few live games. The atmosphere in the arena is electric and the game is thrilling to watch in person.
+    - Yes, I've watched ice hockey with friends who are big fans. The game is intense and full of action, which makes it very entertaining.
+    - I’ve never had the chance to play ice hockey, but I admire the athleticism required. Watching it is always a high-energy experience.
+    - I’ve played ice hockey a few times for fun, and it’s a challenging but exhilarating sport. I also enjoy watching major tournaments.
+    - I’ve watched ice hockey during the Winter Olympics. It’s fascinating to see how fast the game moves and how skillful the players are.
+
+- intent: answer_question_people7
+  examples: |
+    - I prefer going to the cinema because I enjoy the immersive experience of watching movies on a big screen with surround sound.
+    - I like the theater more because of the live performances. The energy and spontaneity of actors performing right in front of you is unmatched.
+    - The cinema is my choice because it's a more relaxed environment where I can enjoy the latest films with some popcorn.
+    - I prefer the theater because it feels more cultural and sophisticated. The storytelling and acting in plays can be very powerful and moving.
+    - I enjoy both, but I lean towards the cinema for the variety of genres and special effects that you can't experience in a theater.
+    - The theater is my favorite because I appreciate the effort and talent that goes into live productions. It's a unique experience every time.
+    - I love going to the cinema because it’s a great way to unwind and escape into different worlds through movies.
+    - I prefer the theater because it offers a more intimate and engaging experience. Live performances create a connection between the audience and the actors that’s special.
+
+- intent: answer_question_people8
+  examples: |
+    - The last movie I saw was "Oppenheimer." I loved the storytelling and the intense performances, especially Cillian Murphy's portrayal of Oppenheimer.
+    - I recently watched the movie "Barbie." It was fun and visually stunning, with a great message and entertaining performances.
+    - The last play I saw was "Hamilton." It was incredible; the music, acting, and choreography were all top-notch and very engaging.
+    - I saw the movie "Dune" last. The visuals and world-building were breathtaking, and I enjoyed the complex story.
+    - The last movie I watched was "Avatar: The Way of Water." I really enjoyed the stunning visuals and the immersive experience of Pandora's underwater world.
+    - I recently saw the play "The Lion King." The production was fantastic, with amazing costumes and a powerful performance from the cast.
+    - The last movie I saw was "Spider-Man: No Way Home." I loved it; the action scenes were thrilling and it was great to see familiar faces from previous Spider-Man movies.
+    - I watched the play "Les Misérables" last. It was a powerful performance with incredible music and a moving story that left a lasting impression on me.
+
+- intent: answer_question_people9
+  examples: |
+    - Yes, I love reading! I prefer mystery and thriller genres because I enjoy trying to solve puzzles and uncovering secrets as I read.
+    - I do enjoy reading, especially science fiction and fantasy. I love escaping to imaginative worlds and exploring futuristic concepts.
+    - Reading is one of my favorite hobbies. I tend to gravitate towards historical fiction because I enjoy learning about different eras through compelling stories.
+    - I’m an avid reader and I particularly enjoy non-fiction. Topics like psychology and self-improvement fascinate me and help me grow personally.
+    - Yes, I enjoy reading quite a bit. I prefer romance novels because I like the emotional and heartwarming stories they offer.
+    - I do enjoy reading, and I’m a fan of classic literature. I appreciate the depth and historical context of books written by authors like Jane Austen and Charles Dickens.
+    - Reading is something I really enjoy. I’m into thrillers and crime novels because I love the suspense and excitement they provide.
+    - I enjoy reading a lot, especially young adult fiction. The stories are often engaging and relatable, and I like the way they address various life challenges and adventures.
+
+- intent: answer_question_people10
+  examples: |
+    - Yes, I play the guitar. I enjoy playing both acoustic and electric guitars, and it’s a great way for me to unwind and express myself musically.
+    - I play the piano. It’s been a passion of mine for years, and I love playing classical pieces and composing my own music.
+    - I don’t currently play any instruments, but I’d love to learn the violin. I’ve always admired its sound and the skill required to play it well.
+    - I play the drums. I find it really fun and energizing, and it’s great for keeping rhythm and staying active.
+    - I don’t play any instruments right now, but I’ve always wanted to learn the saxophone. I love jazz music and think the saxophone has a beautiful, expressive sound.
+    - I play the flute. I enjoy its light, melodic sound and the challenge of mastering various techniques and pieces.
+    - I don’t play any instruments, but I’m interested in learning to play the ukulele. It seems like a fun, easy instrument to pick up and play.
+    - I play the trumpet. It’s been a rewarding experience to play in both school and community bands, and I appreciate its bright, powerful tone.
+
+- intent: answer_question_nature1
+  examples: |
+    - My favorite season is summer because of the warm weather and long days. I enjoy going to the beach, swimming, and having barbecues with friends and family.
+    - I love autumn because of the cool, crisp air and beautiful changing leaves. I enjoy hiking, apple picking, and cozying up with a good book.
+    - Spring is my favorite season due to the blooming flowers and mild temperatures. I enjoy gardening, taking long walks, and going on picnics in the park.
+    - Winter is my favorite season because I love the holiday festivities and snow. I enjoy skiing, ice skating, and drinking hot chocolate by the fireplace.
+    - I prefer summer because of the vibrant atmosphere and the chance to travel. I love going on road trips, attending music festivals, and exploring new places.
+    - Autumn is my favorite season because of the beautiful scenery and the comfort of sweater weather. I enjoy visiting pumpkin patches, baking, and watching movies.
+    - I like spring the most because everything feels fresh and renewed. I enjoy bike riding, planting flowers, and enjoying outdoor activities without the summer heat.
+    - Winter is my favorite season because I love the peacefulness of snowy days. I enjoy snowboarding, building snowmen, and enjoying the festive decorations and lights.
+
+- intent: answer_question_nature2
+  examples: |
+    - Yes, I have a dog named Max. He's a golden retriever and loves playing fetch and going for long walks.
+    - I don’t have any pets right now, but I would love to get a cat someday. I think they’re independent and affectionate, which suits my lifestyle.
+    - I have a pet parrot named Polly. She’s very talkative and enjoys mimicking sounds around the house.
+    - No, I don’t have any pets at the moment, but I’d really like to adopt a dog. I’ve always wanted a loyal companion to take on hikes and outdoor adventures.
+    - Yes, I have two fish tanks with various tropical fish. They’re very calming to watch and care for.
+    - I don’t have any pets, but I’d love to get a rabbit. They’re adorable and seem like they would be fun to take care of.
+    - Yes, I have a cat named Whiskers. She’s very playful and loves to curl up on my lap when I’m reading.
+    - No, I don’t have any pets, but I’ve always wanted to have a small dog. I think it would be great to have a furry friend to keep me company and go on walks with.
+
+- intent: answer_question_nature3
+  examples: |
+    - In my country, we experience four distinct seasons. Winters are cold and snowy, springs are mild and rainy, summers are warm and sunny, and autumns are cool with beautiful foliage.
+    - The weather in my country varies greatly. Winters can be very harsh with heavy snowfall, while summers are hot and humid. Spring and autumn offer a more comfortable, moderate climate.
+    - We have a tropical climate, so it’s generally warm year-round. There’s a dry season with lots of sunshine and a wet season with heavy rains and occasional storms.
+    - In my country, winters are typically mild with occasional rain, and summers are very hot and dry. Spring and autumn are the best times of the year, with pleasant temperatures and clear skies.
+    - Our country has a temperate climate. Winters are relatively mild with some rain, summers are warm with occasional heatwaves, and spring and autumn are both pleasant and mild.
+    - The weather here is quite unpredictable. We can have cold, snowy winters and hot, dry summers, with spring and autumn bringing a mix of mild and wet conditions.
+    - We experience a maritime climate, so the weather is quite mild year-round. Winters are wet and windy, summers are warm but not too hot, and spring and autumn are cool and often rainy.
+    - The weather in my country is generally stable. Summers are warm with occasional thunderstorms, winters are cold with moderate snowfall, and spring and autumn bring mild temperatures and moderate rainfall.
+
+- intent: answer_question_nature4
+  examples: |
+    - My favorite natural landscape is the mountains. I love the sense of adventure and tranquility they offer, along with the stunning views from the peaks.
+    - I prefer the ocean because it's incredibly calming. The sound of the waves and the vastness of the sea make me feel at peace and connected to nature.
+    - Forests are my favorite natural landscape. I enjoy the serene atmosphere, the fresh air, and the diversity of wildlife and plants.
+    - I love the mountains. Hiking and exploring trails give me a sense of accomplishment, and the scenery is always breathtaking.
+    - The ocean is my favorite landscape. Swimming, snorkeling, and simply relaxing on the beach are some of my favorite activities, and I love the endless horizon.
+    - Forests are my favorite because they feel like a peaceful escape from the hustle and bustle of daily life. I love the sounds of birds and rustling leaves.
+    - I enjoy the mountains the most. The crisp, clean air and the challenge of climbing to higher altitudes are exhilarating to me.
+    - The ocean is my favorite landscape. I find the rhythmic sound of the waves soothing, and I enjoy all the activities associated with the beach, like surfing and beachcombing.
+
+- intent: answer_question_nature5
+  examples: |
+    - Yes, I love spending time in nature. Hiking is my favorite activity because I enjoy exploring new trails and taking in the beautiful scenery.
+    - Absolutely, I enjoy being in nature. I often go camping with friends and family, and we love sitting around the campfire and stargazing.
+    - I do enjoy spending time in nature. Bird-watching is something I find very relaxing and rewarding, especially when I spot a rare species.
+    - Yes, I love nature. Hiking and camping are my go-to activities because they allow me to disconnect from technology and reconnect with the natural world.
+    - Spending time in nature is one of my favorite pastimes. I enjoy hiking and also like to go kayaking on calm lakes and rivers.
+    - Definitely, I enjoy nature a lot. I love going on nature walks and taking photographs of wildlife and scenic landscapes.
+    - Yes, I find being in nature very refreshing. I enjoy camping, hiking, and sometimes fishing with friends.
+    - I really enjoy spending time outdoors. My favorite activities are hiking and bird-watching because they are peaceful and allow me to appreciate the beauty of nature.
+
+- intent: answer_question_nature6
+  examples: |
+    - I make an effort to recycle and compost as much as possible. I also use reusable bags, bottles, and containers to reduce waste.
+    - I try to conserve energy by turning off lights and appliances when not in use. Additionally, I use public transportation or bike instead of driving whenever I can.
+    - I support sustainable and eco-friendly products. I also participate in local clean-up events to help keep our community clean.
+    - I reduce my carbon footprint by eating a plant-based diet and minimizing meat consumption. I also grow some of my own vegetables in my garden.
+    - I avoid using single-use plastics and opt for reusable alternatives. I also advocate for environmental causes and spread awareness about sustainability.
+    - I try to save water by taking shorter showers and fixing leaks promptly. I also collect rainwater to use for watering my plants.
+    - I practice mindful consumption by buying second-hand items and supporting local, eco-friendly businesses. I also use natural cleaning products that are less harmful to the environment.
+    - I carpool with colleagues to reduce emissions and encourage others to do the same. I also make a conscious effort to plant trees and maintain green spaces in my neighborhood.
+
+- intent: answer_question_nature7
+  examples: |
+    - Spending time in nature greatly improves my mental health. It reduces my stress levels and makes me feel more relaxed and at peace.
+    - Being in nature helps clear my mind and boosts my mood. It provides a break from the daily routine and helps me feel more connected to the world.
+    - Nature has a calming effect on me. It allows me to disconnect from technology and daily stressors, which helps me feel more refreshed and recharged.
+    - I find that spending time outdoors enhances my overall well-being. It promotes mindfulness and helps me stay present in the moment.
+    - Being in nature positively impacts my mental health by providing a sense of tranquility. It helps me feel more balanced and centered.
+    - Time spent in nature significantly improves my mental clarity and creativity. The fresh air and natural surroundings are incredibly rejuvenating.
+    - Nature acts as a natural stress reliever for me. It reduces anxiety and helps me feel more grounded and happy.
+    - I believe spending time in nature is essential for mental health. It offers a therapeutic escape from the hustle and bustle of everyday life, helping to improve my overall mood and mental state.
+
+- intent: answer_question_nature8
+  examples: |
+    - Yes, I have several plants at home, including succulents and ferns. My routine includes watering them weekly and ensuring they get the right amount of sunlight.
+    - I have a few indoor plants like spider plants and pothos. I make sure to rotate them regularly to ensure even growth and use a water meter to avoid overwatering.
+    - Yes, I keep a variety of houseplants, including a fiddle leaf fig and a snake plant. My tip is to wipe the leaves with a damp cloth to keep them dust-free and help them absorb more light.
+    - I have a small indoor garden with herbs like basil and mint. I water them in the mornings and make sure they get plenty of indirect sunlight.
+    - Yes, I have a collection of succulents and cacti. I water them sparingly and use well-draining soil to prevent root rot.
+    - I keep several plants, including a peace lily and a monstera. My routine involves misting the leaves to maintain humidity and using a balanced fertilizer once a month.
+    - I have a few houseplants like aloe vera and ZZ plants. My tip is to use pots with drainage holes to prevent water from sitting at the bottom and causing root rot.
+    - Yes, I have plants such as orchids and snake plants. I ensure they get filtered light and avoid direct sunlight, which can scorch the leaves.
+
+- intent: answer_question_nature9
+  examples: |
+    - In my country, deer, foxes, and rabbits are commonly found in the wild. We also have unique species like the bald eagle, which is a symbol of national pride.
+    - Common animals here include squirrels, raccoons, and various bird species. We have endangered species like the black-footed ferret, which is under conservation efforts.
+    - You can often see animals like coyotes, beavers, and hawks. A unique species we have is the bison, which was once endangered but has made a significant recovery.
+    - In my country, bears, moose, and wolves are quite common in forested areas. We also have the critically endangered whooping crane, which is protected by wildlife programs.
+    - Common wildlife includes raccoons, skunks, and a variety of songbirds. The red wolf is a unique and endangered species native to my country, currently facing significant conservation challenges.
+    - We frequently see animals like opossums, armadillos, and blue jays. The unique California condor is an endangered species that has been the focus of extensive conservation efforts.
+    - Deer, coyotes, and a range of bird species are commonly found. The unique and endangered species in my country include the Florida panther, which is critically endangered and heavily protected.
+    - Common animals here are squirrels, foxes, and raccoons. One unique endangered species is the Hawaiian monk seal, which is under strict protection to prevent extinction.
+
+- intent: answer_question_nature10
+  examples: |
+    - My favorite animal is the dolphin. I love them because they are intelligent, playful, and they seem to have a friendly nature.
+    - I really like tigers. They are majestic and powerful, and I admire their beauty and strength in the wild.
+    - My favorite animal is the elephant. I appreciate their gentle nature and strong family bonds, as well as their impressive size and memory.
+    - I adore cats. They are independent yet affectionate, and I enjoy their playful and curious personalities.
+    - My favorite animal is the owl. I find them fascinating because of their silent flight and their ability to see in the dark.
+    - I love dogs because they are loyal and loving companions. Their ability to sense emotions and their eagerness to please make them special.
+    - My favorite animal is the penguin. I think they’re adorable and I admire their resilience in harsh environments.
+    - I’m fond of sea turtles. They are ancient creatures with impressive navigation skills and a calm demeanor that I find soothing.
+
+- intent: answer_question_health1
+  examples: |
+    - I maintain a balanced diet by eating plenty of fruits, vegetables, and whole grains. I also stay active by going for daily walks and doing yoga.
+    - Regular exercise is key for me. I go to the gym three times a week and play tennis on weekends to stay fit.
+    - I prioritize getting enough sleep each night, aiming for at least seven to eight hours. This helps me feel rested and more energetic during the day.
+    - I stay hydrated by drinking plenty of water throughout the day. I also try to minimize my intake of sugary and caffeinated drinks.
+    - Meditation and mindfulness practices help me manage stress. I spend a few minutes each day focusing on my breath and clearing my mind.
+    - I make it a point to eat home-cooked meals as often as possible. This allows me to control the ingredients and avoid unhealthy additives.
+    - Regular health check-ups are important to me. I visit my doctor and dentist for routine examinations to catch any potential issues early.
+    - Staying socially active is part of my health routine. Spending time with friends and family helps me maintain a positive outlook and emotional well-being.
+
+- intent: answer_question_health2
+  examples: |
+    - Yes, I have a regular exercise routine. I enjoy running in the mornings and doing strength training exercises at the gym.
+    - I do have a regular exercise routine. I love practicing yoga and going for long walks in the park.
+    - Yes, I maintain a regular exercise routine. I enjoy cycling and swimming as they are both fun and great for cardiovascular health.
+    - I do follow a regular exercise routine. My favorite activities include hiking on weekends and attending Zumba classes for a fun workout.
+    - Yes, I exercise regularly. I like to mix it up with jogging, weightlifting, and playing basketball with friends.
+    - I have a regular routine that includes daily stretching and Pilates sessions. I find these activities help improve my flexibility and core strength.
+    - Yes, I stick to a regular exercise schedule. I particularly enjoy doing high-intensity interval training (HIIT) workouts because they are efficient and effective.
+    - I maintain a consistent exercise routine. My favorite activities are dancing and rock climbing, as they keep me engaged and challenged.
+
+- intent: answer_question_health3
+  examples: |
+    - Diet is crucial to my overall health. I follow a balanced diet that includes plenty of fruits, vegetables, lean proteins, and whole grains.
+    - Diet plays a significant role in my health. I stick to a Mediterranean diet, which emphasizes healthy fats, fresh produce, and lean meats.
+    - Maintaining a healthy diet is very important to me. I follow a plant-based diet, focusing on vegetables, fruits, legumes, and whole grains.
+    - Diet is a key factor in my overall well-being. I follow a low-carb diet to help manage my energy levels and maintain a healthy weight.
+    - A healthy diet is essential for my health. I prefer a balanced diet with a mix of proteins, carbs, and fats, and I try to avoid processed foods.
+    - Diet is very important to my health. I follow a ketogenic diet, which involves high fat, moderate protein, and very low carbohydrate intake.
+    - My diet is vital to my overall health. I follow a pescatarian diet, which includes fish and seafood along with a variety of vegetables and grains.
+    - Diet is extremely important to me. I focus on eating organic and whole foods, avoiding sugars and refined carbohydrates as much as possible.
+
+- intent: answer_question_health4
+  examples: |
+    - I manage stress by practicing mindfulness and meditation every morning. It helps me start the day with a clear and focused mind.
+    - Regular exercise is my go-to method for managing stress. Physical activity, like running or yoga, helps me release tension and feel more relaxed.
+    - I handle stress by keeping a journal. Writing down my thoughts and feelings helps me process and manage them better.
+    - Spending time in nature is very calming for me. I take regular walks in the park or go hiking on weekends to de-stress.
+    - I use deep breathing exercises to manage stress. Taking a few minutes to focus on my breath helps me stay calm and centered.
+    - Talking to friends and family about my worries helps me manage stress. Sharing my concerns and getting support makes a big difference.
+    - I manage stress by organizing my tasks and setting priorities. Having a clear plan helps me stay on top of things and reduces anxiety.
+    - I enjoy hobbies like painting and reading to unwind. Engaging in activities I love helps me take my mind off stress and relax.
+
+- intent: answer_question_health5
+  examples: |
+    - Mental health is incredibly important and deserves as much attention as physical health. I take care of my mental well-being by practicing meditation and mindfulness daily.
+    - I believe mental health is crucial for overall well-being. To take care of my mental health, I make sure to maintain a balanced lifestyle with regular exercise, healthy eating, and sufficient sleep.
+    - Mental health is fundamental to a happy and productive life. I prioritize my mental well-being by staying connected with friends and family, and seeking therapy when needed.
+    - Good mental health is essential for quality of life. I manage my mental health by engaging in hobbies I love, such as reading and painting, which help me relax and recharge.
+    - Mental health is as important as physical health. I take care of mine by setting aside time for self-care, including activities like yoga, journaling, and spending time in nature.
+    - I think mental health should be a top priority for everyone. I take care of my mental well-being by keeping a positive outlook, practicing gratitude, and maintaining a healthy work-life balance.
+    - Mental health is vital for overall wellness. To ensure my mental well-being, I practice stress management techniques like deep breathing exercises and ensure I have time for relaxation and fun.
+    - Maintaining good mental health is essential for a fulfilling life. I take care of my mental well-being by staying active, eating a balanced diet, and seeking support from loved ones when I need it.
+
+- intent: answer_question_health6
+  examples: |
+    - I usually get about 7 to 8 hours of sleep each night. My bedtime routine includes reading a book for 30 minutes before turning off the lights.
+    - I aim for 8 hours of sleep every night. My routine involves drinking a cup of herbal tea and doing some light stretching to relax before bed.
+    - I typically get around 6 to 7 hours of sleep. I try to wind down by avoiding screens an hour before bed and listening to calming music.
+    - I usually sleep for 7 hours. My bedtime routine includes writing in my journal and practicing mindfulness meditation to clear my mind.
+    - I get about 8 hours of sleep each night. I follow a routine of taking a warm shower and then reading a few chapters of a book to relax.
+    - I generally get 7 to 8 hours of sleep. My bedtime routine involves dimming the lights, turning off electronic devices, and doing some deep breathing exercises.
+    - I aim for 6 to 7 hours of sleep. To help me fall asleep, I stick to a routine of drinking a glass of warm milk and doing some light yoga stretches.
+    - I usually get 7 hours of sleep. My routine includes setting a consistent bedtime, avoiding caffeine in the evening, and reading a book to unwind.
+
+- intent: answer_question_health7
+  examples: |
+    - I stay motivated by setting clear, achievable goals and tracking my progress. Seeing improvements over time keeps me committed to my healthy habits.
+    - I surround myself with supportive friends and family who encourage me to stay on track. We often work out together and share healthy recipes.
+    - I remind myself of the benefits of a healthy lifestyle, such as increased energy and improved mood. This helps me stay focused and motivated.
+    - I stay motivated by varying my routine to keep things interesting. Trying new workouts and recipes helps me avoid boredom and stay engaged.
+    - I use fitness apps to track my activities and diet. These tools provide visual progress and reminders, which help me stay on course.
+    - I stay motivated by setting small rewards for myself. For example, if I stick to my exercise routine for a month, I treat myself to a new book or a fun outing.
+    - I find motivation in the positive changes I see in my body and mind. Feeling stronger, healthier, and more energetic keeps me dedicated to my lifestyle choices.
+    - I stay motivated by educating myself about health and wellness. Learning about the benefits of healthy habits and the risks of unhealthy ones keeps me committed to my goals.
+
+- intent: answer_question_health8
+  examples: |
+    - I highly recommend the book "How Not to Die" by Dr. Michael Greger. It's full of evidence-based advice on how to prevent and reverse disease through diet.
+    - The Tim Ferriss Show podcast often features episodes on health and wellness, providing valuable insights from experts in various fields.
+    - I enjoy visiting the website Healthline for its reliable and comprehensive health information on a wide range of topics.
+    - The book "Atomic Habits" by James Clear is excellent for learning how to build healthy habits and make sustainable lifestyle changes.
+    - The Doctor's Kitchen podcast by Dr. Rupy Aujla is great for exploring how food can be used as medicine to improve overall health.
+    - I recommend The Mayo Clinic's website for its trusted health resources and detailed articles on various health conditions and treatments.
+    - "The Whole30: The 30-Day Guide to Total Health and Food Freedom" by Melissa Hartwig Urban is a fantastic book for understanding the impact of food on your health.
+    - I find The MindBodyGreen website very helpful for holistic health tips, covering nutrition, fitness, mental health, and more.
+
+- intent: answer_question_health9
+  examples: |
+    - Yes, I twisted my ankle while playing soccer in high school. I landed awkwardly after jumping to head the ball, and it took a few weeks of rest and physical therapy to heal.
+    - I broke my arm when I was a kid. I fell off my bike while going down a steep hill and had to wear a cast for about six weeks.
+    - I’ve twisted my ankle a couple of times, usually from stepping on uneven ground. Each time, I had to use crutches and wrap the ankle for support until it healed.
+    - Yes, I broke my collarbone in a skiing accident. I took a hard fall on an icy patch, and it was quite painful, requiring a sling and several weeks to recover.
+    - I twisted my ankle during a hiking trip. I slipped on a wet rock and had to hobble back to the trailhead. It was swollen for days, but ice and elevation helped a lot.
+    - I broke my wrist once when I fell off a skateboard. I tried to break my fall with my hands, and it resulted in a fracture that needed a cast.
+    - Yes, I twisted my ankle while running on a trail. I misstepped on a root and rolled my ankle, which led to some swelling and a few weeks of recovery.
+    - I’ve never had a broken bone, but I did twist my ankle badly while playing basketball. I landed on someone’s foot after a jump shot, and it took a while to heal with rest and ice packs.
+
+- intent: answer_question_health10
+  examples: |
+    - I don’t get sick often, but when I do, I rest as much as possible and stay hydrated. I also prefer to avoid medications unless absolutely necessary and focus on natural remedies.
+    - I rarely get sick, but when I do, I handle it by taking over-the-counter medicine, drinking plenty of fluids, and getting extra sleep to help my body recover.
+    - I don’t get sick frequently. When I’m under the weather, I usually take it easy, use home remedies like herbal teas, and make sure to rest and eat healthy foods.
+    - I do get sick occasionally, and I handle it by resting, staying hydrated, and eating nutritious foods to support my immune system. I also try to avoid spreading germs to others.
+    - I get sick maybe once or twice a year. I usually manage it by staying home, getting plenty of rest, and using a humidifier to ease symptoms like congestion.
+    - I rarely fall ill, but when I do, I try to rest as much as possible and take it easy. I also find that drinking warm fluids and eating light, easy-to-digest foods helps me feel better faster.
+    - I don’t get sick often. When I do, I handle it by resting, drinking lots of water, and sometimes using over-the-counter remedies to alleviate symptoms like a sore throat or congestion.
+    - I get sick occasionally, especially during cold and flu season. I usually take medication to manage symptoms, stay home to rest, and try to eat foods rich in vitamins to boost my immune system.
+
+- intent: answer_question_traveling1
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling2
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling3
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling4
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling5
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling6
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling7
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling8
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling9
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_traveling10
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping1
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping2
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping3
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping4
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping5
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping6
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping7
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping8
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping9
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_shopping10
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food1
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food2
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food3
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food4
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food5
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food6
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food7
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food8
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food9
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_food10
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work1
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work2
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work3
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work4
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work5
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work6
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work7
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work8
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work9
+  examples: |
+    -
+    -
+    -
+    -
+    -
+
+- intent: answer_question_work10
+  - examples: |
+      -
+      -
+      -
+      -
+      -
+

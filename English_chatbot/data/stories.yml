@@ -25,7 +25,6 @@ stories:
     - intent: ask_particular_country_info
     - action: action_tell_country_info
 
-
   - story: play game
     steps:
     - intent: play_trivia
@@ -57,3 +56,247 @@ stories:
     steps:
     - intent: chit_chat
     - action: utter_chit_chat
+
+  - story: chit-chat about people
+    steps:
+    - intent: talk_about_people
+    - action: utter_ask_question_people1
+    - intent: answer_question_people1
+    - action: utter_answer_question_people1
+    - action: utter_ask_question_people2
+    - intent: answer_question_people2
+    - action: utter_answer_question_people2
+    - action: utter_ask_question_people3
+    - intent: answer_question_people3
+    - action: utter_answer_question_people3
+    - action: utter_ask_question_people4
+    - intent: answer_question_people4
+    - action: utter_answer_question_people4
+    - action: utter_ask_question_people5
+    - intent: answer_question_people5
+    - action: utter_answer_question_people5
+    - action: utter_ask_question_people6
+    - intent: answer_question_people6
+    - action: utter_answer_question_people6
+    - action: utter_ask_question_people7
+    - intent: answer_question_people7
+    - action: utter_answer_question_people7
+    - action: utter_ask_question_people8
+    - intent: answer_question_people8
+    - action: utter_answer_question_people8
+    - action: utter_ask_question_people9
+    - intent: answer_question_people9
+    - action: utter_answer_question_people9
+    - action: utter_ask_question_people10
+    - intent: answer_question_people10
+    - action: utter_answer_question_people10
+
+  - story: chit-chat about nature
+    steps:
+    - intent: talk_about_nature
+    - action: utter_ask_question_nature1
+    - intent: answer_question_nature1
+    - action: utter_answer_question_nature1
+    - action: utter_ask_question_nature2
+    - intent: answer_question_nature2
+    - action: utter_answer_question_nature2
+    - action: utter_ask_question_nature3
+    - intent: answer_question_nature3
+    - action: utter_answer_question_nature3
+    - action: utter_ask_question_nature4
+    - intent: answer_question_nature4
+    - action: utter_answer_question_nature4
+    - action: utter_ask_question_nature5
+    - intent: answer_question_nature5
+    - action: utter_answer_question_nature5
+    - action: utter_ask_question_nature6
+    - intent: answer_question_nature6
+    - action: utter_answer_question_nature6
+    - action: utter_ask_question_nature7
+    - intent: answer_question_nature7
+    - action: utter_answer_question_nature7
+    - action: utter_ask_question_nature8
+    - intent: answer_question_nature8
+    - action: utter_answer_question_nature8
+    - action: utter_ask_question_nature9
+    - intent: answer_question_nature9
+    - action: utter_answer_question_nature9
+    - action: utter_ask_question_nature10
+    - intent: answer_question_nature10
+    - action: utter_answer_question_nature10
+
+
+  - story: chit-chat about health
+    steps:
+    - intent: talk_about_health
+    - action: utter_ask_question_health1
+    - intent: answer_question_health1
+    - action: utter_answer_question_health1
+    - action: utter_ask_question_health2
+    - intent: answer_question_health2
+    - action: utter_answer_question_health2
+    - action: utter_ask_question_health3
+    - intent: answer_question_health3
+    - action: utter_answer_question_health3
+    - action: utter_ask_question_health4
+    - intent: answer_question_health4
+    - action: utter_answer_question_health4
+    - action: utter_ask_question_health5
+    - intent: answer_question_health5
+    - action: utter_answer_question_health5
+    - action: utter_ask_question_health6
+    - intent: answer_question_health6
+    - action: utter_answer_question_health6
+    - action: utter_ask_question_health7
+    - intent: answer_question_health7
+    - action: utter_answer_question_health7
+    - action: utter_ask_question_health8
+    - intent: answer_question_health8
+    - action: utter_answer_question_health8
+    - action: utter_ask_question_health9
+    - intent: answer_question_health9
+    - action: utter_answer_question_health9
+    - action: utter_ask_question_health10
+    - intent: answer_question_health10
+    - action: utter_answer_question_health10
+
+
+  - story: chit-chat about traveling
+    steps:
+    - intent: talk_about_traveling
+    - action: utter_ask_question_traveling1
+    - intent: answer_question_traveling1
+    - action: utter_answer_question_traveling1
+    - action: utter_ask_question_traveling2
+    - intent: answer_question_traveling2
+    - action: utter_answer_question_traveling2
+    - action: utter_ask_question_traveling3
+    - intent: answer_question_traveling3
+    - action: utter_answer_question_traveling3
+    - action: utter_ask_question_traveling4
+    - intent: answer_question_traveling4
+    - action: utter_answer_question_traveling4
+    - action: utter_ask_question_traveling5
+    - intent: answer_question_traveling5
+    - action: utter_answer_question_traveling5
+    - action: utter_ask_question_traveling6
+    - intent: answer_question_traveling6
+    - action: utter_answer_question_traveling6
+    - action: utter_ask_question_traveling7
+    - intent: answer_question_traveling7
+    - action: utter_answer_question_traveling7
+    - action: utter_ask_question_traveling8
+    - intent: answer_question_traveling8
+    - action: utter_answer_question_traveling8
+    - action: utter_ask_question_traveling9
+    - intent: answer_question_traveling9
+    - action: utter_answer_question_traveling9
+    - action: utter_ask_question_traveling10
+    - intent: answer_question_traveling10
+    - action: utter_answer_question_traveling10
+
+
+  - story: chit-chat about shopping
+    steps:
+    - intent: talk_about_shopping
+    - action: utter_ask_question_shopping1
+    - intent: answer_question_shopping1
+    - action: utter_answer_question_shopping1
+    - action: utter_ask_question_shopping2
+    - intent: answer_question_shopping2
+    - action: utter_answer_question_shopping2
+    - action: utter_ask_question_shopping3
+    - intent: answer_question_shopping3
+    - action: utter_answer_question_shopping3
+    - action: utter_ask_question_shopping4
+    - intent: answer_question_shopping4
+    - action: utter_answer_question_shopping4
+    - action: utter_ask_question_shopping5
+    - intent: answer_question_shopping5
+    - action: utter_answer_question_shopping5
+    - action: utter_ask_question_shopping6
+    - intent: answer_question_shopping6
+    - action: utter_answer_question_shopping6
+    - action: utter_ask_question_shopping7
+    - intent: answer_question_shopping7
+    - action: utter_answer_question_shopping7
+    - action: utter_ask_question_shopping8
+    - intent: answer_question_shopping8
+    - action: utter_answer_question_shopping8
+    - action: utter_ask_question_shopping9
+    - intent: answer_question_shopping9
+    - action: utter_answer_question_shopping9
+    - action: utter_ask_question_shopping10
+    - intent: answer_question_shopping10
+    - action: utter_answer_question_shopping10
+
+
+  - story: chit-chat about food
+    steps:
+    - intent: talk_about_food
+    - action: utter_ask_question_food1
+    - intent: answer_question_food1
+    - action: utter_answer_question_food1
+    - action: utter_ask_question_food2
+    - intent: answer_question_food2
+    - action: utter_answer_question_food2
+    - action: utter_ask_question_food3
+    - intent: answer_question_food3
+    - action: utter_answer_question_food3
+    - action: utter_ask_question_food4
+    - intent: answer_question_food4
+    - action: utter_answer_question_food4
+    - action: utter_ask_question_food5
+    - intent: answer_question_food5
+    - action: utter_answer_question_food5
+    - action: utter_ask_question_food6
+    - intent: answer_question_food6
+    - action: utter_answer_question_food6
+    - action: utter_ask_question_food7
+    - intent: answer_question_food7
+    - action: utter_answer_question_food7
+    - action: utter_ask_question_food8
+    - intent: answer_question_food8
+    - action: utter_answer_question_food8
+    - action: utter_ask_question_food9
+    - intent: answer_question_food9
+    - action: utter_answer_question_food9
+    - action: utter_ask_question_food10
+    - intent: answer_question_food10
+    - action: utter_answer_question_food10
+
+
+
+  - story: chit-chat about work
+    steps:
+    - intent: talk_about_work
+    - action: utter_ask_question_work1
+    - intent: answer_question_work1
+    - action: utter_answer_question_work1
+    - action: utter_ask_question_work2
+    - intent: answer_question_work2
+    - action: utter_answer_question_work2
+    - action: utter_ask_question_work3
+    - intent: answer_question_work3
+    - action: utter_answer_question_work3
+    - action: utter_ask_question_work4
+    - intent: answer_question_work4
+    - action: utter_answer_question_work4
+    - action: utter_ask_question_work5
+    - intent: answer_question_work5
+    - action: utter_answer_question_work5
+    - action: utter_ask_question_work6
+    - intent: answer_question_work6
+    - action: utter_answer_question_work6
+    - action: utter_ask_question_work7
+    - intent: answer_question_work7
+    - action: utter_answer_question_work7
+    - action: utter_ask_question_work8
+    - intent: answer_question_work8
+    - action: utter_answer_question_work8
+    - action: utter_ask_question_work9
+    - intent: answer_question_work9
+    - action: utter_answer_question_work9
+    - action: utter_ask_question_work10
+    - intent: answer_question_work10
+    - action: utter_answer_question_work10

@@ -26,6 +26,77 @@ intents:
   - talk_about_shopping
   - talk_about_food
   - talk_about_work
+  - answer_question_people1
+  - answer_question_people2
+  - answer_question_people3
+  - answer_question_people4
+  - answer_question_people5
+  - answer_question_people6
+  - answer_question_people7
+  - answer_question_people8
+  - answer_question_people9
+  - answer_question_people10
+  - answer_question_nature1
+  - answer_question_nature2
+  - answer_question_nature3
+  - answer_question_nature4
+  - answer_question_nature5
+  - answer_question_nature6
+  - answer_question_nature7
+  - answer_question_nature8
+  - answer_question_nature9
+  - answer_question_nature10
+  - answer_question_health1
+  - answer_question_health2
+  - answer_question_health3
+  - answer_question_health4
+  - answer_question_health5
+  - answer_question_health6
+  - answer_question_health7
+  - answer_question_health8
+  - answer_question_health9
+  - answer_question_health10
+  - answer_question_traveling1
+  - answer_question_traveling2
+  - answer_question_traveling3
+  - answer_question_traveling4
+  - answer_question_traveling5
+  - answer_question_traveling6
+  - answer_question_traveling7
+  - answer_question_traveling8
+  - answer_question_traveling9
+  - answer_question_traveling10
+  - answer_question_shopping1
+  - answer_question_shopping2
+  - answer_question_shopping3
+  - answer_question_shopping4
+  - answer_question_shopping5
+  - answer_question_shopping6
+  - answer_question_shopping7
+  - answer_question_shopping8
+  - answer_question_shopping9
+  - answer_question_shopping10
+  - answer_question_food1
+  - answer_question_food2
+  - answer_question_food3
+  - answer_question_food4
+  - answer_question_food5
+  - answer_question_food6
+  - answer_question_food7
+  - answer_question_food8
+  - answer_question_food9
+  - answer_question_food10
+  - answer_question_work1
+  - answer_question_work2
+  - answer_question_work3
+  - answer_question_work4
+  - answer_question_work5
+  - answer_question_work6
+  - answer_question_work7
+  - answer_question_work8
+  - answer_question_work9
+  - answer_question_work10
+
 
 entities:
   - place
