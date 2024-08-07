@@ -60,6 +60,7 @@ stories:
   - story: chit-chat about people
     steps:
     - intent: talk_about_people
+    - action: utter_chat_info
     - action: utter_ask_question_people1
     - intent: answer_question_people1
     - action: utter_answer_question_people1
@@ -94,6 +95,7 @@ stories:
   - story: chit-chat about nature
     steps:
     - intent: talk_about_nature
+    - action: utter_chat_info
     - action: utter_ask_question_nature1
     - intent: answer_question_nature1
     - action: utter_answer_question_nature1
@@ -129,6 +131,7 @@ stories:
   - story: chit-chat about health
     steps:
     - intent: talk_about_health
+    - action: utter_chat_info
     - action: utter_ask_question_health1
     - intent: answer_question_health1
     - action: utter_answer_question_health1
@@ -164,6 +167,7 @@ stories:
   - story: chit-chat about traveling
     steps:
     - intent: talk_about_traveling
+    - action: utter_chat_info
     - action: utter_ask_question_traveling1
     - intent: answer_question_traveling1
     - action: utter_answer_question_traveling1
@@ -199,6 +203,7 @@ stories:
   - story: chit-chat about shopping
     steps:
     - intent: talk_about_shopping
+    - action: utter_chat_info
     - action: utter_ask_question_shopping1
     - intent: answer_question_shopping1
     - action: utter_answer_question_shopping1
@@ -234,6 +239,7 @@ stories:
   - story: chit-chat about food
     steps:
     - intent: talk_about_food
+    - action: utter_chat_info
     - action: utter_ask_question_food1
     - intent: answer_question_food1
     - action: utter_answer_question_food1
@@ -270,6 +276,7 @@ stories:
   - story: chit-chat about work
     steps:
     - intent: talk_about_work
+    - action: utter_chat_info
     - action: utter_ask_question_work1
     - intent: answer_question_work1
     - action: utter_answer_question_work1

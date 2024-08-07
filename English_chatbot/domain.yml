@@ -176,6 +176,9 @@ responses:
         - title: "work"
           payload: '/talk_about_work'
 
+  utter_chat_info:
+    - text: "Great! I’ll ask 10 questions related to the chosen topic. Let’s chat a bit! :)"
+
 ### PEOPLE
   utter_ask_question_people1:
     - text: "Can you describe your best friend or family member’s appearance and personality?"
