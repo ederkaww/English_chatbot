@@ -186,7 +186,7 @@ responses:
     - text: "Can you describe your best friend or family member’s appearance and personality?"
 
   utter_answer_question_people1:
-    - text: "My best friend is tall with short, curly black hair and piercing green eyes. He has a warm, inviting smile and a small scar on his left cheek from a childhood accident. He is incredibly kind and always willing to help others. He has a great sense of humor and can make anyone laugh."
+    - text: "Now it's my turn :) My best friend is tall with short, curly black hair and piercing green eyes. He has a warm, inviting smile and a small scar on his left cheek from a childhood accident. He is incredibly kind and always willing to help others. He has a great sense of humor and can make anyone laugh."
     - text: "My sister has long, wavy brown hair and hazel eyes. She always dresses in vibrant, colorful outfits that match her lively personality. She is very outgoing and loves meeting new people. She’s also very determined and never gives up on her goals, no matter how challenging they are."
     - text: "My cousin is of medium height with a stocky build and sandy blonde hair that he keeps neatly trimmed. He has bright blue eyes and a strong, square jawline. He is very thoughtful and always considers others' feelings. He’s also very creative, often coming up with new ideas and solutions to problems."
 
@@ -195,7 +195,7 @@ responses:
 
   utter_answer_question_people2:
     - text: "My house is a cozy two-story home with a small garden in the front. My favorite room is the living room because it's where my family gathers to watch movies and spend time together."
-    - text: "I live in a spacious apartment with large windows that let in lots of light. My favorite room is the kitchen because I love cooking and it's where we all come together to eat and chat."
+    - text: "My turn: I live in a spacious apartment with large windows that let in lots of light. My favorite room is the kitchen because I love cooking and it's where we all come together to eat and chat."
     - text: "My house is a modern bungalow with an open floor plan and a big backyard. My favorite room is my bedroom because it's my personal space where I can read and relax."
 
   utter_ask_question_people3:
@@ -210,7 +210,7 @@ responses:
     - text: "Do you like listening to music? What is your favorite singer or band?"
 
   utter_answer_question_people4:
-    - text: "Yes, I love listening to music! My favorite band is Coldplay because their songs are so uplifting and their concerts are always an amazing experience."
+    - text: "I love listening to music! My favorite band is Coldplay because their songs are so uplifting and their concerts are always an amazing experience."
     - text: "I enjoy listening to music a lot. My favorite singer is Adele; her powerful voice and emotional lyrics really resonate with me."
     - text: "Music is a big part of my life. My favorite band is The Beatles. Their timeless music and diverse range of songs always put me in a good mood."
 
@@ -226,7 +226,7 @@ responses:
     - text: "Have you ever played or watched ice hokey?"
 
   utter_answer_question_people6:
-    - text: "Yes, I’ve watched ice hockey several times and find it thrilling. The speed of the game and the physicality make it really exciting to follow."
+    - text: "I’ve watched ice hockey several times and find it thrilling. The speed of the game and the physicality make it really exciting to follow."
     - text: "I’ve played ice hockey a few times with friends and had a great time. It’s a challenging sport that requires a lot of skill and coordination on skates."
     - text: "I’ve never played ice hockey, because I  prefer sports with less contact. I enjoy watching it though."
 
@@ -250,7 +250,7 @@ responses:
     - text: "Do you enjoy reading? What genres do you prefer?"
 
   utter_answer_question_people9:
-    - text: "Yes, I enjoy reading a lot. I prefer science fiction and fantasy genres because I love exploring imaginative worlds and futuristic concepts."
+    - text: "I enjoy reading a lot. I prefer science fiction and fantasy genres because I love exploring imaginative worlds and futuristic concepts."
     - text: "I’m an avid reader, and I particularly enjoy mystery and thriller novels. I like the suspense and the challenge of solving puzzles along with the characters."
     - text: "I do enjoy reading, especially historical fiction. I find it fascinating to learn about different time periods through engaging and well-crafted stories."
 
@@ -258,7 +258,7 @@ responses:
     - text: "Do you play any instruments? If so, which ones? If not would you like to play sth particular?"
 
   utter_answer_question_people10:
-    - text: "Yes, I play the guitar. I enjoy strumming and learning new songs; it’s a great way to relax and express myself musically."
+    - text: "I play the guitar. I enjoy strumming and learning new songs; it’s a great way to relax and express myself musically."
     - text: "I don’t play any instruments at the moment, but I’d love to learn the piano. I think it would be amazing to play classical pieces and accompany myself while singing."
     - text: "I play the drums in a local band. It’s a lot of fun and helps me stay active. I’d also like to learn the violin someday because I love its beautiful sound."
 
@@ -275,9 +275,9 @@ responses:
     - text: "Do you have any pets? If not, would you like to get one?"
 
   utter_answer_question_nature2:
-    - text: "Yes, I have a dog named Max. He’s a friendly golden retriever who loves to play fetch and go on long walks."
-    - text: "No, I don't have any pets right now, but I'd love to get a cat. I think a playful white cat would be a great companion."
-    - text: "Yes, I have two pets: a parrot named Kiwi and a hamster named Nibbles. Kiwi loves to mimic sounds and Nibbles enjoys running on his wheel."
+    - text: "I have a dog named Max. He’s a friendly golden retriever who loves to play fetch and go on long walks."
+    - text: "I don't have any pets right now, but I'd love to get a cat. I think a playful white cat would be a great companion."
+    - text: "I have two pets: a parrot named Kiwi and a hamster named Nibbles. Kiwi loves to mimic sounds and Nibbles enjoys running on his wheel."
 
   utter_ask_question_nature3:
     - text: "What’s the typical weather like in your country throughout the year?"
@@ -299,7 +299,7 @@ responses:
     - text: "Do you enjoy spending time in nature? What activities do you like to do (hiking, camping, bird-watching, etc.)?"
 
   utter_answer_question_nature5:
-    - text: "Yes, I love spending time in nature. I enjoy hiking and exploring new trails. Being surrounded by natural beauty is both relaxing and invigorating."
+    - text: "I love spending time in nature. I enjoy hiking and exploring new trails. Being surrounded by natural beauty is both relaxing and invigorating."
     - text: "I really appreciate spending time outdoors. Camping is one of my favorite activities; I enjoy the simplicity of being in nature and the chance to disconnect from daily life."
     - text: "I do enjoy nature, especially for bird-watching. I find it fascinating to observe different bird species and their behaviors, and it’s a peaceful way to connect with the environment."
 
@@ -323,7 +323,7 @@ responses:
     - text: "Do you have any plants at home? Do you have any special routines or tips?"
 
   utter_answer_question_nature8:
-    - text: "Yes, I have several plants at home, including succulents, a spider plant, and a peace lily. I water them once a week and make sure they get plenty of sunlight. I also use a plant misting spray to keep the humidity up."
+    - text: "I have several plants at home, including succulents, a spider plant, and a peace lily. I water them once a week and make sure they get plenty of sunlight. I also use a plant misting spray to keep the humidity up."
     - text: "I have a small indoor garden with herbs like basil and mint, along with a few houseplants like pothos and ZZ plants. I use a self-watering system and occasionally rotate them to ensure they get even light."
     - text: "I keep a few plants, such as a fiddle leaf fig and some aloe vera. I follow a simple routine of checking the soil moisture before watering and occasionally fertilize them to keep them healthy. I also make sure they’re placed in spots with the right amount of natural light."
 
@@ -339,9 +339,9 @@ responses:
     - text: "What’s your favorite animal and why do you like it?"
 
   utter_answer_question_nature10:
-    - text: "My favorite animal is the dolphin. I admire their intelligence and playful nature, and their ability to communicate and form complex social bonds fascinates me."
+    - text: "My favorite animal is a dolphin. I admire their intelligence and playful nature, and their ability to communicate and form complex social bonds fascinates me."
     - text: "I love the tiger for its strength and beauty. Its majestic stripes and powerful presence make it an awe-inspiring creature, and I’m drawn to its role as a symbol of wildness and resilience."
-    - text: "My favorite animal is the owl. I appreciate its quiet, mysterious demeanor and the way it seems to embody wisdom and tranquility. Plus, their ability to see in the dark adds to their unique charm."
+    - text: "My favorite animal is an owl. I appreciate its quiet, mysterious demeanor and the way it seems to embody wisdom and tranquility. Plus, their ability to see in the dark adds to their unique charm."
 
 ### HEALTH
   utter_ask_question_health1:
@@ -356,7 +356,7 @@ responses:
     - text: "Do you have a regular exercise routine? What activities do you enjoy?"
 
   utter_answer_question_health2:
-    - text: "Yes, I have a regular exercise routine that includes running three times a week and attending a spinning class. I enjoy these activities because they help me stay fit and energized."
+    - text: "I have a regular exercise routine that includes running three times a week and attending a spinning class. I enjoy these activities because they help me stay fit and energized."
     - text: "I follow a regular exercise routine that combines strength training and yoga. I enjoy lifting weights for building muscle and practicing yoga for flexibility and relaxation."
     - text: "My routine involves hiking on weekends and doing bodyweight exercises at home during the week. I love hiking for the fresh air and scenic views, and bodyweight exercises keep me fit without needing a gym."
 
@@ -412,7 +412,7 @@ responses:
     - text: "Have you ever had a broken bone or twisted an ankle? What happened?"
 
   utter_answer_question_health9:
-    - text: "Yes, I once broke my wrist while playing soccer. I took a hard fall, and it turned out to be a fracture. I had to wear a cast for about six weeks and do some physical therapy afterward."
+    - text: "I once broke my wrist while playing soccer. I took a hard fall, and it turned out to be a fracture. I had to wear a cast for about six weeks and do some physical therapy afterward."
     - text: "I twisted my ankle during a hiking trip. I stepped on an uneven rock and ended up with a sprained ankle. It was quite painful, and I needed to rest and use crutches for a few weeks to recover."
     - text: "I haven’t had a broken bone, but I did once twist my knee playing basketball. It was a minor injury, and I took it easy for a while, using ice and compression to help with the swelling."
 
@@ -510,7 +510,7 @@ responses:
     - text: "Do you enjoy shopping? Why or why not?"
 
   utter_answer_question_shopping1:
-    - text: "Yes, I enjoy shopping because it’s a fun way to explore new styles and find unique items. It’s also a great way to unwind and treat myself to something special."
+    - text: "I enjoy shopping because it’s a fun way to explore new styles and find unique items. It’s also a great way to unwind and treat myself to something special."
     - text: "I don’t particularly enjoy shopping. I find it can be overwhelming and time-consuming. I prefer to make a list and shop efficiently to get what I need without spending too much time in stores."
     - text: "I have mixed feelings about shopping. While I appreciate finding good deals and new things, I often prefer online shopping for its convenience and ability to compare options quickly."
 
@@ -607,15 +607,15 @@ responses:
     - text: "Do you like eating fruits and vegetables? Do you have any favorites?"
 
   utter_answer_question_food3:
-    - text: "Yes, I enjoy eating fruits and vegetables. My favorites are juicy strawberries and crisp bell peppers. They’re both refreshing and versatile, fitting well into a variety of meals and snacks."
+    - text: "I enjoy eating fruits and vegetables. My favorites are juicy strawberries and crisp bell peppers. They’re both refreshing and versatile, fitting well into a variety of meals and snacks."
     - text: "I love fruits and vegetables, and I particularly enjoy apples and carrots. Apples are great for a quick snack, and carrots are perfect for adding crunch and sweetness to dishes."
-    - text: "Yes, I do like fruits and vegetables. I especially love mangoes for their sweet, tropical flavor and spinach for its versatility in salads and smoothies."
+    - text: "I do like fruits and vegetables. I especially love mangoes for their sweet, tropical flavor and spinach for its versatility in salads and smoothies."
 
   utter_ask_question_food4:
     - text: "Are you interested in vegetarian or vegan cuisine? What do you like or dislike about it?"
 
   utter_answer_question_food4:
-    - text: "Yes, I’m interested in vegetarian cuisine. I enjoy trying different plant-based dishes because they’re often flavorful and offer a healthy alternative. I like how creative and diverse vegetarian meals can be, though I sometimes find it challenging to get enough protein."
+    - text: "I’m interested in vegetarian cuisine. I enjoy trying different plant-based dishes because they’re often flavorful and offer a healthy alternative. I like how creative and diverse vegetarian meals can be, though I sometimes find it challenging to get enough protein."
     - text: "I’m curious about vegan cuisine and appreciate the variety of dishes it offers. I like that it focuses on whole, plant-based ingredients and can be very nutritious. However, I sometimes miss the flavors and textures of dairy and meat products."
     - text: "I’m not fully committed to vegetarian or vegan cuisine, but I enjoy incorporating plant-based meals into my diet. I appreciate the emphasis on fresh vegetables and grains, though I occasionally find it difficult to find satisfying replacements for certain meat dishes."
 
@@ -639,7 +639,7 @@ responses:
     - text: "Do you enjoy cooking? What’s your signature dish?"
 
   utter_answer_question_food7:
-    - text: "Yes, I enjoy cooking. My signature dish is homemade chili. I love the blend of spices and the hearty, comforting nature of the dish. It’s always a crowd-pleaser at gatherings."
+    - text: "I enjoy cooking. My signature dish is homemade chili. I love the blend of spices and the hearty, comforting nature of the dish. It’s always a crowd-pleaser at gatherings."
     - text: "Cooking is a favorite hobby of mine. My signature dish is a lemon herb roasted chicken. The combination of fresh herbs and lemon gives it a delicious flavor, and it’s a simple but impressive meal to prepare."
     - text: "I do enjoy cooking, and my go-to signature dish is a classic lasagna. I take pride in layering rich meat sauce, creamy béchamel, and tender pasta, which makes for a satisfying and well-loved meal."
 
@@ -655,7 +655,7 @@ responses:
     - text: "Do you enjoy baking? What’s your favorite thing to bake?"
 
   utter_answer_question_food9:
-    - text: "Yes, I enjoy baking a lot. My favorite thing to bake is chocolate chip cookies. They’re classic, and the smell of them baking is always comforting. Plus, they’re a hit with family and friends."
+    - text: "I enjoy baking a lot. My favorite thing to bake is chocolate chip cookies. They’re classic, and the smell of them baking is always comforting. Plus, they’re a hit with family and friends."
     - text: "I love baking, and my favorite thing to make is sourdough bread. The process of making and fermenting the dough is rewarding, and the homemade bread has a wonderful texture and flavor."
     - text: "Baking is one of my favorite hobbies. I particularly enjoy making pies, especially apple pie. The combination of a flaky crust and spiced apple filling makes it a delicious and satisfying dessert."
 

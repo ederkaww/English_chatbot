@@ -350,297 +350,297 @@ nlu:
 
 - intent: answer_question_people1
   examples: |
-    - My best friend has curly red hair and green eyes. She is outgoing and always makes everyone laugh with her great sense of humor.
+    - My best friend has curly red hair and green eyes. She is outgoing and always makes everyone laugh with her great sense of humor. Hbu?
     - My brother is tall with short black hair and wears glasses. He’s very kind and always willing to help others, with a calm and thoughtful personality.
     - My mother has warm, brown eyes and a gentle smile. She’s incredibly caring and patient, always putting others before herself.
     - My best friend has a muscular build and a friendly face with bright blue eyes. He’s very energetic and loves to try new things, always keeping our group excited and active.
-    - My sister has long, wavy blonde hair and a cheerful expression. She’s very creative and artistic, often spending hours painting or crafting with a passion.
+    - My sister has long, wavy blonde hair and a cheerful expression. She’s very creative and artistic, often spending hours painting or crafting with a passion. And you?
     - My uncle is tall with a beard and wears glasses. He’s wise and patient, with a knack for storytelling that makes family gatherings enjoyable.
-    - My aunt is elegant with medium-length dark hair and a kind smile. She’s generous and always has great advice, making her a trusted confidant.
-    - My grandmother is petite with gray hair that she always wears in a neat bun. She’s warm-hearted and full of stories from her past, which makes spending time with her very special.
+    - My aunt is elegant with medium-length dark hair and a kind smile. She’s generous and always has great advice, making her a trusted confidant. What about you?
+    - My grandmother is petite with gray hair that she always wears in a neat bun. She’s warm-hearted and full of stories from her past, which makes spending time with her very special. You?
 
 - intent: answer_question_people2
   examples: |
     - My house is a cozy three-bedroom cottage with a large backyard. My favorite room is the living room because it has a great view of the garden and is perfect for relaxing with family.
-    - I live in a modern apartment with an open floor plan and large windows. I love the kitchen the most because I enjoy cooking and it’s where we often have our best conversations.
+    - I live in a modern apartment with an open floor plan and large windows. I love the kitchen the most because I enjoy cooking and it’s where we often have our best conversations. You?
     - My house is a quaint cottage with wooden beams and a beautiful backyard. My favorite room is the study, filled with books and a large desk where I can focus and be productive.
-    - I live in a spacious bungalow with a large, bright living room. My favorite room is my bedroom because it’s my personal sanctuary, decorated to my taste and very peaceful.
+    - I live in a spacious bungalow with a large, bright living room. My favorite room is my bedroom because it’s my personal sanctuary, decorated to my taste and very peaceful. What about you?
     - Our home is a three-bedroom suburban house with a big yard. The kitchen is my favorite room because it’s where I experiment with new recipes and bake delicious treats.
-    - My home is a charming two-story house with a small front porch. I love the bedroom because it’s a peaceful retreat with soft lighting and a comfortable bed.
-    - I live in a small, but well-organized apartment with a minimalist design. My favorite room is the study because it’s quiet and perfect for reading and working from home.
-    - I reside in a newly renovated townhouse with sleek, modern features. My favorite room is the living area because it’s bright, airy, and has a great setup for movie nights.
+    - My home is a charming two-story house with a small front porch. I love the bedroom because it’s a peaceful retreat with soft lighting and a comfortable bed. And you?
+    - I live in a small, but well-organized apartment with a minimalist design. My favorite room is the study because it’s quiet and perfect for reading and working from home. How about you?
+    - I reside in a newly renovated townhouse with sleek, modern features. My favorite room is the living area because it’s bright, airy, and has a great setup for movie nights. Hbu?
 
 - intent: answer_question_people3
   examples: |
-    - My favorite sport to watch is basketball. I got interested in it because my family used to watch NBA games together, and I loved the fast-paced action and skill.
+    - My favorite sport to watch is basketball. I got interested in it because my family used to watch NBA games together, and I loved the fast-paced action and skill. What about you?
     - I love playing soccer. I got into it when I joined a local team as a kid and enjoyed the teamwork and excitement of the game.
-    - Tennis is my favorite sport to play. I started playing because my dad was a big fan and taught me how to play when I was young.
-    - My favorite sport to watch is football. I got interested in it during college when my friends and I would attend games and enjoy the electric atmosphere.
+    - Tennis is my favorite sport to play. I started playing because my dad was a big fan and taught me how to play when I was young. You?
+    - My favorite sport to watch is football. I got interested in it during college when my friends and I would attend games and enjoy the electric atmosphere. And you?
     - I enjoy playing volleyball the most. I became interested after joining my school's team and loved the camaraderie and strategy involved in the game.
     - Swimming is my favorite sport to both watch and participate in. I was introduced to it at a young age through swim lessons and have always enjoyed its combination of fitness and relaxation.
-    - I love watching American football. My interest grew from watching games with my friends and learning about the strategic aspects of the sport.
-    - I love playing volleyball. I got into it through a college intramural league and appreciated how it combines teamwork with individual skill.
+    - I love watching American football. My interest grew from watching games with my friends and learning about the strategic aspects of the sport. Hbu?
+    - I love playing volleyball. I got into it through a college intramural league and appreciated how it combines teamwork with individual skill. How about you?
 
 - intent: answer_question_people4
   examples: |
     - Yes, I love listening to music! My favorite singer is Taylor Swift because her lyrics are relatable and her music is diverse.
     - Absolutely, I enjoy music a lot. My favorite band is Coldplay because their songs are uplifting and they put on amazing live performances.
-    - I do enjoy listening to music. My favorite singer is Adele; her powerful voice and emotional songs really resonate with me.
-    - Yes, I listen to music every day. My favorite band is Imagine Dragons because their music is energetic and motivating.
+    - I do enjoy listening to music. My favorite singer is Adele; her powerful voice and emotional songs really resonate with me. What about you?
+    - Yes, I listen to music every day. My favorite band is Imagine Dragons because their music is energetic and motivating. You?
     - I love listening to music, especially when I’m relaxing. My favorite singer is Ed Sheeran; his melodies and heartfelt lyrics are incredible.
     - I’m a big music fan. I love listening to Beyoncé because of her powerful vocals and dynamic performances.
-    - Music is important to me, and my favorite band is Nothing But Thieves. Their energetic beats and uplifting lyrics always boost my mood.
-    - Music is a big part of my day. I’m a fan of Billie Eilish for her unique style and innovative approach to pop music.
+    - Music is important to me, and my favorite band is Nothing But Thieves. Their energetic beats and uplifting lyrics always boost my mood. Hbu?
+    - Music is a big part of my day. I’m a fan of Billie Eilish for her unique style and innovative approach to pop music. How about you?
 
 - intent: answer_question_people5
   examples: |
-    - I think football is an exciting and dynamic sport. It's thrilling to watch the skill and strategy involved in each game.
-    - Football is a great way to bring people together. I enjoy the camaraderie and community it fosters among fans and players alike.
+    - I think football is an exciting and dynamic sport. It's thrilling to watch the skill and strategy involved in each game. And you?
+    - Football is a great way to bring people together. I enjoy the camaraderie and community it fosters among fans and players alike. How about you?
     - I appreciate the athleticism and teamwork required in football. Each player has a unique role that contributes to the overall success of the team.
-    - While I'm not a huge fan of playing football, I enjoy watching major tournaments like the World Cup. The global aspect of the sport is fascinating.
-    - Football is not my favorite sport, but I can see why it’s so popular. The passion and dedication of the fans are truly impressive.
+    - While I'm not a huge fan of playing football, I enjoy watching major tournaments like the World Cup. The global aspect of the sport is fascinating. Hbu?
+    - Football is not my favorite sport, but I can see why it’s so popular. The passion and dedication of the fans are truly impressive. What do you think?
     - I love playing football with friends; it’s a fun way to stay active and improve my coordination. The competitive aspect is really enjoyable.
     - Football can be very intense and sometimes too aggressive for my taste, but I admire the skill and strategy involved in the game.
     - I think football is a fantastic sport that offers something for everyone, whether you're playing, watching, or just enjoying the social aspect of game day.
 
 - intent: answer_question_people6
   examples: |
-    - Yes, I've watched ice hockey several times. The speed and physicality of the game make it incredibly exciting to watch.
+    - Yes, I've watched ice hockey several times. The speed and physicality of the game make it incredibly exciting to watch. hbu?
     - I've never played ice hockey, but I enjoy watching it on TV. The skill and coordination of the players are amazing.
-    - I used to play ice hockey as a kid. It was a lot of fun, and I loved the fast pace and teamwork involved.
+    - I used to play ice hockey as a kid. It was a lot of fun, and I loved the fast pace and teamwork involved. What about you?
     - I haven't played ice hockey, but I've attended a few live games. The atmosphere in the arena is electric and the game is thrilling to watch in person.
-    - Yes, I've watched ice hockey with friends who are big fans. The game is intense and full of action, which makes it very entertaining.
+    - Yes, I've watched ice hockey with friends who are big fans. The game is intense and full of action, which makes it very entertaining. You?
     - I’ve never had the chance to play ice hockey, but I admire the athleticism required. Watching it is always a high-energy experience.
-    - I’ve played ice hockey a few times for fun, and it’s a challenging but exhilarating sport. I also enjoy watching major tournaments.
+    - I’ve played ice hockey a few times for fun, and it’s a challenging but exhilarating sport. I also enjoy watching major tournaments. And you?
     - I’ve watched ice hockey during the Winter Olympics. It’s fascinating to see how fast the game moves and how skillful the players are.
 
 - intent: answer_question_people7
   examples: |
-    - I prefer going to the cinema because I enjoy the immersive experience of watching movies on a big screen with surround sound.
+    - I prefer going to the cinema because I enjoy the immersive experience of watching movies on a big screen with surround sound. What about you?
     - I like the theater more because of the live performances. The energy and spontaneity of actors performing right in front of you is unmatched.
     - The cinema is my choice because it's a more relaxed environment where I can enjoy the latest films with some popcorn.
     - I prefer the theater because it feels more cultural and sophisticated. The storytelling and acting in plays can be very powerful and moving.
-    - I enjoy both, but I lean towards the cinema for the variety of genres and special effects that you can't experience in a theater.
+    - I enjoy both, but I lean towards the cinema for the variety of genres and special effects that you can't experience in a theater. You?
     - The theater is my favorite because I appreciate the effort and talent that goes into live productions. It's a unique experience every time.
-    - I love going to the cinema because it’s a great way to unwind and escape into different worlds through movies.
-    - I prefer the theater because it offers a more intimate and engaging experience. Live performances create a connection between the audience and the actors that’s special.
+    - I love going to the cinema because it’s a great way to unwind and escape into different worlds through movies. What do you think?
+    - I prefer the theater because it offers a more intimate and engaging experience. Live performances create a connection between the audience and the actors that’s special. Hbu?
 
 - intent: answer_question_people8
   examples: |
     - The last movie I saw was "Oppenheimer." I loved the storytelling and the intense performances, especially Cillian Murphy's portrayal of Oppenheimer.
-    - I recently watched the movie "Barbie." It was fun and visually stunning, with a great message and entertaining performances.
+    - I recently watched the movie "Barbie." It was fun and visually stunning, with a great message and entertaining performances. You?
     - The last play I saw was "Hamilton." It was incredible; the music, acting, and choreography were all top-notch and very engaging.
     - I saw the movie "Dune" last. The visuals and world-building were breathtaking, and I enjoyed the complex story.
-    - The last movie I watched was "Avatar: The Way of Water." I really enjoyed the stunning visuals and the immersive experience of Pandora's underwater world.
+    - The last movie I watched was "Avatar: The Way of Water." I really enjoyed the stunning visuals and the immersive experience of Pandora's underwater world. What about you?
     - I recently saw the play "The Lion King." The production was fantastic, with amazing costumes and a powerful performance from the cast.
-    - The last movie I saw was "Spider-Man: No Way Home." I loved it; the action scenes were thrilling and it was great to see familiar faces from previous Spider-Man movies.
+    - The last movie I saw was "Spider-Man: No Way Home." I loved it; the action scenes were thrilling and it was great to see familiar faces from previous Spider-Man movies. You?
     - I watched the play "Les Misérables" last. It was a powerful performance with incredible music and a moving story that left a lasting impression on me.
 
 - intent: answer_question_people9
   examples: |
-    - Yes, I love reading! I prefer mystery and thriller genres because I enjoy trying to solve puzzles and uncovering secrets as I read.
+    - Yes, I love reading! I prefer mystery and thriller genres because I enjoy trying to solve puzzles and uncovering secrets as I read. Hbu?
     - I do enjoy reading, especially science fiction and fantasy. I love escaping to imaginative worlds and exploring futuristic concepts.
     - Reading is one of my favorite hobbies. I tend to gravitate towards historical fiction because I enjoy learning about different eras through compelling stories.
-    - I’m an avid reader and I particularly enjoy non-fiction. Topics like psychology and self-improvement fascinate me and help me grow personally.
-    - Yes, I enjoy reading quite a bit. I prefer romance novels because I like the emotional and heartwarming stories they offer.
+    - I’m an avid reader and I particularly enjoy non-fiction. Topics like psychology and self-improvement fascinate me and help me grow personally. And you?
+    - Yes, I enjoy reading quite a bit. I prefer romance novels because I like the emotional and heartwarming stories they offer. What do you think?
     - I do enjoy reading, and I’m a fan of classic literature. I appreciate the depth and historical context of books written by authors like Jane Austen and Charles Dickens.
-    - Reading is something I really enjoy. I’m into thrillers and crime novels because I love the suspense and excitement they provide.
+    - Reading is something I really enjoy. I’m into thrillers and crime novels because I love the suspense and excitement they provide. You?
     - I enjoy reading a lot, especially young adult fiction. The stories are often engaging and relatable, and I like the way they address various life challenges and adventures.
 
 - intent: answer_question_people10
   examples: |
     - Yes, I play the guitar. I enjoy playing both acoustic and electric guitars, and it’s a great way for me to unwind and express myself musically.
-    - I play the piano. It’s been a passion of mine for years, and I love playing classical pieces and composing my own music.
+    - I play the piano. It’s been a passion of mine for years, and I love playing classical pieces and composing my own music. What about you?
     - I don’t currently play any instruments, but I’d love to learn the violin. I’ve always admired its sound and the skill required to play it well.
-    - I play the drums. I find it really fun and energizing, and it’s great for keeping rhythm and staying active.
+    - I play the drums. I find it really fun and energizing, and it’s great for keeping rhythm and staying active. Hbu?
     - I don’t play any instruments right now, but I’ve always wanted to learn the saxophone. I love jazz music and think the saxophone has a beautiful, expressive sound.
     - I play the flute. I enjoy its light, melodic sound and the challenge of mastering various techniques and pieces.
-    - I don’t play any instruments, but I’m interested in learning to play the ukulele. It seems like a fun, easy instrument to pick up and play.
+    - I don’t play any instruments, but I’m interested in learning to play the ukulele. It seems like a fun, easy instrument to pick up and play. And you?
     - I play the trumpet. It’s been a rewarding experience to play in both school and community bands, and I appreciate its bright, powerful tone.
 
 - intent: answer_question_nature1
   examples: |
     - My favorite season is summer because of the warm weather and long days. I enjoy going to the beach, swimming, and having barbecues with friends and family.
-    - I love autumn because of the cool, crisp air and beautiful changing leaves. I enjoy hiking, apple picking, and cozying up with a good book.
-    - Spring is my favorite season due to the blooming flowers and mild temperatures. I enjoy gardening, taking long walks, and going on picnics in the park.
+    - I love autumn because of the cool, crisp air and beautiful changing leaves. I enjoy hiking, apple picking, and cozying up with a good book. What do you think?
+    - Spring is my favorite season due to the blooming flowers and mild temperatures. I enjoy gardening, taking long walks, and going on picnics in the park. You?
     - Winter is my favorite season because I love the holiday festivities and snow. I enjoy skiing, ice skating, and drinking hot chocolate by the fireplace.
     - I prefer summer because of the vibrant atmosphere and the chance to travel. I love going on road trips, attending music festivals, and exploring new places.
-    - Autumn is my favorite season because of the beautiful scenery and the comfort of sweater weather. I enjoy visiting pumpkin patches, baking, and watching movies.
+    - Autumn is my favorite season because of the beautiful scenery and the comfort of sweater weather. I enjoy visiting pumpkin patches, baking, and watching movies. How about you?
     - I like spring the most because everything feels fresh and renewed. I enjoy bike riding, planting flowers, and enjoying outdoor activities without the summer heat.
-    - Winter is my favorite season because I love the peacefulness of snowy days. I enjoy snowboarding, building snowmen, and enjoying the festive decorations and lights.
+    - Winter is my favorite season because I love the peacefulness of snowy days. I enjoy snowboarding, building snowmen, and enjoying the festive decorations and lights. And you?
 
 - intent: answer_question_nature2
   examples: |
     - Yes, I have a dog named Max. He's a golden retriever and loves playing fetch and going for long walks.
-    - I don’t have any pets right now, but I would love to get a cat someday. I think they’re independent and affectionate, which suits my lifestyle.
+    - I don’t have any pets right now, but I would love to get a cat someday. I think they’re independent and affectionate, which suits my lifestyle. What about you?
     - I have a pet parrot named Polly. She’s very talkative and enjoys mimicking sounds around the house.
     - No, I don’t have any pets at the moment, but I’d really like to adopt a dog. I’ve always wanted a loyal companion to take on hikes and outdoor adventures.
-    - Yes, I have two fish tanks with various tropical fish. They’re very calming to watch and care for.
-    - I don’t have any pets, but I’d love to get a rabbit. They’re adorable and seem like they would be fun to take care of.
+    - Yes, I have two fish tanks with various tropical fish. They’re very calming to watch and care for. You?
+    - I don’t have any pets, but I’d love to get a rabbit. They’re adorable and seem like they would be fun to take care of. And you?
     - Yes, I have a cat named Whiskers. She’s very playful and loves to curl up on my lap when I’m reading.
     - No, I don’t have any pets, but I’ve always wanted to have a small dog. I think it would be great to have a furry friend to keep me company and go on walks with.
 
 - intent: answer_question_nature3
   examples: |
-    - In my country, we experience four distinct seasons. Winters are cold and snowy, springs are mild and rainy, summers are warm and sunny, and autumns are cool with beautiful foliage.
+    - In my country, we experience four distinct seasons. Winters are cold and snowy, springs are mild and rainy, summers are warm and sunny, and autumns are cool with beautiful foliage. U?
     - The weather in my country varies greatly. Winters can be very harsh with heavy snowfall, while summers are hot and humid. Spring and autumn offer a more comfortable, moderate climate.
-    - We have a tropical climate, so it’s generally warm year-round. There’s a dry season with lots of sunshine and a wet season with heavy rains and occasional storms.
+    - We have a tropical climate, so it’s generally warm year-round. There’s a dry season with lots of sunshine and a wet season with heavy rains and occasional storms. And you?
     - In my country, winters are typically mild with occasional rain, and summers are very hot and dry. Spring and autumn are the best times of the year, with pleasant temperatures and clear skies.
     - Our country has a temperate climate. Winters are relatively mild with some rain, summers are warm with occasional heatwaves, and spring and autumn are both pleasant and mild.
-    - The weather here is quite unpredictable. We can have cold, snowy winters and hot, dry summers, with spring and autumn bringing a mix of mild and wet conditions.
+    - The weather here is quite unpredictable. We can have cold, snowy winters and hot, dry summers, with spring and autumn bringing a mix of mild and wet conditions. Hbu?
     - We experience a maritime climate, so the weather is quite mild year-round. Winters are wet and windy, summers are warm but not too hot, and spring and autumn are cool and often rainy.
-    - The weather in my country is generally stable. Summers are warm with occasional thunderstorms, winters are cold with moderate snowfall, and spring and autumn bring mild temperatures and moderate rainfall.
+    - The weather in my country is generally stable. Summers are warm with occasional thunderstorms, winters are cold with moderate snowfall, and spring and autumn bring mild temperatures and moderate rainfall. What about you?
 
 - intent: answer_question_nature4
   examples: |
-    - My favorite natural landscape is the mountains. I love the sense of adventure and tranquility they offer, along with the stunning views from the peaks.
+    - My favorite natural landscape is the mountains. I love the sense of adventure and tranquility they offer, along with the stunning views from the peaks. What about you?
     - I prefer the ocean because it's incredibly calming. The sound of the waves and the vastness of the sea make me feel at peace and connected to nature.
-    - Forests are my favorite natural landscape. I enjoy the serene atmosphere, the fresh air, and the diversity of wildlife and plants.
-    - I love the mountains. Hiking and exploring trails give me a sense of accomplishment, and the scenery is always breathtaking.
+    - Forests are my favorite natural landscape. I enjoy the serene atmosphere, the fresh air, and the diversity of wildlife and plants. What do you think?
+    - I love the mountains. Hiking and exploring trails give me a sense of accomplishment, and the scenery is always breathtaking. You?
     - The ocean is my favorite landscape. Swimming, snorkeling, and simply relaxing on the beach are some of my favorite activities, and I love the endless horizon.
     - Forests are my favorite because they feel like a peaceful escape from the hustle and bustle of daily life. I love the sounds of birds and rustling leaves.
-    - I enjoy the mountains the most. The crisp, clean air and the challenge of climbing to higher altitudes are exhilarating to me.
+    - I enjoy the mountains the most. The crisp, clean air and the challenge of climbing to higher altitudes are exhilarating to me. U?
     - The ocean is my favorite landscape. I find the rhythmic sound of the waves soothing, and I enjoy all the activities associated with the beach, like surfing and beachcombing.
 
 - intent: answer_question_nature5
   examples: |
     - Yes, I love spending time in nature. Hiking is my favorite activity because I enjoy exploring new trails and taking in the beautiful scenery.
     - Absolutely, I enjoy being in nature. I often go camping with friends and family, and we love sitting around the campfire and stargazing.
-    - I do enjoy spending time in nature. Bird-watching is something I find very relaxing and rewarding, especially when I spot a rare species.
+    - I do enjoy spending time in nature. Bird-watching is something I find very relaxing and rewarding, especially when I spot a rare species. How about u?
     - Yes, I love nature. Hiking and camping are my go-to activities because they allow me to disconnect from technology and reconnect with the natural world.
     - Spending time in nature is one of my favorite pastimes. I enjoy hiking and also like to go kayaking on calm lakes and rivers.
-    - Definitely, I enjoy nature a lot. I love going on nature walks and taking photographs of wildlife and scenic landscapes.
-    - Yes, I find being in nature very refreshing. I enjoy camping, hiking, and sometimes fishing with friends.
+    - Definitely, I enjoy nature a lot. I love going on nature walks and taking photographs of wildlife and scenic landscapes. U?
+    - Yes, I find being in nature very refreshing. I enjoy camping, hiking, and sometimes fishing with friends. And you?
     - I really enjoy spending time outdoors. My favorite activities are hiking and bird-watching because they are peaceful and allow me to appreciate the beauty of nature.
 
 - intent: answer_question_nature6
   examples: |
     - I make an effort to recycle and compost as much as possible. I also use reusable bags, bottles, and containers to reduce waste.
     - I try to conserve energy by turning off lights and appliances when not in use. Additionally, I use public transportation or bike instead of driving whenever I can.
-    - I support sustainable and eco-friendly products. I also participate in local clean-up events to help keep our community clean.
+    - I support sustainable and eco-friendly products. I also participate in local clean-up events to help keep our community clean. What about you?
     - I reduce my carbon footprint by eating a plant-based diet and minimizing meat consumption. I also grow some of my own vegetables in my garden.
     - I avoid using single-use plastics and opt for reusable alternatives. I also advocate for environmental causes and spread awareness about sustainability.
-    - I try to save water by taking shorter showers and fixing leaks promptly. I also collect rainwater to use for watering my plants.
+    - I try to save water by taking shorter showers and fixing leaks promptly. I also collect rainwater to use for watering my plants. And you?
     - I practice mindful consumption by buying second-hand items and supporting local, eco-friendly businesses. I also use natural cleaning products that are less harmful to the environment.
-    - I carpool with colleagues to reduce emissions and encourage others to do the same. I also make a conscious effort to plant trees and maintain green spaces in my neighborhood.
+    - I carpool with colleagues to reduce emissions and encourage others to do the same. I also make a conscious effort to plant trees and maintain green spaces in my neighborhood. Hbu?
 
 - intent: answer_question_nature7
   examples: |
-    - Spending time in nature greatly improves my mental health. It reduces my stress levels and makes me feel more relaxed and at peace.
+    - Spending time in nature greatly improves my mental health. It reduces my stress levels and makes me feel more relaxed and at peace. You?
     - Being in nature helps clear my mind and boosts my mood. It provides a break from the daily routine and helps me feel more connected to the world.
     - Nature has a calming effect on me. It allows me to disconnect from technology and daily stressors, which helps me feel more refreshed and recharged.
-    - I find that spending time outdoors enhances my overall well-being. It promotes mindfulness and helps me stay present in the moment.
-    - Being in nature positively impacts my mental health by providing a sense of tranquility. It helps me feel more balanced and centered.
+    - I find that spending time outdoors enhances my overall well-being. It promotes mindfulness and helps me stay present in the moment. Hbu?
+    - Being in nature positively impacts my mental health by providing a sense of tranquility. It helps me feel more balanced and centered. What do you think?
     - Time spent in nature significantly improves my mental clarity and creativity. The fresh air and natural surroundings are incredibly rejuvenating.
-    - Nature acts as a natural stress reliever for me. It reduces anxiety and helps me feel more grounded and happy.
+    - Nature acts as a natural stress reliever for me. It reduces anxiety and helps me feel more grounded and happy. And you?
     - I believe spending time in nature is essential for mental health. It offers a therapeutic escape from the hustle and bustle of everyday life, helping to improve my overall mood and mental state.
 
 - intent: answer_question_nature8
   examples: |
-    - Yes, I have several plants at home, including succulents and ferns. My routine includes watering them weekly and ensuring they get the right amount of sunlight.
+    - Yes, I have several plants at home, including succulents and ferns. My routine includes watering them weekly and ensuring they get the right amount of sunlight. U?
     - I have a few indoor plants like spider plants and pothos. I make sure to rotate them regularly to ensure even growth and use a water meter to avoid overwatering.
     - Yes, I keep a variety of houseplants, including a fiddle leaf fig and a snake plant. My tip is to wipe the leaves with a damp cloth to keep them dust-free and help them absorb more light.
-    - I have a small indoor garden with herbs like basil and mint. I water them in the mornings and make sure they get plenty of indirect sunlight.
+    - I have a small indoor garden with herbs like basil and mint. I water them in the mornings and make sure they get plenty of indirect sunlight. What about you?
     - Yes, I have a collection of succulents and cacti. I water them sparingly and use well-draining soil to prevent root rot.
-    - I keep several plants, including a peace lily and a monstera. My routine involves misting the leaves to maintain humidity and using a balanced fertilizer once a month.
+    - I keep several plants, including a peace lily and a monstera. My routine involves misting the leaves to maintain humidity and using a balanced fertilizer once a month. And you?
     - I have a few houseplants like aloe vera and ZZ plants. My tip is to use pots with drainage holes to prevent water from sitting at the bottom and causing root rot.
     - Yes, I have plants such as orchids and snake plants. I ensure they get filtered light and avoid direct sunlight, which can scorch the leaves.
 
 - intent: answer_question_nature9
   examples: |
-    - In my country, deer, foxes, and rabbits are commonly found in the wild. We also have unique species like the bald eagle, which is a symbol of national pride.
+    - In my country, deer, foxes, and rabbits are commonly found in the wild. We also have unique species like the bald eagle, which is a symbol of national pride. U?
     - Common animals here include squirrels, raccoons, and various bird species. We have endangered species like the black-footed ferret, which is under conservation efforts.
-    - You can often see animals like coyotes, beavers, and hawks. A unique species we have is the bison, which was once endangered but has made a significant recovery.
+    - You can often see animals like coyotes, beavers, and hawks. A unique species we have is the bison, which was once endangered but has made a significant recovery. Hbu?
     - In my country, bears, moose, and wolves are quite common in forested areas. We also have the critically endangered whooping crane, which is protected by wildlife programs.
     - Common wildlife includes raccoons, skunks, and a variety of songbirds. The red wolf is a unique and endangered species native to my country, currently facing significant conservation challenges.
-    - We frequently see animals like opossums, armadillos, and blue jays. The unique California condor is an endangered species that has been the focus of extensive conservation efforts.
+    - We frequently see animals like opossums, armadillos, and blue jays. The unique California condor is an endangered species that has been the focus of extensive conservation efforts. And you?
     - Deer, coyotes, and a range of bird species are commonly found. The unique and endangered species in my country include the Florida panther, which is critically endangered and heavily protected.
     - Common animals here are squirrels, foxes, and raccoons. One unique endangered species is the Hawaiian monk seal, which is under strict protection to prevent extinction.
 
 - intent: answer_question_nature10
   examples: |
     - My favorite animal is the dolphin. I love them because they are intelligent, playful, and they seem to have a friendly nature.
-    - I really like tigers. They are majestic and powerful, and I admire their beauty and strength in the wild.
+    - I really like tigers. They are majestic and powerful, and I admire their beauty and strength in the wild. And you?
     - My favorite animal is the elephant. I appreciate their gentle nature and strong family bonds, as well as their impressive size and memory.
-    - I adore cats. They are independent yet affectionate, and I enjoy their playful and curious personalities.
-    - My favorite animal is the owl. I find them fascinating because of their silent flight and their ability to see in the dark.
+    - I adore cats. They are independent yet affectionate, and I enjoy their playful and curious personalities. What do you think?
+    - My favorite animal is the owl. I find them fascinating because of their silent flight and their ability to see in the dark. U?
     - I love dogs because they are loyal and loving companions. Their ability to sense emotions and their eagerness to please make them special.
-    - My favorite animal is the penguin. I think they’re adorable and I admire their resilience in harsh environments.
+    - My favorite animal is the penguin. I think they’re adorable and I admire their resilience in harsh environments. Hbu?
     - I’m fond of sea turtles. They are ancient creatures with impressive navigation skills and a calm demeanor that I find soothing.
 
 - intent: answer_question_health1
   examples: |
     - I maintain a balanced diet by eating plenty of fruits, vegetables, and whole grains. I also stay active by going for daily walks and doing yoga.
-    - Regular exercise is key for me. I go to the gym three times a week and play tennis on weekends to stay fit.
+    - Regular exercise is key for me. I go to the gym three times a week and play tennis on weekends to stay fit. What about you?
     - I prioritize getting enough sleep each night, aiming for at least seven to eight hours. This helps me feel rested and more energetic during the day.
     - I stay hydrated by drinking plenty of water throughout the day. I also try to minimize my intake of sugary and caffeinated drinks.
-    - Meditation and mindfulness practices help me manage stress. I spend a few minutes each day focusing on my breath and clearing my mind.
+    - Meditation and mindfulness practices help me manage stress. I spend a few minutes each day focusing on my breath and clearing my mind. And you?
     - I make it a point to eat home-cooked meals as often as possible. This allows me to control the ingredients and avoid unhealthy additives.
-    - Regular health check-ups are important to me. I visit my doctor and dentist for routine examinations to catch any potential issues early.
+    - Regular health check-ups are important to me. I visit my doctor and dentist for routine examinations to catch any potential issues early. U?
     - Staying socially active is part of my health routine. Spending time with friends and family helps me maintain a positive outlook and emotional well-being.
 
 - intent: answer_question_health2
   examples: |
     - Yes, I have a regular exercise routine. I enjoy running in the mornings and doing strength training exercises at the gym.
-    - I do have a regular exercise routine. I love practicing yoga and going for long walks in the park.
+    - I do have a regular exercise routine. I love practicing yoga and going for long walks in the park. What about you?
     - Yes, I maintain a regular exercise routine. I enjoy cycling and swimming as they are both fun and great for cardiovascular health.
     - I do follow a regular exercise routine. My favorite activities include hiking on weekends and attending Zumba classes for a fun workout.
-    - Yes, I exercise regularly. I like to mix it up with jogging, weightlifting, and playing basketball with friends.
+    - Yes, I exercise regularly. I like to mix it up with jogging, weightlifting, and playing basketball with friends. U?
     - I have a regular routine that includes daily stretching and Pilates sessions. I find these activities help improve my flexibility and core strength.
     - Yes, I stick to a regular exercise schedule. I particularly enjoy doing high-intensity interval training (HIIT) workouts because they are efficient and effective.
-    - I maintain a consistent exercise routine. My favorite activities are dancing and rock climbing, as they keep me engaged and challenged.
+    - I maintain a consistent exercise routine. My favorite activities are dancing and rock climbing, as they keep me engaged and challenged. And you?
 
 - intent: answer_question_health3
   examples: |
     - Diet is crucial to my overall health. I follow a balanced diet that includes plenty of fruits, vegetables, lean proteins, and whole grains.
     - Diet plays a significant role in my health. I stick to a Mediterranean diet, which emphasizes healthy fats, fresh produce, and lean meats.
     - Maintaining a healthy diet is very important to me. I follow a plant-based diet, focusing on vegetables, fruits, legumes, and whole grains.
-    - Diet is a key factor in my overall well-being. I follow a low-carb diet to help manage my energy levels and maintain a healthy weight.
+    - Diet is a key factor in my overall well-being. I follow a low-carb diet to help manage my energy levels and maintain a healthy weight. You?
     - A healthy diet is essential for my health. I prefer a balanced diet with a mix of proteins, carbs, and fats, and I try to avoid processed foods.
-    - Diet is very important to my health. I follow a ketogenic diet, which involves high fat, moderate protein, and very low carbohydrate intake.
+    - Diet is very important to my health. I follow a ketogenic diet, which involves high fat, moderate protein, and very low carbohydrate intake. U?
     - My diet is vital to my overall health. I follow a pescatarian diet, which includes fish and seafood along with a variety of vegetables and grains.
-    - Diet is extremely important to me. I focus on eating organic and whole foods, avoiding sugars and refined carbohydrates as much as possible.
+    - Diet is extremely important to me. I focus on eating organic and whole foods, avoiding sugars and refined carbohydrates as much as possible. Hbu?
 
 - intent: answer_question_health4
   examples: |
     - I manage stress by practicing mindfulness and meditation every morning. It helps me start the day with a clear and focused mind.
     - Regular exercise is my go-to method for managing stress. Physical activity, like running or yoga, helps me release tension and feel more relaxed.
-    - I handle stress by keeping a journal. Writing down my thoughts and feelings helps me process and manage them better.
-    - Spending time in nature is very calming for me. I take regular walks in the park or go hiking on weekends to de-stress.
+    - I handle stress by keeping a journal. Writing down my thoughts and feelings helps me process and manage them better. What about you?
+    - Spending time in nature is very calming for me. I take regular walks in the park or go hiking on weekends to de-stress. How about you?
     - I use deep breathing exercises to manage stress. Taking a few minutes to focus on my breath helps me stay calm and centered.
     - Talking to friends and family about my worries helps me manage stress. Sharing my concerns and getting support makes a big difference.
     - I manage stress by organizing my tasks and setting priorities. Having a clear plan helps me stay on top of things and reduces anxiety.
-    - I enjoy hobbies like painting and reading to unwind. Engaging in activities I love helps me take my mind off stress and relax.
+    - I enjoy hobbies like painting and reading to unwind. Engaging in activities I love helps me take my mind off stress and relax. U?
 
 - intent: answer_question_health5
   examples: |
-    - Mental health is incredibly important and deserves as much attention as physical health. I take care of my mental well-being by practicing meditation and mindfulness daily.
+    - Mental health is incredibly important and deserves as much attention as physical health. I take care of my mental well-being by practicing meditation and mindfulness daily. And you?
     - I believe mental health is crucial for overall well-being. To take care of my mental health, I make sure to maintain a balanced lifestyle with regular exercise, healthy eating, and sufficient sleep.
-    - Mental health is fundamental to a happy and productive life. I prioritize my mental well-being by staying connected with friends and family, and seeking therapy when needed.
-    - Good mental health is essential for quality of life. I manage my mental health by engaging in hobbies I love, such as reading and painting, which help me relax and recharge.
-    - Mental health is as important as physical health. I take care of mine by setting aside time for self-care, including activities like yoga, journaling, and spending time in nature.
+    - Mental health is fundamental to a happy and productive life. I prioritize my mental well-being by staying connected with friends and family, and seeking therapy when needed. Hbu?
+    - Good mental health is essential for quality of life. I manage my mental health by engaging in hobbies I love, such as reading and painting, which help me relax and recharge. What do you think?
+    - Mental health is as important as physical health. I take care of mine by setting aside time for self-care, including activities like yoga, journaling, and spending time in nature. U?
     - I think mental health should be a top priority for everyone. I take care of my mental well-being by keeping a positive outlook, practicing gratitude, and maintaining a healthy work-life balance.
-    - Mental health is vital for overall wellness. To ensure my mental well-being, I practice stress management techniques like deep breathing exercises and ensure I have time for relaxation and fun.
+    - Mental health is vital for overall wellness. To ensure my mental well-being, I practice stress management techniques like deep breathing exercises and ensure I have time for relaxation and fun. What about you?
     - Maintaining good mental health is essential for a fulfilling life. I take care of my mental well-being by staying active, eating a balanced diet, and seeking support from loved ones when I need it.
 
 - intent: answer_question_health6
   examples: |
     - I usually get about 7 to 8 hours of sleep each night. My bedtime routine includes reading a book for 30 minutes before turning off the lights.
     - I aim for 8 hours of sleep every night. My routine involves drinking a cup of herbal tea and doing some light stretching to relax before bed.
-    - I typically get around 6 to 7 hours of sleep. I try to wind down by avoiding screens an hour before bed and listening to calming music.
+    - I typically get around 6 to 7 hours of sleep. I try to wind down by avoiding screens an hour before bed and listening to calming music. What about you?
     - I usually sleep for 7 hours. My bedtime routine includes writing in my journal and practicing mindfulness meditation to clear my mind.
-    - I get about 8 hours of sleep each night. I follow a routine of taking a warm shower and then reading a few chapters of a book to relax.
+    - I get about 8 hours of sleep each night. I follow a routine of taking a warm shower and then reading a few chapters of a book to relax. hbu?
     - I generally get 7 to 8 hours of sleep. My bedtime routine involves dimming the lights, turning off electronic devices, and doing some deep breathing exercises.
     - I aim for 6 to 7 hours of sleep. To help me fall asleep, I stick to a routine of drinking a glass of warm milk and doing some light yoga stretches.
-    - I usually get 7 hours of sleep. My routine includes setting a consistent bedtime, avoiding caffeine in the evening, and reading a book to unwind.
+    - I usually get 7 hours of sleep. My routine includes setting a consistent bedtime, avoiding caffeine in the evening, and reading a book to unwind. U?
 
 - intent: answer_question_health7
   examples: |
     - I stay motivated by setting clear, achievable goals and tracking my progress. Seeing improvements over time keeps me committed to my healthy habits.
-    - I surround myself with supportive friends and family who encourage me to stay on track. We often work out together and share healthy recipes.
-    - I remind myself of the benefits of a healthy lifestyle, such as increased energy and improved mood. This helps me stay focused and motivated.
+    - I surround myself with supportive friends and family who encourage me to stay on track. We often work out together and share healthy recipes. U?
+    - I remind myself of the benefits of a healthy lifestyle, such as increased energy and improved mood. This helps me stay focused and motivated. What about you?
     - I stay motivated by varying my routine to keep things interesting. Trying new workouts and recipes helps me avoid boredom and stay engaged.
-    - I use fitness apps to track my activities and diet. These tools provide visual progress and reminders, which help me stay on course.
+    - I use fitness apps to track my activities and diet. These tools provide visual progress and reminders, which help me stay on course. Hbu?
     - I stay motivated by setting small rewards for myself. For example, if I stick to my exercise routine for a month, I treat myself to a new book or a fun outing.
     - I find motivation in the positive changes I see in my body and mind. Feeling stronger, healthier, and more energetic keeps me dedicated to my lifestyle choices.
     - I stay motivated by educating myself about health and wellness. Learning about the benefits of healthy habits and the risks of unhealthy ones keeps me committed to my goals.
@@ -649,65 +649,65 @@ nlu:
   examples: |
     - I highly recommend the book "How Not to Die" by Dr. Michael Greger. It's full of evidence-based advice on how to prevent and reverse disease through diet.
     - The Tim Ferriss Show podcast often features episodes on health and wellness, providing valuable insights from experts in various fields.
-    - I enjoy visiting the website Healthline for its reliable and comprehensive health information on a wide range of topics.
+    - I enjoy visiting the website Healthline for its reliable and comprehensive health information on a wide range of topics. And you
     - The book "Atomic Habits" by James Clear is excellent for learning how to build healthy habits and make sustainable lifestyle changes.
-    - The Doctor's Kitchen podcast by Dr. Rupy Aujla is great for exploring how food can be used as medicine to improve overall health.
+    - The Doctor's Kitchen podcast by Dr. Rupy Aujla is great for exploring how food can be used as medicine to improve overall health. What about you?
     - I recommend The Mayo Clinic's website for its trusted health resources and detailed articles on various health conditions and treatments.
     - "The Whole30: The 30-Day Guide to Total Health and Food Freedom" by Melissa Hartwig Urban is a fantastic book for understanding the impact of food on your health.
-    - I find The MindBodyGreen website very helpful for holistic health tips, covering nutrition, fitness, mental health, and more.
+    - I find The MindBodyGreen website very helpful for holistic health tips, covering nutrition, fitness, mental health, and more. U?
 
 - intent: answer_question_health9
   examples: |
     - Yes, I twisted my ankle while playing soccer in high school. I landed awkwardly after jumping to head the ball, and it took a few weeks of rest and physical therapy to heal.
-    - I broke my arm when I was a kid. I fell off my bike while going down a steep hill and had to wear a cast for about six weeks.
+    - I broke my arm when I was a kid. I fell off my bike while going down a steep hill and had to wear a cast for about six weeks. Hbu?
     - I’ve twisted my ankle a couple of times, usually from stepping on uneven ground. Each time, I had to use crutches and wrap the ankle for support until it healed.
     - Yes, I broke my collarbone in a skiing accident. I took a hard fall on an icy patch, and it was quite painful, requiring a sling and several weeks to recover.
     - I twisted my ankle during a hiking trip. I slipped on a wet rock and had to hobble back to the trailhead. It was swollen for days, but ice and elevation helped a lot.
-    - I broke my wrist once when I fell off a skateboard. I tried to break my fall with my hands, and it resulted in a fracture that needed a cast.
-    - Yes, I twisted my ankle while running on a trail. I misstepped on a root and rolled my ankle, which led to some swelling and a few weeks of recovery.
+    - I broke my wrist once when I fell off a skateboard. I tried to break my fall with my hands, and it resulted in a fracture that needed a cast. U
+    - Yes, I twisted my ankle while running on a trail. I misstepped on a root and rolled my ankle, which led to some swelling and a few weeks of recovery. And you?
     - I’ve never had a broken bone, but I did twist my ankle badly while playing basketball. I landed on someone’s foot after a jump shot, and it took a while to heal with rest and ice packs.
 
 - intent: answer_question_health10
   examples: |
     - I don’t get sick often, but when I do, I rest as much as possible and stay hydrated. I also prefer to avoid medications unless absolutely necessary and focus on natural remedies.
-    - I rarely get sick, but when I do, I handle it by taking over-the-counter medicine, drinking plenty of fluids, and getting extra sleep to help my body recover.
+    - I rarely get sick, but when I do, I handle it by taking over-the-counter medicine, drinking plenty of fluids, and getting extra sleep to help my body recover. Hbu
     - I don’t get sick frequently. When I’m under the weather, I usually take it easy, use home remedies like herbal teas, and make sure to rest and eat healthy foods.
     - I do get sick occasionally, and I handle it by resting, staying hydrated, and eating nutritious foods to support my immune system. I also try to avoid spreading germs to others.
-    - I get sick maybe once or twice a year. I usually manage it by staying home, getting plenty of rest, and using a humidifier to ease symptoms like congestion.
+    - I get sick maybe once or twice a year. I usually manage it by staying home, getting plenty of rest, and using a humidifier to ease symptoms like congestion. And you?
     - I rarely fall ill, but when I do, I try to rest as much as possible and take it easy. I also find that drinking warm fluids and eating light, easy-to-digest foods helps me feel better faster.
-    - I don’t get sick often. When I do, I handle it by resting, drinking lots of water, and sometimes using over-the-counter remedies to alleviate symptoms like a sore throat or congestion.
+    - I don’t get sick often. When I do, I handle it by resting, drinking lots of water, and sometimes using over-the-counter remedies to alleviate symptoms like a sore throat or congestion. What about you?
     - I get sick occasionally, especially during cold and flu season. I usually take medication to manage symptoms, stay home to rest, and try to eat foods rich in vitamins to boost my immune system.
 
 - intent: answer_question_traveling1
   examples: |
     - The most beautiful place I’ve ever been to is Santorini, Greece. The stunning white buildings with blue roofs overlooking the crystal-clear Aegean Sea were absolutely breathtaking.
     - I think the most beautiful place I’ve visited is Banff National Park in Canada. The turquoise lakes and majestic mountain scenery were incredibly picturesque.
-    - The Maldives stands out as the most beautiful place I’ve seen. The clear, turquoise waters and white sandy beaches created a paradise-like setting.
+    - The Maldives stands out as the most beautiful place I’ve seen. The clear, turquoise waters and white sandy beaches created a paradise-like setting. And u?
     - I found the landscapes of New Zealand to be the most beautiful. The diverse scenery, from lush forests to dramatic fjords, was simply spectacular.
-    - Kyoto, Japan, is the most beautiful place I’ve been to. The traditional temples, serene gardens, and cherry blossoms created an enchanting atmosphere.
-    - The fjords of Norway were the most stunning place I’ve visited. The towering cliffs and serene waters made for an unforgettable and awe-inspiring experience.
-    - I was amazed by the beauty of the Swiss Alps. The snow-capped peaks and picturesque villages offered a stunning and tranquil escape.
+    - Kyoto, Japan, is the most beautiful place I’ve been to. The traditional temples, serene gardens, and cherry blossoms created an enchanting atmosphere. hbu?
+    - The fjords of Norway were the most stunning place I’ve visited. The towering cliffs and serene waters made for an unforgettable and awe-inspiring experience. What do you think?
+    - I was amazed by the beauty of the Swiss Alps. The snow-capped peaks and picturesque villages offered a stunning and tranquil escape. U?
     - The Great Barrier Reef in Australia is the most beautiful place I’ve been. The vibrant marine life and colorful coral reefs made for an incredible underwater adventure.
 
 - intent: answer_question_traveling2
   examples: |
     - In my city, a must-visit is the historic downtown area, known for its charming architecture and vibrant cultural scene. Also, the local botanical gardens are a beautiful spot for a relaxing stroll.
     - In my country, you can't miss the national parks, like Yosemite, which offer stunning natural beauty and outdoor activities. Also, the capital city has impressive museums and historic landmarks.
-    - A top spot in my city is the waterfront promenade, perfect for enjoying scenic views and lively events. Additionally, the local art district showcases fantastic galleries and street art.
-    - In my country, visiting the ancient ruins of Machu Picchu is a must for its breathtaking historical and natural significance. Also, the coastal cities offer beautiful beaches and vibrant nightlife.
-    - My city’s famous historic castle is a must-see, with its rich history and panoramic views. The nearby cultural center also offers interesting exhibitions and performances.
+    - A top spot in my city is the waterfront promenade, perfect for enjoying scenic views and lively events. Additionally, the local art district showcases fantastic galleries and street art. And you?
+    - In my country, visiting the ancient ruins of Machu Picchu is a must for its breathtaking historical and natural significance. Also, the coastal cities offer beautiful beaches and vibrant nightlife. What do you think?
+    - My city’s famous historic castle is a must-see, with its rich history and panoramic views. The nearby cultural center also offers interesting exhibitions and performances. What about you?
     - A key place to visit in my country is the Great Wall of China. It’s an iconic landmark with incredible historical and architectural significance. Additionally, the picturesque countryside offers charming villages and serene landscapes.
-    - In my city, the modern art museum is a great place to explore innovative artworks and installations. Additionally, the local food markets provide a taste of regional cuisine and local culture.
+    - In my city, the modern art museum is a great place to explore innovative artworks and installations. Additionally, the local food markets provide a taste of regional cuisine and local culture. U?
     - My country’s stunning national parks, like Banff, are a must for their incredible landscapes and outdoor adventures. Also, the historic towns with their well-preserved architecture and local history are worth visiting.
 
 - intent: answer_question_traveling3
   examples: |
-    - I typically spend my holidays traveling to new places with family or friends. It’s a great way to explore different cultures and relax.
+    - I typically spend my holidays traveling to new places with family or friends. It’s a great way to explore different cultures and relax. U?
     - I usually enjoy a mix of relaxing at home and catching up with loved ones. I also like to use the time to pursue hobbies I don’t have time for during the workweek.
     - My holidays often involve outdoor activities like hiking or camping. I find it refreshing to spend time in nature and disconnect from daily routines.
-    - I like to spend my holidays volunteering or participating in community events. It’s fulfilling to give back and connect with others during this time.
+    - I like to spend my holidays volunteering or participating in community events. It’s fulfilling to give back and connect with others during this time. Hbu?
     - I often use my holidays to visit family and friends who live far away. It’s a chance to strengthen relationships and enjoy quality time together.
-    - I usually relax at home, catch up on reading, and cook special meals. It’s a peaceful way to recharge and enjoy some downtime.
+    - I usually relax at home, catch up on reading, and cook special meals. It’s a peaceful way to recharge and enjoy some downtime. What about you?
     - My holidays are often spent exploring local attractions and trying new restaurants. It’s a fun way to enjoy the area where I live and discover new experiences.
     - I like to plan a mix of relaxation and adventure during the holidays. Whether it’s a short trip or simply taking time off to enjoy leisure activities, I make sure to balance relaxation with something exciting.
 
@@ -715,76 +715,76 @@ nlu:
   examples: |
     - One of my most memorable holiday experiences was a trip to Paris. I visited iconic landmarks like the Eiffel Tower and enjoyed the city's charming cafes and beautiful streets.
     - I’ll never forget the holiday I spent hiking through the Rockies. The stunning mountain views and the sense of accomplishment after reaching the summit made it truly special.
-    - A memorable holiday for me was volunteering in a remote village. The experience of working with local communities and seeing their gratitude was incredibly rewarding.
+    - A memorable holiday for me was volunteering in a remote village. The experience of working with local communities and seeing their gratitude was incredibly rewarding. And you?
     - One of my favorite holiday memories is a family reunion at a beach house. The time spent together playing games, enjoying the ocean, and having bonfires was unforgettable.
-    - I had an amazing experience exploring the markets and historical sites in Istanbul. The vibrant culture, delicious food, and rich history left a lasting impression on me.
+    - I had an amazing experience exploring the markets and historical sites in Istanbul. The vibrant culture, delicious food, and rich history left a lasting impression on me. Hbu?
     - A holiday that stands out was when I took a scenic train ride through Switzerland. The breathtaking landscapes and comfortable journey made it a unique and memorable experience.
     - One of my most cherished holiday experiences was a surprise trip to a tropical island. The beautiful beaches, relaxing atmosphere, and special moments with loved ones made it unforgettable.
-    - I remember a holiday spent at a cozy cabin in the mountains during winter. The snow-covered scenery, warm fireside chats, and outdoor adventures created a perfect winter escape.
+    - I remember a holiday spent at a cozy cabin in the mountains during winter. The snow-covered scenery, warm fireside chats, and outdoor adventures created a perfect winter escape. What about you?
 
 - intent: answer_question_traveling5
   examples: |
     - I would plan a trip to Japan, visiting both Tokyo for its vibrant city life and Kyoto for its beautiful temples and traditional culture. I’d also explore the Japanese Alps for some outdoor adventure.
-    - My dream holiday would be a tour of Italy, from the historical ruins of Rome to the romantic canals of Venice and the stunning landscapes of Tuscany. I’d savor the local cuisine and explore the art and history.
+    - My dream holiday would be a tour of Italy, from the historical ruins of Rome to the romantic canals of Venice and the stunning landscapes of Tuscany. I’d savor the local cuisine and explore the art and history. What do you think?
     - I’d love to visit New Zealand, exploring its diverse landscapes from fjords to beaches. I’d also want to experience the rich Maori culture and enjoy some thrilling outdoor activities like bungee jumping and hiking.
-    - My ideal holiday would be a road trip across the United States, stopping at national parks like Yellowstone and the Grand Canyon. I’d enjoy the natural beauty and diverse landscapes of the country.
+    - My ideal holiday would be a road trip across the United States, stopping at national parks like Yellowstone and the Grand Canyon. I’d enjoy the natural beauty and diverse landscapes of the country. U?
     - I’d plan a relaxing getaway to the Maldives, staying in an overwater bungalow and enjoying the crystal-clear waters and white sandy beaches. It would be the perfect place for unwinding and snorkeling.
-    - My dream holiday would be a cultural exploration of Morocco, from the bustling markets of Marrakech to the serene Sahara Desert. I’d love to experience the local traditions and beautiful landscapes.
+    - My dream holiday would be a cultural exploration of Morocco, from the bustling markets of Marrakech to the serene Sahara Desert. I’d love to experience the local traditions and beautiful landscapes. And you
     - I’d choose a trip to South Africa, combining wildlife safaris in Kruger National Park with a visit to Cape Town’s stunning coastline and Table Mountain. It would be an exciting mix of adventure and relaxation.
-    - I’d plan a scenic journey through Scandinavia, visiting Norway’s fjords, Sweden’s archipelagos, and Denmark’s historic cities. I’d enjoy the stunning natural beauty and rich cultural heritage of the region.
+    - I’d plan a scenic journey through Scandinavia, visiting Norway’s fjords, Sweden’s archipelagos, and Denmark’s historic cities. I’d enjoy the stunning natural beauty and rich cultural heritage of the region. Hbu
 
 - intent: answer_question_traveling6
   examples: |
     - I prefer traveling to cities because I love exploring vibrant urban areas, enjoying diverse cuisines, and experiencing cultural landmarks and events. Cities offer a lot of activities and attractions that keep me engaged.
-    - I’m drawn to beaches because I enjoy relaxing by the ocean, swimming, and soaking up the sun. The laid-back atmosphere and beautiful views help me unwind and recharge.
+    - I’m drawn to beaches because I enjoy relaxing by the ocean, swimming, and soaking up the sun. The laid-back atmosphere and beautiful views help me unwind and recharge. What about you?
     - Mountains are my favorite travel destination because I love hiking, skiing, and taking in breathtaking views. The fresh air and natural beauty make mountain trips both refreshing and invigorating.
-    - I prefer the countryside for its peacefulness and scenic landscapes. I enjoy spending time in nature, exploring rural areas, and experiencing a slower pace of life away from the hustle and bustle.
-    - I lean towards traveling to cities because of the rich cultural experiences and variety of entertainment options available. From museums to nightlife, cities offer endless opportunities for exploration and discovery.
-    - Beaches are my top choice as I find the ocean’s calming effect and the opportunity for water sports very appealing. It’s a perfect way to relax and enjoy nature.
+    - I prefer the countryside for its peacefulness and scenic landscapes. I enjoy spending time in nature, exploring rural areas, and experiencing a slower pace of life away from the hustle and bustle. Hbu?
+    - I lean towards traveling to cities because of the rich cultural experiences and variety of entertainment options available. From museums to nightlife, cities offer endless opportunities for exploration and discovery. What do you think?
+    - Beaches are my top choice as I find the ocean’s calming effect and the opportunity for water sports very appealing. It’s a perfect way to relax and enjoy nature. U?
     - I prefer the mountains because they offer a sense of adventure and solitude. Activities like climbing and skiing are exhilarating, and the stunning landscapes are incredibly rewarding.
-    - I enjoy traveling to the countryside for its natural charm and tranquility. The chance to disconnect from technology and immerse myself in picturesque landscapes is a refreshing change.
+    - I enjoy traveling to the countryside for its natural charm and tranquility. The chance to disconnect from technology and immerse myself in picturesque landscapes is a refreshing change. You
 
 - intent: answer_question_traveling7
   examples: |
-    - I prefer to plan my trips in detail. I like having a clear itinerary to ensure I make the most of my time and don’t miss out on key attractions.
+    - I prefer to plan my trips in detail. I like having a clear itinerary to ensure I make the most of my time and don’t miss out on key attractions. And you
     - I enjoy being spontaneous during my travels. I find that it leads to unexpected adventures and discoveries, making the trip more exciting and memorable.
     - I usually plan my trips in advance but leave some room for spontaneity. This way, I have a structured plan but can still enjoy impromptu activities.
     - I like to be spontaneous with my travel plans. It allows me to explore and adapt to new opportunities as they arise, which often leads to unique experiences.
-    - I’m a fan of detailed planning. I research destinations thoroughly and create a schedule to maximize my time and avoid any last-minute stress.
+    - I’m a fan of detailed planning. I research destinations thoroughly and create a schedule to maximize my time and avoid any last-minute stress. Hbu
     - I prefer a balanced approach—having a rough plan but being open to changes. This lets me enjoy organized activities while also taking advantage of unexpected opportunities.
     - I lean towards detailed planning for trips to ensure everything goes smoothly. I like knowing what to expect and having all logistics sorted out in advance.
-    - I love being spontaneous when traveling. I find that not having a set plan makes the experience more adventurous and allows for more flexibility and fun.
+    - I love being spontaneous when traveling. I find that not having a set plan makes the experience more adventurous and allows for more flexibility and fun. U?
 
 - intent: answer_question_traveling8
   examples: |
     - I prefer traveling with a partner because it allows for shared experiences and creating memories together. It’s also nice to have someone to share responsibilities and decisions with.
-    - Traveling alone is my favorite because it gives me complete freedom to explore at my own pace and focus on my interests without coordinating with others.
+    - Traveling alone is my favorite because it gives me complete freedom to explore at my own pace and focus on my interests without coordinating with others. What about you?
     - I enjoy traveling in a group because it’s fun to share the experience with friends or family. Group travel often leads to more social activities and a sense of camaraderie.
-    - I like traveling with a partner as it provides both companionship and a chance to have meaningful conversations while discovering new places together.
+    - I like traveling with a partner as it provides both companionship and a chance to have meaningful conversations while discovering new places together. And you?
     - I prefer traveling alone because it allows for personal growth and self-discovery. I can be spontaneous and make decisions without considering others’ preferences.
     - Traveling in a group suits me well because it can be more economical and offers a variety of perspectives and interests. It’s also enjoyable to have multiple people to interact with.
-    - I prefer traveling with a partner for the emotional support and shared experiences. It’s rewarding to see and enjoy new places through someone else’s eyes.
+    - I prefer traveling with a partner for the emotional support and shared experiences. It’s rewarding to see and enjoy new places through someone else’s eyes. How about you
     - Traveling alone is ideal for me because it allows for complete independence and flexibility. I can set my own schedule and adapt my plans as I go, which is often very freeing.
 
 - intent: answer_question_traveling9
   examples: |
     - My favorite mode of transportation is the train because it offers a scenic and relaxing journey. I enjoy the comfort and the opportunity to watch the landscape change as I travel.
-    - I prefer traveling by plane for long distances. It’s the fastest way to reach my destination and allows me to cover a lot of ground quickly.
+    - I prefer traveling by plane for long distances. It’s the fastest way to reach my destination and allows me to cover a lot of ground quickly. You?
     - I love traveling by car because it gives me the flexibility to stop and explore wherever I want. It’s perfect for road trips and discovering off-the-beaten-path locations.
     - My favorite mode of transportation is a bike. It’s eco-friendly and allows me to enjoy the surroundings at a leisurely pace while getting some exercise.
-    - I enjoy traveling by ferry for its unique experience and the chance to enjoy the sea. It’s a relaxing way to travel, especially for island hopping.
+    - I enjoy traveling by ferry for its unique experience and the chance to enjoy the sea. It’s a relaxing way to travel, especially for island hopping. Hbu?
     - I prefer traveling by train for shorter trips. It’s often more comfortable than other options and provides a nice view of the countryside.
     - Air travel is my top choice for international trips. It’s efficient and allows me to reach distant destinations quickly, making it ideal for long-haul journeys.
-    - I like traveling by bus for its affordability and convenience. It’s often a practical choice for getting around cities or traveling within a region.
+    - I like traveling by bus for its affordability and convenience. It’s often a practical choice for getting around cities or traveling within a region. And you?
 
 - intent: answer_question_traveling10
   examples: |
-    - I love documenting my travels through photography. Capturing photos of landscapes and experiences helps me remember the details and share them with others.
+    - I love documenting my travels through photography. Capturing photos of landscapes and experiences helps me remember the details and share them with others. U?
     - I prefer journaling to document my travels. Writing down my thoughts and experiences allows me to reflect on my journey and preserve memories in my own words.
-    - Blogging is my favorite way to document my travels. It lets me combine writing and photography, and I enjoy sharing my adventures and tips with a wider audience.
+    - Blogging is my favorite way to document my travels. It lets me combine writing and photography, and I enjoy sharing my adventures and tips with a wider audience. Hbu
     - I like to keep a travel scrapbook. I collect tickets, maps, and souvenirs, and then create a visual record of my trips with notes and pictures.
     - I enjoy recording my travels through video. Creating travel vlogs lets me capture the sights and sounds of my journey and relive the experience through moving images.
-    - I document my travels through social media. Sharing updates and photos with friends and family in real-time is a fun way to keep them involved in my adventures.
+    - I document my travels through social media. Sharing updates and photos with friends and family in real-time is a fun way to keep them involved in my adventures. And you
     - I prefer keeping a digital travel diary. I use apps to organize my notes and photos, making it easy to look back on my experiences and access them from anywhere.
     - I like to combine several methods, such as taking photos, writing brief notes, and making occasional videos. This approach gives me a well-rounded record of my travels.
 
@@ -793,328 +793,328 @@ nlu:
     - Yes, I enjoy shopping because it’s a fun way to explore new products and find unique items. It’s also satisfying to discover good deals and update my wardrobe or home.
     - No, I don’t particularly enjoy shopping. I find it can be overwhelming and time-consuming, so I prefer to make quick purchases when necessary rather than spending a lot of time in stores.
     - I like shopping for certain items, especially when it comes to finding special gifts for friends and family. It’s rewarding to select something thoughtful and personalized.
-    - I enjoy shopping as a social activity. Going to malls or markets with friends can be a fun outing and a chance to catch up while browsing through different stores.
+    - I enjoy shopping as a social activity. Going to malls or markets with friends can be a fun outing and a chance to catch up while browsing through different stores. How about you
     - I don’t enjoy shopping much because I often find it stressful to navigate crowded stores and make decisions. Online shopping is more convenient for me.
-    - Yes, I love shopping for new gadgets and tech. Exploring the latest innovations and finding the best options is exciting and fulfilling.
-    - I’m indifferent about shopping. I only enjoy it when I’m looking for something specific, but otherwise, it’s just a necessity rather than a pleasure.
-    - I enjoy shopping for clothes and accessories because it’s a way to express my personal style and keep up with trends. It’s also a bit of a treat for me.
+    - Yes, I love shopping for new gadgets and tech. Exploring the latest innovations and finding the best options is exciting and fulfilling. u?
+    - I’m indifferent about shopping. I only enjoy it when I’m looking for something specific, but otherwise, it’s just a necessity rather than a pleasure. What do you think?
+    - I enjoy shopping for clothes and accessories because it’s a way to express my personal style and keep up with trends. It’s also a bit of a treat for me. And you?
 
 - intent: answer_question_shopping2
   examples: |
-    - I prefer shopping in-store because I can see and try on items before buying. The pros are immediate gratification and the ability to inspect quality firsthand, but the cons include time spent traveling and potentially crowded stores.
+    - I prefer shopping in-store because I can see and try on items before buying. The pros are immediate gratification and the ability to inspect quality firsthand, but the cons include time spent traveling and potentially crowded stores. You?
     - I like shopping online for its convenience and variety. I can compare prices easily and shop from home, but the cons are the lack of immediate access to the product and the risk of receiving items that don’t match their description.
     - I enjoy both in-store and online shopping. In-store shopping allows me to feel and try products, while online shopping offers a broader selection and the ease of browsing from anywhere. The downside of in-store shopping is the travel time, and online shopping may involve waiting for deliveries.
-    - I prefer online shopping for the convenience and ability to quickly find what I need without leaving my house. The pros include no crowds and easy price comparisons, but the cons are waiting for shipping and sometimes dealing with returns.
-    - I favor in-store shopping because it allows me to make instant purchases and avoid shipping costs. However, it can be time-consuming and less convenient compared to the ease of online shopping.
+    - I prefer online shopping for the convenience and ability to quickly find what I need without leaving my house. The pros include no crowds and easy price comparisons, but the cons are waiting for shipping and sometimes dealing with returns. And u?
+    - I favor in-store shopping because it allows me to make instant purchases and avoid shipping costs. However, it can be time-consuming and less convenient compared to the ease of online shopping. What do you think?
     - Online shopping is my preference for its flexibility and the ability to shop at any time. The pros are easy browsing and delivery to my door, but the cons include the potential for delayed shipping and the hassle of returns if the product isn’t as expected.
-    - I enjoy shopping in-store for its tactile experience and immediate purchase. I can try things on and avoid shipping fees, but it can be less convenient and more tiring compared to shopping online.
+    - I enjoy shopping in-store for its tactile experience and immediate purchase. I can try things on and avoid shipping fees, but it can be less convenient and more tiring compared to shopping online. hbu
     - I prefer online shopping due to its efficiency and extensive range of products. The main pros are not having to travel and the convenience of comparing different options, while the cons include waiting for delivery and sometimes dealing with discrepancies between online images and the actual product.
 
 - intent: answer_question_shopping3
   examples: |
-    - Yes, I’m loyal to Patagonia because of their commitment to environmental sustainability and high-quality outdoor gear. Their products are durable, and I appreciate their ethical practices.
+    - Yes, I’m loyal to Patagonia because of their commitment to environmental sustainability and high-quality outdoor gear. Their products are durable, and I appreciate their ethical practices. HBU
     - I’m particularly loyal to Apple due to their reliable technology and seamless ecosystem. The user experience and customer service are excellent, making their products worth the investment for me.
-    - Yes, I prefer shopping at Trader Joe’s for their unique and high-quality food items at reasonable prices. The friendly store atmosphere and their focus on customer satisfaction also keep me coming back.
+    - Yes, I prefer shopping at Trader Joe’s for their unique and high-quality food items at reasonable prices. The friendly store atmosphere and their focus on customer satisfaction also keep me coming back. you?
     - I’m loyal to Nike because of their innovative sportswear and the brand’s strong reputation for quality. They offer great performance and style, and I value their commitment to supporting athletes.
-    - I’m dedicated to shopping at local boutiques because they offer unique items and personalized service. Supporting small businesses and finding one-of-a-kind pieces makes the experience special.
+    - I’m dedicated to shopping at local boutiques because they offer unique items and personalized service. Supporting small businesses and finding one-of-a-kind pieces makes the experience special. What about you?
     - I’m loyal to Amazon for its vast selection and convenience. The easy shopping experience and fast delivery make it my go-to for a wide range of products.
-    - Yes, I’m loyal to Lush for their natural and cruelty-free beauty products. Their commitment to ethical sourcing and environmentally friendly packaging aligns with my values.
+    - Yes, I’m loyal to Lush for their natural and cruelty-free beauty products. Their commitment to ethical sourcing and environmentally friendly packaging aligns with my values. And you?
     - I’m particularly loyal to IKEA because of their affordable and functional home furnishings. The variety of options and the ability to find everything for my home in one place make it my preferred choice.
 
 - intent: answer_question_shopping4
   examples: |
     - I often shop for myself but also enjoy buying gifts for others. Finding thoughtful gifts for friends and family is rewarding and allows me to show how much I care.
     - I mostly shop for myself, as I prefer to focus on my own needs and preferences. However, I do enjoy picking out special gifts for loved ones on occasions like birthdays and holidays.
-    - I love buying gifts for others. It’s a joy to choose something that will make someone else happy, and I find it more fulfilling than shopping for myself.
+    - I love buying gifts for others. It’s a joy to choose something that will make someone else happy, and I find it more fulfilling than shopping for myself. U?
     - I shop for myself quite frequently, but I also make an effort to buy gifts for others during special events. It’s a nice balance between treating myself and spreading joy.
-    - I enjoy shopping for both myself and for others. I find it satisfying to treat myself occasionally and also to find meaningful presents for friends and family.
+    - I enjoy shopping for both myself and for others. I find it satisfying to treat myself occasionally and also to find meaningful presents for friends and family. What about you?
     - I primarily shop for myself, focusing on updating my wardrobe and getting things I need. However, I also take pleasure in finding gifts for others during holidays and special occasions.
-    - I enjoy shopping for gifts for others more than for myself. It’s fun to look for unique and thoughtful items that can bring happiness to friends and family.
+    - I enjoy shopping for gifts for others more than for myself. It’s fun to look for unique and thoughtful items that can bring happiness to friends and family. And you?
     - I tend to shop for myself more often, but I appreciate the opportunity to buy gifts for others, especially when I find something perfect that suits their tastes.
 
 - intent: answer_question_shopping5
   examples: |
     - I set a monthly budget for shopping and track my expenses to stay within it. To save money, I use coupons, look for sales, and compare prices before making a purchase.
-    - I budget by allocating a specific amount for shopping each month and stick to it. I also take advantage of loyalty programs and cashback offers to get the best deals.
-    - I plan my shopping trips and make a list to avoid impulse purchases. To save money, I wait for sales events and use discount codes whenever possible.
+    - I budget by allocating a specific amount for shopping each month and stick to it. I also take advantage of loyalty programs and cashback offers to get the best deals. U?
+    - I plan my shopping trips and make a list to avoid impulse purchases. To save money, I wait for sales events and use discount codes whenever possible. Hbu
     - I create a shopping budget based on my monthly income and prioritize essential items. I save money by shopping during off-peak times and buying in bulk when it makes sense.
     - I budget for shopping by setting aside a portion of my income each month. My tips for saving include shopping at thrift stores, using reward points, and avoiding non-essential purchases.
-    - I use a budgeting app to track my spending and ensure I stay within my shopping limits. I save money by buying generic brands and looking for clearance items.
+    - I use a budgeting app to track my spending and ensure I stay within my shopping limits. I save money by buying generic brands and looking for clearance items. You?
     - I establish a budget for each shopping category and review my expenses regularly. To save money, I take advantage of seasonal sales and negotiate prices when possible.
     - I plan my shopping in advance and stick to a budget to avoid overspending. I find that using shopping lists, avoiding impulse buys, and comparing prices online help me save money.
 
 - intent: answer_question_shopping6
   examples: |
-    - I prefer to shop alone because it allows me to focus and make decisions at my own pace. It’s easier to compare options and avoid distractions when I’m by myself.
-    - I enjoy shopping with friends or family because it makes the experience more social and fun. It’s great to get their opinions and make a day out of it.
+    - I prefer to shop alone because it allows me to focus and make decisions at my own pace. It’s easier to compare options and avoid distractions when I’m by myself. What do you think?
+    - I enjoy shopping with friends or family because it makes the experience more social and fun. It’s great to get their opinions and make a day out of it. What about you?
     - I like shopping alone for practical items because it’s quicker and more efficient. However, I appreciate shopping with friends or family when looking for gifts or clothes to get their feedback.
     - Shopping with friends or family is my preference because it turns the task into a social event. We can share opinions, make decisions together, and have a good time.
     - I prefer to shop alone for the convenience and the ability to focus on what I need without other opinions influencing my choices. It helps me stay on track and avoid unnecessary purchases.
-    - I find shopping with friends or family enjoyable as it makes the experience more interactive and lively. It’s also helpful to have a second opinion when making decisions.
+    - I find shopping with friends or family enjoyable as it makes the experience more interactive and lively. It’s also helpful to have a second opinion when making decisions. You?
     - I like shopping alone for a more relaxed experience where I can take my time. However, I do enjoy the company of others when shopping for special occasions or trying on new outfits.
-    - I prefer to shop with friends or family because it’s more enjoyable and can be a fun bonding experience. We can explore different stores together and make decisions as a group.
+    - I prefer to shop with friends or family because it’s more enjoyable and can be a fun bonding experience. We can explore different stores together and make decisions as a group. Hbu
 
 - intent: answer_question_shopping7
   examples: |
-    - Buying second-hand clothes is often more affordable than new ones, allowing you to find unique pieces at a lower price. It’s also a great way to reduce waste and support sustainable fashion.
+    - Buying second-hand clothes is often more affordable than new ones, allowing you to find unique pieces at a lower price. It’s also a great way to reduce waste and support sustainable fashion. What do you think?
     - Second-hand clothes are environmentally friendly because they help reduce textile waste and minimize the need for new production. Additionally, you can find vintage or high-quality items that are no longer available in stores.
-    - Purchasing second-hand clothes can save money while offering a wide range of styles and brands. It’s also a way to find high-quality items at a fraction of the original cost.
+    - Purchasing second-hand clothes can save money while offering a wide range of styles and brands. It’s also a way to find high-quality items at a fraction of the original cost. And you?
     - Buying second-hand supports a circular economy by extending the life of garments and reducing the environmental impact of new clothing production. It also allows you to discover unique and one-of-a-kind items.
-    - Second-hand clothes are often less expensive than new ones, making it easier to build a stylish wardrobe on a budget. Additionally, it’s a sustainable choice that contributes to reducing landfill waste.
+    - Second-hand clothes are often less expensive than new ones, making it easier to build a stylish wardrobe on a budget. Additionally, it’s a sustainable choice that contributes to reducing landfill waste. How about you
     - Choosing second-hand clothes helps conserve resources and reduces the carbon footprint associated with manufacturing new garments. It’s also a way to find high-quality items with character and history.
     - Buying second-hand offers the benefit of lower prices while providing access to a diverse selection of styles. It also promotes sustainability by decreasing the demand for new clothing production.
-    - Second-hand shopping can be a treasure hunt for unique fashion finds and rare pieces. It’s a cost-effective way to enhance your wardrobe while supporting eco-friendly practices.
+    - Second-hand shopping can be a treasure hunt for unique fashion finds and rare pieces. It’s a cost-effective way to enhance your wardrobe while supporting eco-friendly practices. you?
 
 - intent: answer_question_shopping8
   examples: |
-    - Yes, I’ve donated my clothes to second-hand stores. It’s a great way to give items a second life and help others in need while decluttering my own space.
+    - Yes, I’ve donated my clothes to second-hand stores. It’s a great way to give items a second life and help others in need while decluttering my own space. And you?
     - I have sold some of my clothes to second-hand stores. It’s a practical way to earn a little extra money and ensure my clothes are reused rather than ending up in a landfill.
     - Yes, I regularly donate clothes to second-hand stores. It feels good to know that my items can be useful to someone else and supports a sustainable approach to fashion.
-    - I’ve donated clothes to second-hand stores a few times. It’s an effective way to clear out my wardrobe and contribute to a more environmentally friendly fashion cycle.
+    - I’ve donated clothes to second-hand stores a few times. It’s an effective way to clear out my wardrobe and contribute to a more environmentally friendly fashion cycle. Hbu?
     - I’ve sold my clothes to second-hand stores to make some extra cash and give my items a chance to be reused. It’s a practical solution for both financial and environmental reasons.
-    - Yes, I often donate clothes to second-hand shops. It’s a great way to pass on gently used items and support charitable causes at the same time.
+    - Yes, I often donate clothes to second-hand shops. It’s a great way to pass on gently used items and support charitable causes at the same time. What about you
     - I have donated clothes to second-hand stores to reduce waste and help others. It’s an easy way to contribute to sustainability and keep my closet organized.
-    - I’ve sold and donated my clothes to second-hand stores before. It helps me manage my wardrobe more effectively and supports the recycling of textiles.
+    - I’ve sold and donated my clothes to second-hand stores before. It helps me manage my wardrobe more effectively and supports the recycling of textiles. U?
 
 - intent: answer_question_shopping9
   examples: |
-    - Big supermarkets offer a wide range of products under one roof, making it convenient to get everything you need in one trip. They also often have lower prices due to bulk purchasing.
-    - Shopping at large supermarkets provides more variety and often better deals on everyday items. Their extensive inventory and competitive pricing can save both time and money.
+    - Big supermarkets offer a wide range of products under one roof, making it convenient to get everything you need in one trip. They also often have lower prices due to bulk purchasing. What do you think?
+    - Shopping at large supermarkets provides more variety and often better deals on everyday items. Their extensive inventory and competitive pricing can save both time and money. And you?
     - Big supermarkets usually have larger parking areas and extended hours, which can be more convenient for busy schedules. They also often have special promotions and loyalty programs.
-    - Large supermarkets often feature a greater selection of brands and products, including international items that small shops may not carry. This can make it easier to find specific products.
+    - Large supermarkets often feature a greater selection of brands and products, including international items that small shops may not carry. This can make it easier to find specific products. U?
     - Supermarkets typically offer bulk-buy options and discounts on larger quantities, which can be cost-effective for frequent shoppers. They also have additional services like pharmacy and deli sections.
-    - Big supermarkets often provide a one-stop shopping experience with various departments, including groceries, household items, and clothing. This can save time by consolidating shopping trips.
+    - Big supermarkets often provide a one-stop shopping experience with various departments, including groceries, household items, and clothing. This can save time by consolidating shopping trips. hbu
     - Larger supermarkets can offer lower prices due to economies of scale and frequent sales events. Their large selection means you’re more likely to find everything you need in one place.
     - Supermarkets generally have more extensive product ranges and better stock levels, reducing the chance of items being out of stock. They also often provide more competitive prices and regular promotions.
 
 - intent: answer_question_shopping10
   examples: |
     - I prefer buying clothes in small local shops because they often offer unique and handmade items that you can’t find in large chain stores. Plus, shopping locally supports small businesses.
-    - I lean towards large chain stores for clothing because they usually have a wider variety and more consistent sizing. They also often have sales and promotions that can be cost-effective.
+    - I lean towards large chain stores for clothing because they usually have a wider variety and more consistent sizing. They also often have sales and promotions that can be cost-effective. What about u?
     - I like shopping at small local shops for clothes because they provide a more personalized shopping experience and often have distinctive styles. It’s also satisfying to support local entrepreneurs.
-    - I tend to shop at large chain stores for convenience and variety. They often have more options and standardized sizing, making it easier to find what I need.
+    - I tend to shop at large chain stores for convenience and variety. They often have more options and standardized sizing, making it easier to find what I need. And you?
     - I enjoy shopping at small local shops for their unique and curated selections. The customer service is usually more personalized, and it’s nice to find one-of-a-kind pieces.
     - Large chain stores are my go-to for buying clothes due to their broad range of styles and better prices. They also have multiple locations, making it easier to return or exchange items.
-    - I prefer small local shops for clothes because I appreciate the craftsmanship and personal touch. It’s also a way to discover unique fashion items and support the community.
+    - I prefer small local shops for clothes because I appreciate the craftsmanship and personal touch. It’s also a way to discover unique fashion items and support the community. U
     - I shop at large chain stores for the convenience and the extensive selection. They often have better deals and a more structured shopping experience, which fits my busy lifestyle.
 
 - intent: answer_question_food1
   examples: |
     - My favorite dish is lasagna because it's hearty and flavorful. I love the combination of layers of pasta, rich meat sauce, and melted cheese.
     - I absolutely love sushi. The freshness of the fish and the unique flavors of the rice and seaweed make it a delightful and satisfying meal.
-    - My favorite dish is a classic chicken curry. The blend of spices and the creamy sauce make it both comforting and delicious.
+    - My favorite dish is a classic chicken curry. The blend of spices and the creamy sauce make it both comforting and delicious. And you?
     - I’m a big fan of pizza, especially with a crispy crust and a variety of toppings. It’s versatile and perfect for any occasion.
-    - I enjoy a good bowl of ramen. The rich broth, tender noodles, and savory toppings create a comforting and satisfying meal.
+    - I enjoy a good bowl of ramen. The rich broth, tender noodles, and savory toppings create a comforting and satisfying meal. Hbu
     - My favorite dish is pad Thai. The mix of sweet, sour, and spicy flavors with the crunchy peanuts and fresh vegetables is always a treat.
     - I love a well-made steak. The juicy, tender meat and the satisfaction of grilling it to perfection make it my top choice for a special meal.
-    - My favorite dish is homemade mac and cheese. It’s creamy, cheesy, and always brings a sense of nostalgia and comfort.
+    - My favorite dish is homemade mac and cheese. It’s creamy, cheesy, and always brings a sense of nostalgia and comfort. How about u
 
 - intent: answer_question_food2
   examples: |
     - My favorite dessert is chocolate lava cake. It’s special because the gooey center is a delightful surprise, and it always feels like a treat to enjoy something so indulgent.
-    - I love cheesecake, particularly with a fruity topping. It’s special to me because it reminds me of family gatherings and celebrations.
+    - I love cheesecake, particularly with a fruity topping. It’s special to me because it reminds me of family gatherings and celebrations. And you?
     - My favorite dessert is tiramisu. The combination of coffee, mascarpone cheese, and cocoa is irresistible, and it brings back great memories of dining out with friends.
-    - I enjoy a classic apple pie. It’s special because it’s a comforting dessert that reminds me of home and is often associated with family gatherings.
+    - I enjoy a classic apple pie. It’s special because it’s a comforting dessert that reminds me of home and is often associated with family gatherings. How about u
     - My favorite dessert is panna cotta. Its smooth texture and delicate vanilla flavor make it a sophisticated treat that feels special every time I have it.
     - I love crème brûlée. The crispy caramelized top and creamy custard underneath make it a luxurious and enjoyable dessert that I rarely get to indulge in.
-    - My favorite dessert is gelato. The rich, creamy texture and intense flavors make it a delightful treat, and it’s always a pleasure to explore different varieties.
+    - My favorite dessert is gelato. The rich, creamy texture and intense flavors make it a delightful treat, and it’s always a pleasure to explore different varieties. you?
     - I’m a fan of fruit sorbet. It’s refreshing and light, making it perfect for a summer day, and it’s special because it’s a healthier alternative that still satisfies my sweet tooth.
 
 - intent: answer_question_food3
   examples: |
-    - Yes, I enjoy eating fruits and vegetables. My favorites are apples and carrots because they’re convenient, crunchy, and great for snacking.
+    - Yes, I enjoy eating fruits and vegetables. My favorites are apples and carrots because they’re convenient, crunchy, and great for snacking. U?
     - I love eating fruits and vegetables. Strawberries are my favorite fruit due to their sweet flavor, and I can’t get enough of leafy greens like spinach for their nutritional benefits.
     - I do like eating fruits and vegetables. My top choices are bananas and bell peppers; bananas are perfect for a quick snack, while bell peppers add a nice crunch to salads.
-    - Yes, I enjoy a variety of fruits and vegetables. I particularly love avocados for their creamy texture and tomatoes for their versatility in dishes.
+    - Yes, I enjoy a variety of fruits and vegetables. I particularly love avocados for their creamy texture and tomatoes for their versatility in dishes. and you?
     - I like eating fruits and vegetables a lot. Blueberries are my favorite fruit because of their sweetness and antioxidants, and I also enjoy broccoli for its health benefits.
-    - Yes, I’m a fan of fruits and vegetables. Mangoes are my favorite fruit because they’re so juicy and sweet, and I love roasted sweet potatoes for their rich flavor.
+    - Yes, I’m a fan of fruits and vegetables. Mangoes are my favorite fruit because they’re so juicy and sweet, and I love roasted sweet potatoes for their rich flavor. hbu?
     - I enjoy eating fruits and vegetables. Grapes are my favorite fruit for their natural sweetness, and I like eating cucumbers because they’re refreshing and hydrating.
     - Yes, I like incorporating fruits and vegetables into my diet. Pineapple is my favorite fruit because of its tropical flavor, and I enjoy adding kale to smoothies for an extra nutritional boost.
 
 - intent: answer_question_food4
   examples: |
     - Yes, I’m interested in vegan cuisine. I appreciate the creativity and variety of plant-based dishes, though I sometimes miss the texture and flavor of traditional animal-based proteins.
-    - I’m intrigued by vegetarian cuisine. I enjoy the fresh flavors and health benefits, but I find it challenging to get enough protein without incorporating meat.
+    - I’m intrigued by vegetarian cuisine. I enjoy the fresh flavors and health benefits, but I find it challenging to get enough protein without incorporating meat. how about u
     - I like exploring vegetarian options. I appreciate how versatile vegetables can be, but I find that I need to be careful about getting a balanced diet with enough nutrients.
     - I’m interested in vegan cuisine because it aligns with my values on animal welfare. I enjoy trying new plant-based recipes, although I sometimes find it hard to find vegan alternatives that satisfy my taste buds.
-    - Yes, I’m interested in vegetarian cuisine. I love the variety of dishes available and the focus on whole foods, but I occasionally miss the richness of meat-based meals.
+    - Yes, I’m interested in vegetarian cuisine. I love the variety of dishes available and the focus on whole foods, but I occasionally miss the richness of meat-based meals. and you?
     - I’m open to vegan cuisine and enjoy discovering new plant-based foods. What I like most is the focus on fresh ingredients, but I sometimes struggle with the availability of diverse options.
-    - I find vegetarian cuisine appealing for its health benefits and variety. I enjoy the flavors and creativity involved, but I sometimes have difficulty finding satisfying protein sources.
+    - I find vegetarian cuisine appealing for its health benefits and variety. I enjoy the flavors and creativity involved, but I sometimes have difficulty finding satisfying protein sources. U?
     - Yes, I’m interested in vegetarian and vegan cuisine. I appreciate the focus on sustainability and the range of delicious options, though I sometimes find it challenging to get used to the different textures and flavors.
 
 - intent: answer_question_food5
   examples: |
-    - I cook at home most of the time, usually about five days a week. I prefer it because I can control the ingredients and save money, but I enjoy eating out on weekends for variety.
+    - I cook at home most of the time, usually about five days a week. I prefer it because I can control the ingredients and save money, but I enjoy eating out on weekends for variety. Hbu?
     - I cook at home frequently, around four days a week. Eating out is more of a treat for me, often reserved for special occasions or when I’m too busy to cook.
     - I cook at home daily, preparing meals for myself and my family. I only eat out occasionally, as I find cooking at home healthier and more cost-effective.
-    - I cook at home about three times a week and eat out for the rest. It’s a nice balance between enjoying homemade meals and the convenience of dining out.
+    - I cook at home about three times a week and eat out for the rest. It’s a nice balance between enjoying homemade meals and the convenience of dining out. And you?
     - I cook at home most days, usually six days a week. I enjoy the process and the satisfaction of a home-cooked meal, but I like to eat out once a week to try new restaurants.
     - I tend to cook at home more often, about five days a week. Eating out is reserved for weekends or when I have friends over, as it’s a nice change of pace.
-    - I cook at home regularly, about four to five times a week. I eat out occasionally, mostly when I’m traveling or during social gatherings.
+    - I cook at home regularly, about four to five times a week. I eat out occasionally, mostly when I’m traveling or during social gatherings. U?
     - I cook at home around six days a week. I prefer home-cooked meals for their quality and cost-effectiveness, but I like to eat out on special occasions or when I need a break from cooking.
 
 - intent: answer_question_food6
   examples: |
     - My favorite type of cuisine is Italian. I love the rich flavors of dishes like pasta and pizza, and the use of fresh ingredients always makes the meals satisfying.
-    - I’m a big fan of Thai cuisine. The balance of sweet, sour, spicy, and salty flavors in dishes like pad Thai and green curry is both exciting and delicious.
-    - I enjoy Mexican cuisine the most. The vibrant flavors and variety of ingredients, from tacos to enchiladas, make it both fun and flavorful to eat.
-    - Japanese cuisine is my favorite. I appreciate the emphasis on fresh, high-quality ingredients and the artful presentation, especially in sushi and sashimi.
+    - I’m a big fan of Thai cuisine. The balance of sweet, sour, spicy, and salty flavors in dishes like pad Thai and green curry is both exciting and delicious. What about you?
+    - I enjoy Mexican cuisine the most. The vibrant flavors and variety of ingredients, from tacos to enchiladas, make it both fun and flavorful to eat. And you?
+    - Japanese cuisine is my favorite. I appreciate the emphasis on fresh, high-quality ingredients and the artful presentation, especially in sushi and sashimi. What do you think?
     - I love Indian cuisine for its rich and complex spice blends. Dishes like chicken curry and biryani offer a wonderful array of flavors that are both comforting and exciting.
     - My favorite cuisine is Mediterranean. The use of fresh vegetables, olive oil, and herbs in dishes like hummus and grilled lamb makes it both healthy and flavorful.
-    - I enjoy Korean cuisine. The bold flavors of dishes like kimchi and bulgogi, combined with the variety of side dishes, make every meal an adventure.
+    - I enjoy Korean cuisine. The bold flavors of dishes like kimchi and bulgogi, combined with the variety of side dishes, make every meal an adventure. U?
     - I’m partial to French cuisine. The emphasis on technique and the quality of ingredients in dishes like coq au vin and crème brûlée make it a sophisticated and enjoyable choice.
 
 - intent: answer_question_food7
   examples: |
-    - Yes, I enjoy cooking a lot. My signature dish is homemade lasagna; I love layering rich meat sauce and creamy béchamel with pasta.
+    - Yes, I enjoy cooking a lot. My signature dish is homemade lasagna; I love layering rich meat sauce and creamy béchamel with pasta. Hbu?
     - I do enjoy cooking, and my specialty is chicken curry. It’s a dish I’ve perfected over time, and the blend of spices always turns out delicious.
-    - Cooking is a passion of mine. My signature dish is a classic beef stew. It’s hearty and flavorful, and I often get compliments on how tender the meat is.
+    - Cooking is a passion of mine. My signature dish is a classic beef stew. It’s hearty and flavorful, and I often get compliments on how tender the meat is. And you?
     - I enjoy cooking, and my go-to dish is roasted vegetable quinoa salad. It’s healthy, colorful, and packed with flavor, making it a favorite among my friends and family.
     - Yes, I find cooking enjoyable. My signature dish is homemade pizza. I love experimenting with different toppings and getting the perfect crispy crust.
-    - Cooking is one of my hobbies. My specialty is a creamy mushroom risotto, which I’ve mastered over the years, and it always turns out rich and comforting.
+    - Cooking is one of my hobbies. My specialty is a creamy mushroom risotto, which I’ve mastered over the years, and it always turns out rich and comforting. You?
     - I enjoy cooking regularly. My signature dish is a spicy shrimp stir-fry. The combination of fresh vegetables and a flavorful sauce makes it a hit at dinner parties.
     - I do like cooking. My go-to dish is a flavorful butternut squash soup. It’s perfect for cold days and has a smooth, comforting texture that everyone loves.
 
 - intent: answer_question_food8
   examples: |
     - Yes, I really dislike olives. I find their taste and texture off-putting, and they ruin dishes for me.
-    - I can’t stand liver. The strong flavor and grainy texture make it very unappetizing to me.
+    - I can’t stand liver. The strong flavor and grainy texture make it very unappetizing to me. What about you?
     - I absolutely dislike anchovies. Their intense, salty flavor doesn’t appeal to me at all, and I avoid them in recipes.
     - I have a strong aversion to cilantro. Its flavor is too overpowering for me, and it can ruin a dish if it’s used too much.
     - I’m not a fan of beets. Their earthy taste and texture are not enjoyable for me, so I tend to avoid them in salads and dishes.
-    - I really dislike durian fruit. The smell and taste are too strong and unpleasant for my palate.
+    - I really dislike durian fruit. The smell and taste are too strong and unpleasant for my palate. You?
     - I can’t handle the taste of blue cheese. Its pungent flavor is too intense for me, and I steer clear of it in meals.
-    - I’m not fond of sushi with raw fish. The texture and taste of raw seafood are not to my liking, so I usually stick to cooked options.
+    - I’m not fond of sushi with raw fish. The texture and taste of raw seafood are not to my liking, so I usually stick to cooked options. hbu
 
 - intent: answer_question_food9
   examples: |
     - Yes, I love baking! My favorite thing to bake is chocolate chip cookies because they’re always a hit with family and friends, and the smell of them baking is irresistible.
     - I do enjoy baking, and my favorite is making homemade bread. The process of kneading and watching it rise is satisfying, and the fresh, warm bread is always worth it.
     - Baking is a hobby I really enjoy. I particularly love baking cakes, especially layered ones, because I enjoy decorating them and making them look as good as they taste.
-    - Yes, I’m a fan of baking. My go-to is making cinnamon rolls. The combination of dough, cinnamon, and icing is delicious and perfect for breakfast or brunch.
+    - Yes, I’m a fan of baking. My go-to is making cinnamon rolls. The combination of dough, cinnamon, and icing is delicious and perfect for breakfast or brunch. U?
     - I enjoy baking a lot, and my favorite is pie, particularly apple pie. I love the process of making the crust from scratch and the comforting aroma that fills the kitchen.
-    - Baking is one of my favorite activities. I especially like baking brownies because they’re quick to make and always turn out rich and fudgy.
-    - I do enjoy baking. My signature dish is a classic cheesecake. The creamy texture and tangy flavor are always a crowd-pleaser.
+    - Baking is one of my favorite activities. I especially like baking brownies because they’re quick to make and always turn out rich and fudgy. And you?
+    - I do enjoy baking. My signature dish is a classic cheesecake. The creamy texture and tangy flavor are always a crowd-pleaser. What about you?
     - Yes, I find baking enjoyable. My favorite thing to bake is cupcakes, as they’re fun to decorate and perfect for any occasion or celebration.
 
 - intent: answer_question_food10
   examples: |
     - I plan my meals for the week on Sundays and create a detailed shopping list based on that. This helps me stay organized and avoid impulse buys at the grocery store.
     - I use a meal planning app to organize my meals and generate a grocery list. I try to shop once a week and focus on buying fresh, seasonal ingredients to keep costs down.
-    - I plan meals around what’s on sale at the grocery store and what I already have at home. I make a list to stick to and usually do my shopping online to save time.
+    - I plan meals around what’s on sale at the grocery store and what I already have at home. I make a list to stick to and usually do my shopping online to save time. you
     - I plan my meals a few days ahead, and I keep a running list of items I need. I prefer shopping in smaller, local stores for better quality produce and to support local businesses.
-    - I approach meal planning by choosing recipes for the week and then making a shopping list. I prefer to shop once a week and buy in bulk for non-perishables to reduce trips to the store.
+    - I approach meal planning by choosing recipes for the week and then making a shopping list. I prefer to shop once a week and buy in bulk for non-perishables to reduce trips to the store. U
     - I plan my meals based on what’s available in my pantry and freezer, then create a grocery list for any additional items. I try to shop efficiently and use coupons or discounts whenever possible.
-    - I like to plan my meals around a theme each week, such as Italian or Mexican cuisine. I make a shopping list based on the theme and check for any special deals at the supermarket.
+    - I like to plan my meals around a theme each week, such as Italian or Mexican cuisine. I make a shopping list based on the theme and check for any special deals at the supermarket. hbu
     - I plan meals by looking at recipes and then shopping for the ingredients I need. I find it helpful to use a meal planner to ensure I have a balanced diet and to avoid last-minute grocery runs.
 
 - intent: answer_question_work1
   examples: |
     - My dream job as a child was to be an astronaut. I was fascinated by space and the idea of exploring other planets, which seemed like an incredible adventure.
-    - I wanted to be a veterinarian when I was younger. I loved animals and thought it would be amazing to help them and make them feel better.
+    - I wanted to be a veterinarian when I was younger. I loved animals and thought it would be amazing to help them and make them feel better. And you?
     - As a child, I dreamed of being a professional soccer player. I enjoyed playing the sport and admired the skill and teamwork involved in the game.
-    - I always wanted to be a writer. I loved creating stories and imagined the joy of sharing my imagination with others through books.
-    - My childhood dream job was to be a marine biologist. The idea of studying ocean life and discovering new marine species intrigued me greatly.
+    - I always wanted to be a writer. I loved creating stories and imagined the joy of sharing my imagination with others through books. Hbu?
+    - My childhood dream job was to be a marine biologist. The idea of studying ocean life and discovering new marine species intrigued me greatly. What do you think?
     - I aspired to be a teacher when I was young. I enjoyed helping others learn and thought it would be fulfilling to inspire and educate future generations.
-    - I dreamed of becoming a firefighter. I admired their bravery and the role they played in helping and protecting the community during emergencies.
+    - I dreamed of becoming a firefighter. I admired their bravery and the role they played in helping and protecting the community during emergencies. U?
     - My dream job as a kid was to be an artist. I loved drawing and painting, and the idea of turning my creativity into a career was very appealing to me.
 
 - intent: answer_question_work2
   examples: |
-    - Being a doctor is a noble and impactful profession. I find the opportunity to help people and make a difference in their health incredibly rewarding, though the long hours and emotional stress can be challenging.
+    - Being a doctor is a noble and impactful profession. I find the opportunity to help people and make a difference in their health incredibly rewarding, though the long hours and emotional stress can be challenging. what about u
     - I think being a doctor is fascinating because it combines science and compassion. The challenge of diagnosing complex conditions and the responsibility of making critical decisions are both aspects I find intriguing.
-    - The role of a doctor is very admirable. I’m particularly interested in the continuous learning aspect, as medicine is always evolving, but the intense workload and high-pressure environment can be quite demanding.
+    - The role of a doctor is very admirable. I’m particularly interested in the continuous learning aspect, as medicine is always evolving, but the intense workload and high-pressure environment can be quite demanding. And you?
     - I respect the medical profession greatly. The ability to provide care and improve patients' quality of life is inspiring, though balancing personal life with the demanding nature of the job is a significant challenge.
-    - Being a doctor involves a lot of dedication and skill. The variety of cases and the chance to solve medical puzzles are exciting, but dealing with life-or-death situations and the emotional toll can be quite challenging.
+    - Being a doctor involves a lot of dedication and skill. The variety of cases and the chance to solve medical puzzles are exciting, but dealing with life-or-death situations and the emotional toll can be quite challenging. What do you think?
     - I admire doctors for their commitment to patient care and their extensive knowledge. The opportunity to make a positive impact on people’s lives is compelling, while managing the stress of the job and maintaining work-life balance are notable challenges.
-    - The field of medicine is both fascinating and demanding. The chance to help people and engage in problem-solving is very appealing, but the long hours and the emotional weight of dealing with serious illnesses are significant challenges.
+    - The field of medicine is both fascinating and demanding. The chance to help people and engage in problem-solving is very appealing, but the long hours and the emotional weight of dealing with serious illnesses are significant challenges. U?
     - Being a doctor is a highly respected profession with great responsibilities. I find the aspect of continuous learning and patient interaction very interesting, but the pressure to perform and the emotional strain from dealing with patients' suffering can be challenging.
 
 - intent: answer_question_work3
   examples: |
     - I enjoy working remotely because it offers flexibility and a comfortable environment. It allows me to balance work and personal life better, although I do miss the social interaction with colleagues.
-    - Working in an office suits me best. I appreciate the structured environment and the direct collaboration with my team, which helps with communication and team spirit.
+    - Working in an office suits me best. I appreciate the structured environment and the direct collaboration with my team, which helps with communication and team spirit. What about you?
     - I like working remotely for the flexibility it provides. Being able to set my own schedule and work from anywhere is a significant advantage, though I find it challenging to stay motivated without the office environment.
     - Working in an office is my preference because it helps me separate work from home life and provides a dedicated space for productivity. The face-to-face interaction with colleagues also fosters better teamwork.
-    - I prefer working in a different setting, like a co-working space. It combines the benefits of remote work with the professional atmosphere and networking opportunities of an office.
+    - I prefer working in a different setting, like a co-working space. It combines the benefits of remote work with the professional atmosphere and networking opportunities of an office. And you?
     - Remote work is great for me as it offers flexibility and reduces commute time. However, I sometimes miss the spontaneous brainstorming sessions and camaraderie that come with working in an office.
-    - I’m happy with working in an office because it provides a clear distinction between work and home life. The structure and routine help me stay focused and productive.
-    - I enjoy a hybrid approach, working both remotely and in the office. This balance allows me to enjoy the benefits of both environments and adapt to the needs of different tasks.
+    - I’m happy with working in an office because it provides a clear distinction between work and home life. The structure and routine help me stay focused and productive. hbu
+    - I enjoy a hybrid approach, working both remotely and in the office. This balance allows me to enjoy the benefits of both environments and adapt to the needs of different tasks. What do you think?
 
 - intent: answer_question_work4
   examples: |
     - I currently work as a graphic designer. I enjoy creating visual content and working on diverse projects, from branding to digital art. In the future, I hope to expand my skills into UX design.
-    - I am a software developer, and I love solving problems through coding and developing new applications. I aspire to eventually work in artificial intelligence and machine learning.
+    - I am a software developer, and I love solving problems through coding and developing new applications. I aspire to eventually work in artificial intelligence and machine learning. And you?
     - I’m a teacher, and I find great fulfillment in educating and inspiring students. My long-term goal is to become an educational consultant to help improve teaching methods and curriculums.
-    - I work in marketing, focusing on digital strategies and social media. I aim to advance to a managerial role and work on larger, more impactful campaigns for major brands.
+    - I work in marketing, focusing on digital strategies and social media. I aim to advance to a managerial role and work on larger, more impactful campaigns for major brands. Hbu?
     - I’m currently pursuing a career in environmental science. I’m passionate about sustainability and want to work with organizations to promote green initiatives and conservation efforts.
     - I work as a nurse, providing care and support to patients. My dream is to become a nurse practitioner and specialize in pediatric care to help children and their families.
-    - I’m a freelance writer, and I enjoy creating content on a variety of topics. I hope to write a book one day and focus on long-form writing and storytelling.
+    - I’m a freelance writer, and I enjoy creating content on a variety of topics. I hope to write a book one day and focus on long-form writing and storytelling. You
     - I work as a project manager in construction. I find the coordination and planning aspects of the job rewarding, and I aim to specialize in sustainable building practices in the future.
 
 - intent: answer_question_work5
   examples: |
-    - For my role as a graphic designer, creativity and attention to detail are crucial. Being proficient in design software and having good communication skills to understand client needs are also essential.
+    - For my role as a graphic designer, creativity and attention to detail are crucial. Being proficient in design software and having good communication skills to understand client needs are also essential. What do you think?
     - As a software developer, problem-solving and programming skills are vital. Understanding algorithms, having strong analytical abilities, and being able to work collaboratively with a team are key for success.
-    - In teaching, patience and the ability to communicate clearly are very important. Being able to engage students and adapt teaching methods to different learning styles are also critical skills.
+    - In teaching, patience and the ability to communicate clearly are very important. Being able to engage students and adapt teaching methods to different learning styles are also critical skills. Hbu
     - For a career in marketing, creativity and strategic thinking are crucial. Strong analytical skills to measure campaign performance and excellent communication abilities for presenting ideas are also important.
     - In environmental science, research skills and a strong understanding of ecological systems are essential. Analytical skills for data interpretation and the ability to communicate findings to the public are also important.
-    - As a nurse, empathy and excellent patient care skills are key. Strong problem-solving abilities and the capability to work efficiently under pressure are also crucial for providing effective healthcare.
-    - For a freelance writer, strong writing and editing skills are fundamental. Being able to research thoroughly and manage time effectively to meet deadlines are also important.
+    - As a nurse, empathy and excellent patient care skills are key. Strong problem-solving abilities and the capability to work efficiently under pressure are also crucial for providing effective healthcare. What about you
+    - For a freelance writer, strong writing and editing skills are fundamental. Being able to research thoroughly and manage time effectively to meet deadlines are also important. U?
     - In project management, organizational skills and the ability to coordinate tasks and teams are vital. Strong communication skills and problem-solving abilities to handle unexpected issues are also crucial.
 
 - intent: answer_question_work6
   examples: |
     - My first job was as a cashier at a local grocery store. I learned the importance of customer service and how to handle money accurately, which helped me develop strong communication and organizational skills.
-    - I started as a barista in a coffee shop. It taught me how to work under pressure, manage multiple tasks simultaneously, and interact with a diverse range of customers.
+    - I started as a barista in a coffee shop. It taught me how to work under pressure, manage multiple tasks simultaneously, and interact with a diverse range of customers. You?
     - My first job was as a retail associate in a clothing store. I learned how to handle inventory, assist customers effectively, and work as part of a team in a fast-paced environment.
     - I worked as an intern at a marketing agency. This experience taught me valuable skills in project management, the importance of attention to detail, and how to work collaboratively on creative projects.
-    - My first job was as a lifeguard at a community pool. I learned about responsibility and safety, as well as how to stay alert and make quick decisions in emergency situations.
-    - I worked as a receptionist at a law firm. This role helped me develop strong organizational skills, manage schedules efficiently, and handle confidential information with discretion.
+    - My first job was as a lifeguard at a community pool. I learned about responsibility and safety, as well as how to stay alert and make quick decisions in emergency situations. And you?
+    - I worked as a receptionist at a law firm. This role helped me develop strong organizational skills, manage schedules efficiently, and handle confidential information with discretion. Hbu
     - My first job was as a tutor for high school students. I learned how to explain complex concepts in simple terms, adapt my teaching methods to different learning styles, and build positive relationships with students.
     - I worked as a dishwasher at a restaurant. It taught me the value of hard work and teamwork, and how to stay motivated even in less glamorous roles.
 
 - intent: answer_question_work7
   examples: |
     - I stay motivated by setting clear, achievable goals and breaking them into smaller tasks. Using a to-do list helps me keep track of my progress and stay focused on completing each task.
-    - I find it helpful to create a structured daily routine and stick to it. Regular breaks and a balanced workload also keep me productive and prevent burnout.
-    - I stay productive by setting deadlines for myself and using productivity apps to track my tasks. Keeping my workspace organized and minimizing distractions also helps me stay focused.
+    - I find it helpful to create a structured daily routine and stick to it. Regular breaks and a balanced workload also keep me productive and prevent burnout. What about u
+    - I stay productive by setting deadlines for myself and using productivity apps to track my tasks. Keeping my workspace organized and minimizing distractions also helps me stay focused. You?
     - To stay motivated, I regularly review my progress and celebrate small achievements. I also find that setting aside time for activities I enjoy helps recharge my energy and maintain enthusiasm.
     - I use a combination of time management techniques, such as the Pomodoro Technique, to stay focused and productive. I also set both short-term and long-term goals to keep myself motivated.
     - Staying motivated involves keeping a positive mindset and visualizing the end results of my work. I also find that having a clear plan and regularly assessing my goals keeps me on track.
-    - I keep productive by prioritizing tasks and tackling the most important ones first. Creating a comfortable and distraction-free work environment also helps me maintain focus.
+    - I keep productive by prioritizing tasks and tackling the most important ones first. Creating a comfortable and distraction-free work environment also helps me maintain focus. And you?
     - I stay motivated by maintaining a healthy work-life balance and setting realistic goals. Regularly reviewing my goals and adjusting them as needed helps me stay on track and productive.
 
 - intent: answer_question_work8
   examples: |
     - I handle stress by practicing mindfulness and deep breathing exercises. Taking short breaks and staying organized also helps me manage pressure more effectively.
     - I find that exercising regularly helps me cope with stress. Additionally, I prioritize my tasks and break them into smaller, manageable steps to reduce feelings of overwhelm.
-    - To manage stress, I talk to friends or family about what’s bothering me. I also make sure to set aside time for hobbies and activities I enjoy to relax and recharge.
+    - To manage stress, I talk to friends or family about what’s bothering me. I also make sure to set aside time for hobbies and activities I enjoy to relax and recharge. What about you
     - I deal with pressure by staying focused on one task at a time and using time management techniques. I also make sure to get enough rest and practice self-care to maintain my overall well-being.
     - Handling stress involves staying organized and setting realistic deadlines. I also practice relaxation techniques like yoga and make time for activities that help me unwind.
-    - I manage stress by maintaining a balanced lifestyle with regular exercise and a healthy diet. I also set aside time for relaxation and hobbies to help me stay centered.
+    - I manage stress by maintaining a balanced lifestyle with regular exercise and a healthy diet. I also set aside time for relaxation and hobbies to help me stay centered. U?
     - When under pressure, I prioritize my tasks and delegate when possible. I also use stress-relief techniques such as meditation and ensure I take breaks to stay refreshed.
-    - I handle stress by staying positive and focusing on problem-solving rather than dwelling on the stress itself. Keeping a journal helps me process my thoughts and feelings effectively.
+    - I handle stress by staying positive and focusing on problem-solving rather than dwelling on the stress itself. Keeping a journal helps me process my thoughts and feelings effectively. and you?
 
 - intent: answer_question_work9
   examples: |
     - Soft skills are crucial in the workplace because they enhance collaboration and productivity. Effective communication and teamwork ensure that projects run smoothly and problems are resolved efficiently.
     - Soft skills like problem-solving and teamwork are essential for navigating complex work environments. They help in building strong relationships with colleagues and clients, leading to a more cohesive and successful team.
     - Communication skills are vital for clear and effective interactions at work. Teamwork and problem-solving abilities also contribute significantly to achieving common goals and overcoming challenges.
-    - Soft skills are important because they complement technical expertise. Strong communication and teamwork facilitate better project management and help in addressing issues that arise during work.
+    - Soft skills are important because they complement technical expertise. Strong communication and teamwork facilitate better project management and help in addressing issues that arise during work. How about u
     - In the workplace, soft skills such as adaptability and emotional intelligence are key to managing conflicts and working well with diverse teams. They contribute to a positive work environment and improve overall job performance.
     - Soft skills play a critical role in professional success. Good communication, effective teamwork, and problem-solving abilities help in building strong relationships and addressing workplace challenges effectively.
-    - Soft skills are essential for career growth and job satisfaction. They enable individuals to work well with others, manage stress, and navigate workplace dynamics successfully.
-    - The importance of soft skills cannot be overstated. They are crucial for fostering a collaborative work culture, resolving conflicts, and ensuring that team goals are met efficiently.
+    - Soft skills are essential for career growth and job satisfaction. They enable individuals to work well with others, manage stress, and navigate workplace dynamics successfully. You?
+    - The importance of soft skills cannot be overstated. They are crucial for fostering a collaborative work culture, resolving conflicts, and ensuring that team goals are met efficiently. What do you think?
 
 - intent: answer_question_work10
   examples: |
-      - Practicing active listening and engaging in regular feedback sessions can improve communication skills. Role-playing scenarios and seeking constructive criticism also help refine interpersonal abilities.
+      - Practicing active listening and engaging in regular feedback sessions can improve communication skills. Role-playing scenarios and seeking constructive criticism also help refine interpersonal abilities. And you?
       - Attending workshops or training sessions focused on soft skills can be highly beneficial. Participating in group activities or volunteering also provides practical experience in teamwork and leadership.
       - Reading books and articles on personal development can enhance understanding of soft skills. Additionally, practicing public speaking and joining clubs like Toastmasters can improve communication and presentation skills.
       - Seeking mentorship from experienced professionals provides valuable insights into developing soft skills. Regularly setting and reviewing personal goals for skill improvement also helps in tracking progress.
-      - Engaging in self-reflection and journaling about daily interactions can help identify areas for improvement. Attending seminars and taking online courses on specific soft skills also contributes to growth.
-      - Participating in team sports or collaborative projects builds teamwork and problem-solving skills. Networking with diverse groups of people also enhances interpersonal abilities and cultural sensitivity.
+      - Engaging in self-reflection and journaling about daily interactions can help identify areas for improvement. Attending seminars and taking online courses on specific soft skills also contributes to growth. What about u?
+      - Participating in team sports or collaborative projects builds teamwork and problem-solving skills. Networking with diverse groups of people also enhances interpersonal abilities and cultural sensitivity. What do you think?
       - Practicing mindfulness and emotional intelligence exercises can improve empathy and communication. Taking leadership roles in community or professional settings provides hands-on experience in managing and motivating others.
-      - Seeking regular feedback from peers and supervisors helps in recognizing strengths and areas for growth. Engaging in continuous learning and development through various educational resources can also enhance soft skills.
+      - Seeking regular feedback from peers and supervisors helps in recognizing strengths and areas for growth. Engaging in continuous learning and development through various educational resources can also enhance soft skills. hbu
 
