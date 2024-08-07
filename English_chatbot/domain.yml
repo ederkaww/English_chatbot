@@ -143,9 +143,11 @@ responses:
         - title: "technology"
           payload: '/choose_category{"category": "technology"}'
 
+  utter_nice_to_meet:
+    - text: "Nice to meet you {name} :)"
 
   utter_what_to_do:
-    - text: "Nice to meet you {name}. What do you wanna do?"
+    - text: "What do you wanna do?"
       buttons:
         - title: "play trivia game"
           payload: '/play_trivia'

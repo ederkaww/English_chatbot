@@ -299,8 +299,8 @@ class ActionSaveName(Action):
             tracker: Tracker, domain: dict) -> list:
 
         name = tracker.get_slot("user_name")
-
-        dispatcher.utter_message(response="utter_what_to_do", name=name)
+        dispatcher.utter_message(response="utter_nice_to_meet", name=name)
+        dispatcher.utter_message(response="utter_what_to_do")
         return []
 
 
