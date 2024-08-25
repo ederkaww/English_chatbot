@@ -145,6 +145,7 @@ responses:
 
   utter_nice_to_meet:
     - text: "Nice to meet you {name} :)"
+    - text: "It's really nice to meet you {name}!"
 
   utter_what_to_do:
     - text: "What do you wanna do?"
