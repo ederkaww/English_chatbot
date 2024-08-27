@@ -93,8 +93,10 @@ class ActionTellCountryInfo(Action):
 
         if response:
             data = response.json()
-            currency = data[0]['currencies']['PLN']['name']
-            cur_symbol = data[0]['currencies']['PLN']['symbol']
+            currency = data[0]['currencies']
+            currency_key = list(currency.keys())[0]
+            cur_name = data[0]['currencies'][currency_key]['name']
+            cur_symbol = data[0]['currencies'][currency_key]['symbol']
             capital = data[0]['capital'][0]
             subregion = data[0]["subregion"]
             languages = ', '.join(data[0]["languages"].values())
@@ -103,11 +105,12 @@ class ActionTellCountryInfo(Action):
             timezones = ', '.join(data[0]['timezones'])
             flag = data[0]['flags']['png']
             map_url = data[0]['maps']['googleMaps']
+            print(currency)
 
             msg = f"""
                                             <b>COUNTRY:</b> {country}<br>
                                             <b>CAPITAL:</b> {capital}<br>
-                                            <b>CURRENCY:</b> {currency} [{cur_symbol}]<br>
+                                            <b>CURRENCY:</b> {cur_name} [{cur_symbol}, {currency_key}]<br>
                                             <b>REGION:</b> {subregion}<br>
                                             <b>BORDERS:</b> {borders}<br>
                                             <b>LANGUAGES:</b> {languages}<br>
@@ -195,6 +198,7 @@ class ActionAskQuestion(Action):
         else:
             score = tracker.get_slot('score')
             dispatcher.utter_message(text=f"That's the end of the game! Your final score is {score}")
+            dispatcher.utter_message(template="utter_what_to_do")
             return [SlotSet("trivia_data", None), SlotSet("score", 0)]
 
 

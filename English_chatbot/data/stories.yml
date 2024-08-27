@@ -5,6 +5,7 @@ stories:
     steps:
     - intent: ask_weather
     - action: action_tell_weather
+    - action: utter_what_to_do
 
   - story: tell news
     steps:
@@ -12,11 +13,13 @@ stories:
     - action: utter_what_article_category
     - intent: choose_category
     - action: action_tell_news
+    - action: utter_what_to_do
 
   - story: tell country basic info
     steps:
     - intent: ask_particular_country_info
     - action: action_tell_country_info
+    - action: utter_what_to_do
 
   - story: ask about country and tell its basic info
     steps:
@@ -24,6 +27,7 @@ stories:
     - action: utter_ask_which_country
     - intent: ask_particular_country_info
     - action: action_tell_country_info
+    - action: utter_what_to_do
 
   - story: play game
     steps:
@@ -40,17 +44,18 @@ stories:
     - action: utter_agree_for_sentence_checking
     - intent: sentence_to_check
     - action: action_retrieve_last_user_message
+    - action: utter_what_to_do
 
   - story: explain a word
     steps:
     - intent: explain_word
     - action: action_explain_word
+    - action: utter_what_to_do
 
   - story: introduce yourself and get an user name
     steps:
     - intent: tell_name
     - action: action_save_name
-
 
   - story: chit-chat about some topic
     steps:
