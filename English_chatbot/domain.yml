@@ -200,7 +200,7 @@ responses:
     - text: "My house is a modern bungalow with an open floor plan and a big backyard. My favorite room is my bedroom because it's my personal space where I can read and relax."
 
   utter_ask_question_people3:
-    - text: "What’s your favorite sport to watch or play? How did you get interested in this sport?"
+    - text: "What’s your favorite sport to watch or play? How did you get interested in it?"
 
   utter_answer_question_people3:
     - text: "My favorite sport to watch is soccer. I got interested in it because my dad used to take me to games when I was a kid, and I loved the excitement and energy of the matches."

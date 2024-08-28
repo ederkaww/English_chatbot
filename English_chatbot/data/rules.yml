@@ -16,3 +16,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Come back to the main menu when user doesnt want to continue
+  steps:
+  - intent: dont_continue
+  - action: utter_what_to_do

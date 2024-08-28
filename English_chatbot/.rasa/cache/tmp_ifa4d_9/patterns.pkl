@@ -1,0 +1,14 @@
+[
+  {
+    "name": "place",
+    "pattern": "(\\bbrussels\\b|\\bzagreb\\b|\\blisbon\\b|\\bamsterdam\\b|\\bporto\\b|\\bnew\\ york\\b|\\bseattle\\b|\\bnairobi\\b|\\bbarcelona\\b|\\bMelbourne\\b|\\bMunich\\b|\\bNaples\\b|\\bHamburg\\b|\\bMilan\\b|\\bOsaka\\b)"
+  },
+  {
+    "name": "country",
+    "pattern": "(\\bUSA\\b|\\bCroatia\\b|\\bjapan\\b|\\buk\\b|\\brussia\\b|\\bcanada\\b|\\bSweden\\b|\\bAustralia\\b|\\bchina\\b|\\bspain\\b|\\balgeria\\b)"
+  },
+  {
+    "name": "user_name",
+    "pattern": "(\\bJan\\b|\\bPiotr\\b|\\bAdam\\b|\\bMichał\\b|\\bJakub\\b|\\bWojtek\\b|\\bTomasz\\b|\\bKrzysztof\\b|\\bPaweł\\b|\\bMarek\\b|\\bAnna\\b|\\bMałgorzata\\b|\\bMartyna\\b|\\bEwa\\b|\\bAgnieszka\\b|\\bJulia\\b)"
+  }
+]
